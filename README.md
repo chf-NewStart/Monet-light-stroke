@@ -2,7 +2,7 @@
 
 A reusable Codex skill for turning photographs and original scenes into luminous, painting-first French Impressionist images while preserving factual composition.
 
-The skill grew from iterative visual critique rather than a single prompt. It encodes broken color, chromatic shadows, selective impasto, material-specific brushwork, painting-first abstraction, and strict preservation of people, pose, architecture, props, crop, and orientation.
+The skill grew from iterative visual critique rather than a single prompt. It encodes broken color, chromatic shadows, selective impasto, material-specific brushwork, painting-first abstraction, strict preservation of people, pose, architecture, props, crop, and orientation, plus an optional second-pass framing system.
 
 ## What consistency means
 
@@ -27,6 +27,7 @@ skills/monet-light-strokes/
   references/
     style-system.md        Palette, layering, material, and retry rules
     benchmarks.md          Accepted and rejected benchmark registry
+    frames.md              Optional frame choices and preservation rules
   assets/benchmarks/       Redistributable calibration images
 evals/cases.yaml           Scene-diverse regression suite and scoring gates
 ```
@@ -36,6 +37,17 @@ evals/cases.yaml           Scene-diverse regression suite and scoring gates
 Ask Codex to install the skill from this repository, then invoke `$monet-light-strokes` with an attached image or an original scene request.
 
 For a photo transfer, the source remains factual authority. Paint-level randomness is welcome; randomness in identity, anatomy, object count, orientation, crop, light direction, or landmark geometry is a failure.
+
+### Optional frames
+
+The default output is artwork only. Users may instead choose:
+
+- rectangular carved gilt, which preserves the complete painting;
+- oval salon aperture, which requires explicit approval because it conceals corners;
+- simple aged gilt with restrained ornament;
+- a supplied frame reference used only for frame design.
+
+Framing happens after the unframed painting is accepted. The frame edit must leave the artwork unchanged, complete all rails and corner joins, maintain coherent physical lighting, and avoid museum walls, labels, glare, signatures, or UI. The two user-provided museum photographs that informed these rules are not bundled because their redistribution status is unverified.
 
 ## Benchmark policy
 

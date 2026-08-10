@@ -1,4 +1,4 @@
-version: 1
+version: 2
 purpose: >-
   Test whether changes improve painterly behavior without sacrificing source fidelity.
 
@@ -13,6 +13,12 @@ scoring:
     - subject_and_object_count
     - identity_pose_and_anatomy
     - landmark_geometry
+  conditional_hard_gates:
+    frame_requested:
+      - accepted_artwork_unchanged_inside_aperture
+      - selected_aperture_and_frame_type
+      - complete_rails_corner_joins_and_inner_liner
+      - no_unapproved_occlusion_of_people_props_or_landmarks
   painterly_dimensions:
     - painting_first_abstraction
     - material_specific_strokes
@@ -33,7 +39,7 @@ global_failures:
   - smooth_digital_gradients_or_globally_blended_color
   - uniform_impasto_stipple_mosaic_or_palette_knife_facets
   - flat_black_shadows_or_hard_ink_contours
-  - signature_text_watermark_frame_or_photographic_ui
+  - signature_text_watermark_unrequested_frame_or_photographic_ui
 
 cases:
   - id: open_sea_sunset_subject
@@ -105,3 +111,27 @@ cases:
     known_failure: >-
       A stronger facial likeness does not compensate for zooming into a
       headshot, losing shoes, changing pose, or inventing people.
+
+  - id: optional_presentation_frame
+    source_status: user_references_local_not_bundled
+    run_after: accepted_unframed_artwork
+    modes:
+      - rectangular_carved_gilt
+      - oval_salon_aperture_with_explicit_crop_consent
+      - simple_aged_gilt
+      - reference_led
+    invariants:
+      - accepted_artwork_content_color_and_mark_pattern
+      - subject_identity_count_pose_and_complete_visible_body
+      - inner_artwork_aspect_ratio_unless_oval_crop_is_explicitly_approved
+      - selected_frame_mode_and_aperture_shape
+    frame_checks:
+      structure: continuous_rails_regular_aperture_and_believable_corner_joins
+      material: carved_wood_gold_leaf_warm_recesses_subtle_age_and_physical_depth
+      separation: frame_inner_liner_and_shadow_gap_do_not_fuse_into_painted_marks
+      lighting: one_coherent_light_direction_across_all_frame_sides
+      presentation: no_wall_label_glare_signature_watermark_or_ui
+    known_failure: >-
+      A beautiful frame still fails if it repaints the accepted artwork,
+      changes its composition, hides unapproved content, melts ornament into
+      the canvas, or produces broken and mismatched corners.
