@@ -13,7 +13,8 @@ Use approved images as visual calibration for reusable paint behavior. Preserve 
 ### Accepted Qualities
 
 - Thin gray-blue and muted green ground remains visible beneath broader scumbles and broken middle strokes.
-- Stroke length, direction, opacity, and loading vary by wave depth rather than repeating one global texture.
+- Water is built primarily from flat horizontal dashes and broken lateral strokes, but their length, width, spacing, opacity, edge, overlap, and loading vary by wave depth rather than repeating one global texture.
+- Local chaos comes from interrupted alignment, uneven clustering, partial burial, abrupt restarts, and neighboring color notes—not from replacing the water's horizontal bias with canvas-wide diagonal or vertical crosshatching.
 - Warm reflection contains separate yellow, ochre, orange, coral, rose, lilac, blue-gray, and cream notes interrupted by cool water.
 - Thick paint is concentrated on selected glints, foam, and focal anchors; quieter passages remain thinner and canvas-bearing.
 - The bird remains faithful and readable but uses blue-violet, charcoal blue, olive, violet-brown, gray, and reflected warm notes instead of a flat black cutout.
@@ -24,13 +25,14 @@ Use approved images as visual calibration for reusable paint behavior. Preserve 
 - A photograph with paint texture laid over it.
 - Rectangular palette-knife slabs or checkerboard color tiles.
 - One smooth, digitally combed wave pattern.
+- Neat parallel wave ribbons or a woven field of indiscriminate cross-directional marks.
 - Uniform impasto or identical short dabs across the whole canvas.
 - Solid premixed gold reflections and hard black subject contours.
 - Invented subjects, altered subject count, flipped orientation, crop drift, or missing visible body parts.
 
 ### Transfer Rule
 
-When applying B001 to another image, transfer only the hierarchy of layers, broken-color logic, selective thickness, chromatic edges, and controlled irregularity. Derive palette, mark direction, material behavior, subject detail, light key, and composition from the new source.
+When applying B001 to another image, transfer only the hierarchy of layers, broken-color logic, selective thickness, chromatic edges, and controlled irregularity. For open water, retain a predominantly horizontal dash family while varying its length, spacing, overlap, loading, interruption, and color enough to feel locally chaotic rather than combed. Derive palette, exact marks, material behavior, subject detail, light key, and composition from the new source.
 
 ## B002 — Painted Dusk Sky
 

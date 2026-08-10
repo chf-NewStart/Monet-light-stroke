@@ -202,6 +202,15 @@ Treat orientation as scene fact, not a compositional option.
 
 ## Stroke Routing
 
+Use a material-specific stroke toolkit: the brushstroke should help become the depicted material instead of sitting on top of every object as one generic texture.
+
+- **Foliage, leaves, and tall grass:** favor quick upward flicks, short commas, hooks, and clustered directional touches. Vary their size, angle, loading, overlap, and spacing so vegetation feels wind-touched rather than stamped.
+- **Water:** favor flat horizontal dashes and broken lateral lines of unequal length. Stack, interrupt, overlap, partly bury, and unevenly space them to establish the water plane and rhythmic surface without combing it into tidy parallel stripes.
+- **Stone, masonry, and rough cliffs:** reserve thicker pressed dabs, clumps, crusts, and selectively loaded impasto for solid, weathered, light-catching planes. Keep shadowed or distant stone thinner so the entire object does not become uniformly frosted.
+- **Cloud, steam, fog, and diffuse air:** use scumbling, soft rubbing, broad circular or swirling joins, and semi-opaque veils. Let edges dissolve while retaining the larger atmospheric mass.
+
+Treat these as dominant families, not rigid stamps. Human irregularity belongs inside each material's directional logic: alter pressure, length, width, angle, opacity, edge, spacing, overlap, and color while preserving the material's basic physical character.
+
 ### Sky and air
 
 - Use broad, lightly scumbled horizontal or diagonal strokes.
@@ -226,7 +235,8 @@ Calm mist, fog, or broad overcast may justify quieter and more merged passages, 
 For choppy open sea:
 
 - Begin with a thin muted gray-green, blue-gray, olive, or source-derived reflected ground. Cross it with broad semi-opaque scumbles so the sea has a continuous body while fragments of ground and canvas remain visible.
-- Carry movement with medium-to-long curved strokes, shallow hooks, loose S-curves, and dragged diagonal sweeps that travel across several implied ripples. Let gestures overlap and change tempo.
+- Keep flat horizontal dashes and broken lateral strokes as the dominant vocabulary. Vary them conspicuously in length, width, loading, spacing, edge, and overlap; let some stop abruptly, restart out of alignment, merge into scumble, or become partly buried.
+- Use shallow hooks, short curves, and occasional diagonal corrections only as subordinate disruptions around turning crests, collisions, and foreground turbulence. Do not let cross-directions turn the entire surface into woven hatching or a generalized mosaic.
 - Shape a wave as a rising dark-green or blue-gray body, a turning lighter plane, and a sparing broken crest. Do not assemble it from separate rectangular patches.
 - Apply foam as thin dragged cream, pearl, pale gray, or warm-white ribbons, dry-brushed curls, and interrupted flicks. Keep it uneven and partially absorbed into the water color.
 - Use fewer, longer gestures in the foreground and compress marks toward distance. Alternate active crests with broad quiet water passages.
@@ -234,7 +244,7 @@ For choppy open sea:
 - Permit subdued muddy-neutral mixtures within the water body while keeping foam and reflected light clean. The field should feel optically mixed, not brightly tiled.
 - Preserve the source's wave bands and light direction, but invent the exact curvature, overlap, and interruption of individual painted gestures.
 
-Avoid chunky palette-knife blocks, checkerboard color slabs, polygonal tessellation, uniformly short horizontal dashes, thick white frosting on every crest, equal stroke density across the entire water surface, and a single smooth repeating wave pattern that looks digitally combed.
+Avoid chunky palette-knife blocks, checkerboard color slabs, polygonal tessellation, uniformly short or evenly spaced horizontal dashes, canvas-wide crosshatching, thick white frosting on every crest, equal stroke density across the entire water surface, and a single smooth repeating wave pattern that looks digitally combed.
 
 ### Ground, sand, and gravel
 

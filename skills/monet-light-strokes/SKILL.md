@@ -87,6 +87,7 @@ Before returning the image, verify:
 - No person or important prop has been cropped, invented, removed, or duplicated.
 - The light condition is coherent across sky, subject, ground, and reflections.
 - Stroke direction changes with the material instead of becoming one generic texture.
+- The dominant stroke family fits the material: upward comma-like flicks for foliage and grass, unequal broken horizontal dashes for water, selectively crusted clumps for rough solid masonry or cliffs, and scumbled or softly swirling joins for cloud, steam, and fog. Vary each family internally; never turn it into a repeated stamp.
 - The material-transfer test passes: a representative patch of sky, ground, foliage, water, masonry, or cactus marks would look visibly wrong if transplanted unchanged onto another material. If several passages seem interchangeable, reroute their direction, scale, loading, density, edges, and layering.
 - The mark-family audit passes: compare the largest sky, ground, and subject or architecture regions. Reject the image if substantially the same combined fingerprint of brush silhouette, angle, size band, edge character, loading, and texture density migrates unchanged across two or more materials, especially as mechanical diagonal lozenges or interlocking facets. Do not reject material-specific rhythmic recurrence that varies visibly and supports the form.
 - Dominant strokes remain clearly visible at normal viewing size and vary in width, length, loading, and edge quality.
@@ -95,7 +96,7 @@ Before returning the image, verify:
 - Repeated marks feel hand placed rather than stamped: clusters, pauses, imperfect overlaps, and occasional corrective or off-color strokes remain visible without damaging legibility.
 - When blurred or viewed as a thumbnail, the image is organized by a small number of clear color-value masses rather than a traced photographic tonal map.
 - Most photographic micro-edges and local texture are gone. Only a few focal edges remain; secondary edges merge, break, or dissolve into adjacent paint.
-- Water has a continuous painted body beneath its surface gestures. Open-sea movement is carried by irregular sweeping crests and dragged foam rather than interlocking rectangular color slabs.
+- Water has a continuous painted body beneath its surface gestures. Open-sea movement is carried chiefly by unequal, broken horizontal dashes and lateral strokes, disrupted selectively by irregular turning crests and dragged foam rather than neat parallel ribbons, canvas-wide crosshatching, or interlocking rectangular color slabs.
 - The paint surface reveals multiple passes: thin ground, partly covered scumbles, varied broken middle strokes, and a few opaque accents. It does not look uniformly rendered in one digital pass.
 - Painterly secondary passages remain visibly coarse, approximate, and worked. Do not automatically clean an expressive sky, sand, ground, or foliage field into smoother, more precise illustration.
 - Do not self-correct a user-approved bold passage into smoother realism. When an approved benchmark and a cleaner revision conflict, preserve the benchmark's mark separation, optical vibration, and chromatic shadow behavior unless the user requests otherwise.
