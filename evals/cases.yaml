@@ -1,0 +1,107 @@
+version: 1
+purpose: >-
+  Test whether changes improve painterly behavior without sacrificing source fidelity.
+
+scoring:
+  scale: 0-2
+  meanings:
+    0: fail
+    1: partial
+    2: pass
+  hard_gates:
+    - orientation_and_crop
+    - subject_and_object_count
+    - identity_pose_and_anatomy
+    - landmark_geometry
+  painterly_dimensions:
+    - painting_first_abstraction
+    - material_specific_strokes
+    - broken_color_and_optical_mixing
+    - layered_oil_construction
+    - chromatic_shadows
+    - coherent_light
+  acceptance: >-
+    Every hard gate must score 2. The painterly mean must be at least 1.67,
+    with no painterly dimension scoring 0.
+
+global_failures:
+  - flipped_rotated_zoomed_or_recropped_source
+  - invented_removed_duplicated_or_redesigned_people_or_props
+  - changed_landmark_architecture_or_viewpoint
+  - photograph_with_a_canvas_or_brush_filter
+  - one_generic_texture_shared_by_unrelated_materials
+  - smooth_digital_gradients_or_globally_blended_color
+  - uniform_impasto_stipple_mosaic_or_palette_knife_facets
+  - flat_black_shadows_or_hard_ink_contours
+  - signature_text_watermark_frame_or_photographic_ui
+
+cases:
+  - id: open_sea_sunset_subject
+    benchmark: B001
+    source_status: private_local_fixture
+    invariants:
+      - subject_count_orientation_and_placement
+      - horizon_wave_bands_and_light_direction
+      - original_crop_and_aspect_ratio
+    material_checks:
+      water: continuous_body_with_irregular_arcing_hooked_and_dragged_wave_marks
+      foam: sparse_broken_ribbons_not_white_frosting
+      focal_subject: readable_chromatic_anchor_without_black_cutout
+
+  - id: painted_dusk_sky_and_cacti
+    benchmarks: [B002, B005]
+    source_status: private_local_fixture
+    invariants:
+      - cactus_count_silhouettes_overlap_and_placement
+      - skyline_mountain_ridge_and_light_direction
+      - original_crop_and_orientation
+    material_checks:
+      sky: separated_gray_blue_lavender_rose_coral_peach_and_orange_marks
+      cacti: elongated_vertical_rib_following_marks_with_chromatic_darkness
+      town: compressed_planar_marks
+      ground: clustered_dragged_broken_field
+    rejected_comparison: rejected-005-overblended-cactus-dusk.png
+
+  - id: night_house_architecture_and_ground
+    benchmark: B003
+    source_status: private_local_fixture
+    invariants:
+      - exact_upright_orientation_and_portrait_crop
+      - exactly_two_small_figures_at_source_positions
+      - spire_stair_railing_platform_and_building_geometry
+      - sea_horizon_ground_plane_and_light_placement
+    material_checks:
+      sky: broad_quiet_chromatic_dark_scumbles
+      architecture: faithful_planar_horizontal_and_vertical_anchors
+      ground: coarse_approximate_broken_value_field_without_precise_stones
+      figures: concise_distant_chromatic_anchors
+    known_failure: >-
+      Attractive paint handling is still rejected if stairs, spires, openings,
+      viewpoint, or people are redesigned.
+
+  - id: calm_reflective_water_and_foliage
+    benchmark: B004
+    source_status: replace_with_open_access_fixture
+    invariants:
+      - major_verticals_and_reflection_anchors
+      - light_direction_and_value_hierarchy
+    material_checks:
+      air: quiet_gray_lavender_field
+      foliage: clustered_neighboring_olive_yellow_green_emerald_and_blue_green
+      reflections: vertical_color_echoes_broken_by_horizontal_water_marks
+      color: selective_relational_chroma_not_global_brightness
+
+  - id: full_body_outdoor_portrait
+    source_status: consented_private_local_fixture
+    invariants:
+      - identity_expression_and_body_proportions
+      - complete_visible_head_hands_legs_and_shoes
+      - outfit_props_and_surroundings
+      - source_subject_count_crop_and_camera_angle
+    material_checks:
+      face: connected_warm_and_cool_planes_with_only_essential_features
+      clothing: broader_marks_with_preserved_color_identity
+      background: lower_contrast_and_more_abstract_than_the_figure
+    known_failure: >-
+      A stronger facial likeness does not compensate for zooming into a
+      headshot, losing shoes, changing pose, or inventing people.
