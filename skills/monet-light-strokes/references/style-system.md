@@ -164,7 +164,7 @@ Avoid a single-pass finish, evenly combed directional lines, globally polished t
 Keep the scene faithful while allowing the painted surface to behave like a human process.
 
 - Apply randomness at the mark level, not the subject level. Preserve composition, silhouettes, identities, anatomy, object counts, camera angle, light direction, and reflection anchors.
-- Vary stroke angle within the material's directional family instead of forcing perfect parallelism. Water remains broadly horizontal, trunks broadly vertical, and masonry structurally planar.
+- Vary stroke angle within the material-and-state directional family instead of forcing perfect parallelism. Calm water remains broadly horizontal; choppy or breaking water follows rising, rolling, diagonal, and collapsing wave planes; trunks remain broadly vertical; masonry remains structurally planar.
 - Vary pressure, paint loading, opacity, width, length, spacing, color temperature, and edge softness from mark to mark.
 - Form uneven clusters and pauses. Let several active strokes collect near a focal passage, then leave adjacent areas quiet or thinly scumbled.
 - Allow imperfect overlaps, partially covered strokes, dragged edges, dry-brush interruptions, and a few visible corrections.
@@ -205,7 +205,7 @@ Treat orientation as scene fact, not a compositional option.
 Use a material-specific stroke toolkit: the brushstroke should help become the depicted material instead of sitting on top of every object as one generic texture.
 
 - **Foliage, leaves, and tall grass:** favor quick upward flicks, short commas, hooks, and clustered directional touches. Vary their size, angle, loading, overlap, and spacing so vegetation feels wind-touched rather than stamped.
-- **Water:** favor flat horizontal dashes and broken lateral lines of unequal length. Stack, interrupt, overlap, partly bury, and unevenly space them to establish the water plane and rhythmic surface without combing it into tidy parallel stripes.
+- **Water:** classify the physical state first. Favor flat broken horizontal dashes for calm rivers, ponds, and reflective intervals; use rolling oblique curves, diagonal slashes, hooks, and forceful directional sweeps for swelling or breaking sea. Let the wrist motion describe the water's movement instead of applying one universal water stroke.
 - **Stone, masonry, and rough cliffs:** reserve thicker pressed dabs, clumps, crusts, and selectively loaded impasto for solid, weathered, light-catching planes. Keep shadowed or distant stone thinner so the entire object does not become uniformly frosted.
 - **Cloud, steam, fog, and diffuse air:** use scumbling, soft rubbing, broad circular or swirling joins, and semi-opaque veils. Let edges dissolve while retaining the larger atmospheric mass.
 
@@ -226,7 +226,7 @@ Calm mist, fog, or broad overcast may justify quieter and more merged passages, 
 
 ### Water and reflections
 
-- Choose the water state before choosing its mark vocabulary.
+- Choose the water state before choosing its mark vocabulary, and classify separate zones when one scene contains calm reflections, rolling swells, and breaking surf together.
 - For calm reflective water, build the surface from short horizontal or slightly diagonal broken strokes over broad connected color fields.
 - Reflect major objects as loose vertical bands of their dominant colors.
 - Interrupt those bands with horizontal ripples so they never read as mirrored vector shapes.
@@ -235,16 +235,17 @@ Calm mist, fog, or broad overcast may justify quieter and more merged passages, 
 For choppy open sea:
 
 - Begin with a thin muted gray-green, blue-gray, olive, or source-derived reflected ground. Cross it with broad semi-opaque scumbles so the sea has a continuous body while fragments of ground and canvas remain visible.
-- Keep flat horizontal dashes and broken lateral strokes as the dominant vocabulary. Vary them conspicuously in length, width, loading, spacing, edge, and overlap; let some stop abruptly, restart out of alignment, merge into scumble, or become partly buried.
-- Use shallow hooks, short curves, and occasional diagonal corrections only as subordinate disruptions around turning crests, collisions, and foreground turbulence. Do not let cross-directions turn the entire surface into woven hatching or a generalized mosaic.
+- Route strokes along each wave's physical action. Use rolling oblique arcs and hooks for swelling bodies, diagonal or upward slashes for rising faces, forceful curved sweeps for turning crests, and broken descending marks where water collapses.
+- Retain horizontal or slightly oblique dashes in flatter troughs, reflective intervals, and distant compressed water, but do not force turbulent water into a horizontal formula.
+- Make directional changes structural rather than random: the stroke should reveal the wave plane, momentum, weight, and collision. Vary length, width, loading, spacing, edge, overlap, and tempo within that motion; let gestures stop abruptly, restart out of alignment, merge into scumble, or become partly buried.
 - Shape a wave as a rising dark-green or blue-gray body, a turning lighter plane, and a sparing broken crest. Do not assemble it from separate rectangular patches.
-- Apply foam as thin dragged cream, pearl, pale gray, or warm-white ribbons, dry-brushed curls, and interrupted flicks. Keep it uneven and partially absorbed into the water color.
+- Apply foam as thin dragged cream, pearl, pale gray, or warm-white ribbons, dry-brushed curls, interrupted flicks, and a few thicker aggressive slashes at active breaks. Keep it uneven and partially absorbed into the water color.
 - Use fewer, longer gestures in the foreground and compress marks toward distance. Alternate active crests with broad quiet water passages.
 - Preserve several layers simultaneously: subdued undercolor, broad scraped or scumbled bodies, irregular broken wave strokes, and sparse opaque foam. Let later strokes partly bury earlier ones instead of aligning every mark into one smooth flow.
 - Permit subdued muddy-neutral mixtures within the water body while keeping foam and reflected light clean. The field should feel optically mixed, not brightly tiled.
 - Preserve the source's wave bands and light direction, but invent the exact curvature, overlap, and interruption of individual painted gestures.
 
-Avoid chunky palette-knife blocks, checkerboard color slabs, polygonal tessellation, uniformly short or evenly spaced horizontal dashes, canvas-wide crosshatching, thick white frosting on every crest, equal stroke density across the entire water surface, and a single smooth repeating wave pattern that looks digitally combed.
+Avoid a one-formula “water brush,” chunky palette-knife blocks, checkerboard color slabs, polygonal tessellation, uniformly short or evenly spaced dashes, canvas-wide crosshatching, thick white frosting on every crest, equal stroke density across the entire water surface, and a single smooth repeating wave pattern that looks digitally combed.
 
 ### Ground, sand, and gravel
 
@@ -337,7 +338,7 @@ When the first output fails, diagnose the exact failure and issue a targeted edi
 
 - **Crop failure:** “Zoom out and restore the full body from head through both shoes, with margin around the figure; keep all other content unchanged.”
 - **Identity drift:** “Restore the source facial structure, hairstyle, expression, skin tone, and body proportions; retain the painterly rendering.”
-- **Generic texture:** “Vary stroke direction by material: broad sky scumbles, broken horizontal water marks, clustered foliage dabs, and blocky architectural strokes.”
+- **Generic texture:** “Vary stroke direction by material and physical state: broad sky scumbles; broken horizontal marks for calm water but rolling, diagonal, hooked, and forceful strokes for choppy or breaking water; clustered foliage dabs; and blocky architectural strokes.”
 - **Coarse but uniform:** “Run the material-transfer test and replace the canvas-wide short-dab texture. Use broad irregular sky scumbles, vertical rib-following cactus strokes, simplified planar village marks, and clustered dragged ground strokes, with different loading, opacity, edge quality, and quiet-space ratio in each passage.”
 - **Uniform faceted wallpaper:** “Remove the repeated diagonal lozenge, diamond, or palette-knife footprint from the entire image. Rebuild the sky from broad transparent veils and long irregular scumbles with quiet gaps; rebuild architecture from restrained planar bars and broken structural edges; rebuild ground from low dragged strokes, thin shadow fields, and uneven granular clusters. Change mark geometry, scale, loading, edge, and density—not merely color—and retain sparse small dabs only near focal light.”
 - **Over-corrected into calmness:** “Restore chaotic-yet-structured energy without changing the large masses or source facts. Reintroduce irregular broad and medium overlaps, direction changes, buried strokes, uneven loading, and a few off-color corrections inside each material's logic. Keep the thumbnail structure stable; do not return to one universal stamp or smooth the surface into conventional realism.”

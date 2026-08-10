@@ -13,8 +13,8 @@ Use approved images as visual calibration for reusable paint behavior. Preserve 
 ### Accepted Qualities
 
 - Thin gray-blue and muted green ground remains visible beneath broader scumbles and broken middle strokes.
-- Water is built primarily from flat horizontal dashes and broken lateral strokes, but their length, width, spacing, opacity, edge, overlap, and loading vary by wave depth rather than repeating one global texture.
-- Local chaos comes from interrupted alignment, uneven clustering, partial burial, abrupt restarts, and neighboring color notes—not from replacing the water's horizontal bias with canvas-wide diagonal or vertical crosshatching.
+- Water is state-routed rather than built from one formula: flatter reflective intervals use broken horizontal or slightly oblique dashes, while swelling and breaking bands use rolling arcs, hooks, diagonal slashes, and forceful crest-following strokes.
+- Local chaos comes from changing wave planes, interrupted alignment, uneven clustering, partial burial, abrupt restarts, and neighboring color notes. Direction changes follow the sea's physical movement instead of becoming canvas-wide random crosshatching.
 - Warm reflection contains separate yellow, ochre, orange, coral, rose, lilac, blue-gray, and cream notes interrupted by cool water.
 - Thick paint is concentrated on selected glints, foam, and focal anchors; quieter passages remain thinner and canvas-bearing.
 - The bird remains faithful and readable but uses blue-violet, charcoal blue, olive, violet-brown, gray, and reflected warm notes instead of a flat black cutout.
@@ -32,7 +32,7 @@ Use approved images as visual calibration for reusable paint behavior. Preserve 
 
 ### Transfer Rule
 
-When applying B001 to another image, transfer only the hierarchy of layers, broken-color logic, selective thickness, chromatic edges, and controlled irregularity. For open water, retain a predominantly horizontal dash family while varying its length, spacing, overlap, loading, interruption, and color enough to feel locally chaotic rather than combed. Derive palette, exact marks, material behavior, subject detail, light key, and composition from the new source.
+When applying B001 to another image, transfer only the hierarchy of layers, broken-color logic, selective thickness, chromatic edges, and controlled irregularity. Classify water state by zone: horizontal broken marks for calm reflective passages; rolling, oblique, diagonal, hooked, or aggressive strokes for swelling and breaking passages. Derive palette, exact marks, material behavior, subject detail, light key, and composition from the new source.
 
 ## B002 — Painted Dusk Sky
 
