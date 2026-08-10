@@ -13,7 +13,7 @@ Read [references/style-system.md](references/style-system.md) before writing the
 
 Determine the operation from the request:
 
-- **Style transfer:** treat the source image as factual authority for people, pose, clothing, objects, setting, framing, and aspect ratio. Do not treat its pixel-level texture, tiny edges, individual ripples, or exact tonal map as invariants; reconstruct those through paint.
+- **Style transfer:** treat the source image as factual authority for people, pose, clothing, objects, setting, framing, aspect ratio, displayed orientation, and left/right spatial order. Never mirror, flip, rotate, transpose, or swap sides unless the user explicitly requests it. Do not treat its pixel-level texture, tiny edges, individual ripples, or exact tonal map as invariants; reconstruct those through paint.
 - **Original scene:** treat the user's scene description as factual authority, then invent a fresh composition.
 - **Profile picture:** default to square, but keep the complete visible figure inside the canvas. Do not turn a full-body source into a headshot.
 - **Series:** keep the subject, viewpoint, crop, and overall stroke grammar recognizable while deliberately varying time of day, weather, season, and light key. Never reuse one visible texture pattern across the series.
@@ -35,20 +35,20 @@ For framed output, use a two-pass workflow: create and inspect the artwork witho
 
 ## Build the Image
 
-1. **Inventory invariants.** List internally what must not change: subject count, identities, pose, full-body extent, outfit, props, setting landmarks, camera angle, and crop.
+1. **Inventory invariants.** List internally what must not change: subject count, identities, pose, full-body extent, outfit, props, setting landmarks, camera angle, crop, displayed orientation, and left/right anchor order. For an asymmetric scene, write two or more concrete spatial anchors such as “the illuminated house occupies the right third” or “the stairs rise from lower center toward upper right.”
 2. **Choose an atmospheric key.** Select a coherent time of day, weather, season, and dominant temperature from the source or request. Light is the main structural device.
 3. **Map and simplify large masses.** Squint or mentally blur the source, reduce it to roughly five to nine dominant value-color zones, and merge minor repeated detail into those zones. Establish sky, ground or water, foliage, architecture, and figures from these connected masses before adding selective detail.
-4. **Route and layer strokes by material, state, and scale.** Default to medium-to-broad, coarse, irregular marks that remain visible at normal viewing size. Build visible temporal depth from underpainting, scumbled masses, broken descriptive strokes, selective opaque accents, and partial revisions. Distinguish calm reflective water from choppy open sea instead of using one generic water texture. Introduce controlled hand-made variation inside each material's directional logic. Reconstruct forms with paint rather than tracing the source's micro-edges. Follow the stroke routing in the reference.
+4. **Route and layer strokes by material, state, and scale.** Default to medium-to-broad, coarse, irregular marks that remain visible at normal viewing size. Build visible temporal depth from underpainting, scumbled masses, broken descriptive strokes, selective opaque accents, and partial revisions. Distinguish calm reflective water from choppy open sea instead of using one generic water texture. Treat broken color as neighboring pigment notes, not permission to tessellate the canvas with one repeated dab or palette-knife footprint. Aim for chaotic yet structured paint: local marks may be restless and surprising while the large value masses, silhouettes, light direction, and material boundaries remain stable. Introduce controlled hand-made variation inside each material's directional logic. Reconstruct forms with paint rather than tracing the source's micro-edges. Follow the stroke routing in the reference.
 5. **Write the generation prompt.** State preservation requirements first, painterly transformation second, exclusions last.
-6. **Generate and inspect.** Check the complete image rather than accepting an attractive detail crop.
-7. **Retry once when needed.** Make the correction concrete, such as “zoom out to restore both shoes and surrounding street,” not merely “improve composition.”
+6. **Generate and inspect.** Check the complete image rather than accepting an attractive detail crop. Run both the factual-preservation check and the mark-family check before judging color or mood.
+7. **Reject and retry once when needed.** A mirrored composition, missing subject, or canvas-wide repeated brush footprint is a failed edit even when attractive. Retry from the original source with one concrete correction, such as “replace the repeated diagonal lozenge texture with broad quiet sky scumbles, planar architectural strokes, and dragged granular ground clusters.” Do not return a result that still fails a non-negotiable.
 8. **Add presentation only after acceptance.** If a frame was selected, make a separate frame edit and re-check both the unchanged artwork and the physical frame.
 
 ## Prompt Priorities
 
 Use this order in edit prompts:
 
-1. Preserve the source composition, complete visible body, face, pose, outfit, props, and surroundings.
+1. Preserve the source composition, displayed orientation, left/right spatial order, complete visible body, face, pose, outfit, props, and surroundings. Explicitly forbid mirroring, flipping, rotation, transposition, and side-swapping.
 2. Keep the original aspect ratio unless the user requests another format.
 3. Repaint the scene through luminous outdoor atmosphere and broken-color oil strokes.
 4. Specify the material-dependent stroke behavior and chosen light key.
@@ -60,12 +60,16 @@ Do not use “in the style of Monet” as the entire prompt. Translate the desir
 ## Non-Negotiables
 
 - Preserve full-body framing when a body is fully visible in the source. Keep head, hands, legs, and shoes inside the canvas with breathing room.
+- Preserve the source exactly as displayed after metadata orientation is applied. Never mirror horizontally or vertically, rotate, transpose, reverse a subject's facing direction, reverse the direction of stairs or paths, or move distinctive landmarks to the opposite side unless the user explicitly asks.
 - Preserve facial identity and expression while simplifying features into painterly planes.
 - Keep shadows chromatic: blue, violet, green, rose, or warm gray instead of flat black.
 - Preserve recognizable source color identities where they carry factual meaning, especially skin, clothing, and key props, but tune hue, temperature, and chroma within those identities to express the atmospheric light. Treat literal sampled color as a starting point rather than a ceiling.
 - Define silhouettes and contours through neighboring shifts of value, temperature, and reflected color rather than heavy black outlines. Keep the deepest accents chromatic and allow light to break selected edges.
 - Use adjacent broken colors that mix optically; avoid globally blended or airbrushed surfaces.
 - Build the paint surface from fewer broad and medium overlapping strokes with selective thick accents. Avoid covering the image in tiny, uniformly distributed mosaic marks.
+- Interpret broken color as color separation inside a hierarchy of broad fields, medium descriptive strokes, and sparse small accents. “More dabs” must never become one repeated mark shape, size, angle, or spacing across the canvas.
+- Keep each material's dominant brush footprint visibly different. Never cover sky, ground, architecture, foliage, water, or figures with the same diagonal lozenges, rectangular facets, leaf stamps, or palette-knife tiles.
+- Allow a recurring rhythm inside one material when its marks vary substantially in scale, angle, overlap, loading, edge, spacing, and color and remain subordinate to a clear large-scale structure. Do not reject a bold active passage merely because it is coarse or energetic.
 - Preserve the factual skeleton, not the photographic microtexture. Keep the crop, subject silhouettes, identities, pose, landmarks, major value bands, and light direction, but simplify, merge, omit, and repaint minor ripples, leaves, texture, and incidental edges.
 - Allow mark-level randomness in angle, spacing, pressure, length, opacity, temperature, overlap, and edge quality. Keep scene-level facts—composition, identity, anatomy, object count, light direction, and reflection placement—strictly fixed.
 - Soften distant forms with lower contrast, cooler color, and fewer marks.
@@ -79,11 +83,15 @@ Do not use “in the style of Monet” as the entire prompt. Translate the desir
 Before returning the image, verify:
 
 - The requested subject and source composition remain recognizable.
+- The displayed orientation and left/right order match the source. Compare at least two asymmetric anchors—such as landmark side, staircase or path direction, subject-facing direction, light placement, or object order—and reject the result immediately if any global mirror, flip, rotation, or side swap occurred.
 - No person or important prop has been cropped, invented, removed, or duplicated.
 - The light condition is coherent across sky, subject, ground, and reflections.
 - Stroke direction changes with the material instead of becoming one generic texture.
 - The material-transfer test passes: a representative patch of sky, ground, foliage, water, masonry, or cactus marks would look visibly wrong if transplanted unchanged onto another material. If several passages seem interchangeable, reroute their direction, scale, loading, density, edges, and layering.
+- The mark-family audit passes: compare the largest sky, ground, and subject or architecture regions. Reject the image if substantially the same combined fingerprint of brush silhouette, angle, size band, edge character, loading, and texture density migrates unchanged across two or more materials, especially as mechanical diagonal lozenges or interlocking facets. Do not reject material-specific rhythmic recurrence that varies visibly and supports the form.
 - Dominant strokes remain clearly visible at normal viewing size and vary in width, length, loading, and edge quality.
+- Broad connected or thinly scumbled quieter passages remain perceptible beside active broken-color clusters. Quiet may mean lower contrast, thinner loading, softer burial, or slower rhythm rather than a smooth or empty surface. Reject only nearly equal activity and density from edge to edge.
+- The chaotic-yet-structured test passes: close inspection reveals irregular, partly revised, non-mechanical marks; thumbnail inspection reveals a stable arrangement of roughly five to nine masses, coherent light, readable silhouettes, and intact source facts.
 - Repeated marks feel hand placed rather than stamped: clusters, pauses, imperfect overlaps, and occasional corrective or off-color strokes remain visible without damaging legibility.
 - When blurred or viewed as a thumbnail, the image is organized by a small number of clear color-value masses rather than a traced photographic tonal map.
 - Most photographic micro-edges and local texture are gone. Only a few focal edges remain; secondary edges merge, break, or dissolve into adjacent paint.

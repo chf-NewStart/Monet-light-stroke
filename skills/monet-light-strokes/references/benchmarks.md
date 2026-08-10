@@ -35,9 +35,10 @@ When applying B001 to another image, transfer only the hierarchy of layers, brok
 ## B002 — Painted Dusk Sky
 
 - **Status:** component benchmark approved by the user on 2026-08-10
-- **Image:** [benchmark-002-painted-dusk-sky.png](../assets/benchmarks/benchmark-002-painted-dusk-sky.png)
-- **SHA-256:** `08bee58e50ca3f44f1608264539b8df3e5e9ea7724a0836d1a7b9fca86bc2aeb`
-- **Dimensions:** 1086 × 1448
+- **Generation reference:** [benchmark-002-painted-dusk-sky-passages.png](../assets/benchmarks/benchmark-002-painted-dusk-sky-passages.png)
+- **Generation-reference SHA-256:** `095452fc5ccda121e365ef332e3921be7b76aec76825778af41f9541559573c3`
+- **Generation-reference dimensions:** 560 × 700
+- **Full context image:** [benchmark-002-painted-dusk-sky.png](../assets/benchmarks/benchmark-002-painted-dusk-sky.png), 1086 × 1448; keep for human review, not as a generation reference.
 - **Use for:** sky and atmosphere passages only.
 
 ### Accepted Qualities
@@ -54,12 +55,15 @@ Transfer only the expressive sky construction, broken dusk color, coarse layerin
 
 Do not extend B002's sky-mark vocabulary uniformly into plants, architecture, or ground. Keep the approved sky behavior while rerouting every other material through its own structural logic.
 
+Use the cropped generation reference rather than the full context image so non-sky subjects and their stroke vocabulary cannot leak into the new scene.
+
 ## B003 — Broken Night Ground
 
 - **Status:** component benchmark approved by the user on 2026-08-10
-- **Image:** [benchmark-003-broken-night-ground.png](../assets/benchmarks/benchmark-003-broken-night-ground.png)
-- **SHA-256:** `7b6e8bf7ca6e21cf2f0308e0e1b5b4a0c11f0c32facf885cc0fc303ca846f4a3`
-- **Dimensions:** 1086 × 1448
+- **Generation reference:** [benchmark-003-broken-night-ground-component.png](../assets/benchmarks/benchmark-003-broken-night-ground-component.png)
+- **Generation-reference SHA-256:** `3d867cb8811a21c47b862a96b2e580b3278a7b44ca310ab116b68433e2249cff`
+- **Generation-reference dimensions:** 1086 × 248
+- **Full context image:** [benchmark-003-broken-night-ground.png](../assets/benchmarks/benchmark-003-broken-night-ground.png), 1086 × 1448; keep for human review, not as a generation reference.
 - **Use for:** sand, gravel, rough ground, and low-light foreground passages only.
 
 ### Accepted Qualities
@@ -72,6 +76,8 @@ Do not extend B002's sky-mark vocabulary uniformly into plants, architecture, or
 ### Transfer Rule
 
 Transfer only the rough ground abstraction, granular broken-color rhythm, chromatic low-light shadows, and uneven reflected glints. Do not copy the building, figures, spires, night composition, or exact palette into unrelated scenes.
+
+Use the cropped generation reference rather than the full context image so its architecture, figures, sky, and global faceting cannot leak into a new composition.
 
 ## B004 — Luminous Poplar Color Relationships
 
@@ -134,3 +140,51 @@ When color feels more literal but less alive in one result, prefer selective rel
 Reject any result that fails the material-transfer test: if a representative stroke patch could move unchanged between sky, water, ground, foliage, architecture, or cactus and remain plausible, the coarseness is generic rather than descriptive.
 
 When B005 and its rejected comparison are relevant, prefer the accepted image's separated sky marks and chromatic shadow weave. Do not let an automatic cleanup pass replace optical vibration with a seamless gradient merely because the result appears calmer or more polished.
+
+## R006 — Uniform-Facet House (Rejected)
+
+- **Status:** rejected by the user on 2026-08-10
+- **Image:** [rejected-006-uniform-facet-house.png](../assets/benchmarks/rejected-006-uniform-facet-house.png)
+- **SHA-256:** `b2743952a15a05e24fb85980cd6a7d56092642763b7d35c1a22acf4ddfc10f16`
+- **Dimensions:** 1086 × 1448
+- **Use for:** negative calibration against canvas-wide brush uniformity. Do not use it as a positive style reference.
+
+### Why It Fails
+
+- The same diagonal lozenge or interlocking palette-knife facet becomes the dominant unit across the night sky, architecture, and sand.
+- Color varies, but mark silhouette, angle family, edge hardness, and surface density remain too similar, so the image reads as one embossed texture map.
+- The sky lacks sufficiently broad quiet veils and thin scumbled pauses; the ground lacks enough long dragged interruptions; architectural planes inherit the sky's faceting.
+- Nearly continuous impasto suppresses the contrast between thin ground, scumbled body, broken middle strokes, and selective opaque accents.
+
+### Correction Rule
+
+Preserve this source's correct orientation and factual architecture, but transfer none of R006's texture. Replace universal facets with a clear scale and density hierarchy: broad quiet sky veils, restrained planar architectural strokes, dragged low-relief ground fields, uneven granular clusters, and only sparse thick light accents.
+
+Reject future outputs that resemble R006 even when their color is luminous or their composition is faithful. Brush diversity is structural, not a palette change.
+
+## B007 — Chaotic Structured Nocturne
+
+- **Status:** approved by the user on 2026-08-10 as “chaotic yet structured”
+- **Image:** [benchmark-007-chaotic-structured-nocturne.png](../assets/benchmarks/benchmark-007-chaotic-structured-nocturne.png)
+- **SHA-256:** `42fbf79929d6256f8c28ae41afbc998332a27ae5fed1c5656408a6e21fe2cc43`
+- **Dimensions:** 1086 × 1448
+- **Use for:** high-energy nocturnes, broad irregular sky construction, local painterly chaos held by stable value masses, warm artificial light against chromatic darkness, and the distinction between rhythmic recurrence and mechanical stamping.
+
+### Accepted Qualities
+
+- At thumbnail scale, the vast cool-dark sky, warm right-side architecture, rising diagonal staircase, ground band, and two small figures form a simple stable structure.
+- At close scale, the sky is active and visibly worked. Broad and medium strokes change size, angle, overlap, loading, edge, and color while remaining organized by slower indigo, blue-violet, teal, olive, and violet-gray masses.
+- The energetic sky does not require smooth empty gaps to breathe; quieter intervals arise through lower contrast, darker burial, softer joins, and restrained chroma.
+- Architecture keeps a more planar directional logic, the ground uses lower dragged and clustered marks, and the figures remain concise vertical anchors. Material differences survive the overall energetic surface.
+- Warm cream, ochre, gold, peach, and lilac notes concentrate around the architecture and steps, producing luminosity against chromatic darks rather than global brightness.
+- The source orientation, right-side building, stair direction, figure count, crop, and major spatial relationships remain faithful.
+
+### B007 Versus R006
+
+B007 may contain recurring broad facets, but their combined fingerprint varies and their rhythm belongs primarily to the sky's atmospheric movement. The large masses and material changes remain legible. R006 repeats a more similar lozenge texture across sky, masonry, and sand at nearly equal density, making the surface read as one embossed filter.
+
+Do not classify every coarse facet as a failure. Reject mechanical sameness across materials; accept varied material-specific rhythm when local chaos is held by global structure.
+
+### Transfer Rule
+
+Transfer only B007's chaos-structure relationship, chromatic nocturne logic, energetic-but-varied sky rhythm, selective warm focus, and material differentiation. Derive the new source's subjects, orientation, crop, palette, architecture, figure placement, and exact marks independently.

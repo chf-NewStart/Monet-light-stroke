@@ -109,6 +109,28 @@ Make the painted construction visible without turning it into generic texture.
 
 For water-lily and reflective-water scenes, begin with broad blue, violet, green, mauve, and cream masses; cross them with medium horizontal strokes; finish with only a few decisive flower, foam, or light dabs.
 
+## Mark Hierarchy, Not Dab Count
+
+Broken color describes how neighboring pigments interact; it does not require countless identical marks. Build a hierarchy in which broad connected fields and scumbles establish most of the image, medium marks describe movement and form, and small dabs remain selective accents.
+
+- Vary mark families, not just pigment. Changing indigo to violet while keeping the same diagonal lozenge stamp is still uniform texture.
+- Alternate active clusters with pauses, exposed ground, thin veils, dragged joins, and partially buried passages. Do not distribute equal activity from corner to corner.
+- Give sky, ground, architecture, water, foliage, and figures different predominant footprints. A night sky may use broad transparent veils and long soft scumbles; architecture may use restrained planar bars and broken edge blocks; sand may use low dragged skips plus irregular granular clusters; small figures may need only two or three decisive marks.
+- Vary scale inside each material. Interrupt broad sky veils with a few medium broken notes; interrupt granular ground with longer dragged strokes and quiet shadow fields.
+- Reject interlocking palette-knife tiles, repeated diagonal diamonds, same-sized rectangular facets, woven hatching, or any recognizable digital brush stamp that becomes the canvas's universal unit.
+- Judge uniformity in grayscale as well as color. If the paint still looks like one embossed pattern after color is mentally removed, changing the palette has not solved the problem.
+
+## Chaotic Yet Structured
+
+Separate local paint behavior from global pictorial order.
+
+- Keep structure at thumbnail distance: roughly five to nine connected value-color masses, a legible focal silhouette, coherent light direction, stable depth, and preserved source geometry.
+- Allow chaos at close distance: irregular overlaps, abrupt stops, shifting angles, partly buried strokes, uneven loading, off-color corrections, and strokes that do not trace every boundary.
+- Permit an energetic material such as stormy sky, choppy water, dense foliage, or rough ground to sustain a highly active field. It remains acceptable when mark scale, angle, spacing, edge, loading, and color vary and when slower tonal masses organize the activity beneath it.
+- Treat quiet as relative. A passage may remain visibly brushed while becoming quieter through lower contrast, thinner paint, softer edges, partial burial, longer intervals, or a narrower temperature range.
+- Distinguish rhythm from stamping. Rhythmic recurrence changes several properties while reinforcing movement or form; mechanical repetition preserves the same combined footprint regardless of material or depth.
+- When a user approves an expressive passage as “chaotic yet structured,” preserve its energy. Do not automatically replace it with calmer veils, smoother gradients, or cleaner realism.
+
 ## Material-Specific Coarseness
 
 Treat coarseness as a material description, not a canvas-wide effect. Vary at least four of these properties when moving between materials: stroke direction, stroke length, width, paint loading, opacity, edge quality, clustering, layer count, and quiet-space ratio.
@@ -167,6 +189,16 @@ Preserve the source's factual skeleton while allowing its optical microstructure
 - Default to moderate abstraction for people and architecture, and stronger abstraction for water, foliage, sky, reflections, and distant scenery.
 
 Avoid a photograph with brush texture laid over it, edge-to-edge pixel tracing, HDR-like local contrast, preserving every wavelet or leaf, and uniform detail from foreground to distance.
+
+## Spatial Fidelity and Orientation
+
+Treat orientation as scene fact, not a compositional option.
+
+- Read the source in its displayed orientation after EXIF or HEIC metadata has been applied; do not reason from an unnormalized raw pixel matrix.
+- Before prompting, record two to four asymmetric anchors in plain left/right language: landmark side, object order, stair or path direction, subject-facing direction, light position, or unequal foreground forms.
+- Preserve the exact horizontal and vertical orientation, camera viewpoint, crop, and anchor order. Do not mirror, flip, rotate, transpose, reverse facing direction, or swap sides unless explicitly requested.
+- After generation, compare source and output as whole-image thumbnails before judging paint quality. A beautiful mirrored result is a failed edit.
+- If orientation fails, retry from the original source rather than from the transformed output. State the anchor facts explicitly and require all other composition and paint decisions to remain unchanged.
 
 ## Stroke Routing
 
@@ -297,6 +329,8 @@ When the first output fails, diagnose the exact failure and issue a targeted edi
 - **Identity drift:** “Restore the source facial structure, hairstyle, expression, skin tone, and body proportions; retain the painterly rendering.”
 - **Generic texture:** “Vary stroke direction by material: broad sky scumbles, broken horizontal water marks, clustered foliage dabs, and blocky architectural strokes.”
 - **Coarse but uniform:** “Run the material-transfer test and replace the canvas-wide short-dab texture. Use broad irregular sky scumbles, vertical rib-following cactus strokes, simplified planar village marks, and clustered dragged ground strokes, with different loading, opacity, edge quality, and quiet-space ratio in each passage.”
+- **Uniform faceted wallpaper:** “Remove the repeated diagonal lozenge, diamond, or palette-knife footprint from the entire image. Rebuild the sky from broad transparent veils and long irregular scumbles with quiet gaps; rebuild architecture from restrained planar bars and broken structural edges; rebuild ground from low dragged strokes, thin shadow fields, and uneven granular clusters. Change mark geometry, scale, loading, edge, and density—not merely color—and retain sparse small dabs only near focal light.”
+- **Over-corrected into calmness:** “Restore chaotic-yet-structured energy without changing the large masses or source facts. Reintroduce irregular broad and medium overlaps, direction changes, buried strokes, uneven loading, and a few off-color corrections inside each material's logic. Keep the thumbnail structure stable; do not return to one universal stamp or smooth the surface into conventional realism.”
 - **Blocky sea:** “Replace rectangular color slabs with a continuous muted water body crossed by medium-to-long arcing and hooked wave gestures. Drag a few thin broken cream foam ribbons across selected crests, leave quiet scumbled passages, and keep the source's large wave bands fixed.”
 - **Too smooth or AI-like:** “Restore visible paint chronology: expose fragments of muted ground, cross them with broad imperfect scumbles, retain irregular broken middle strokes, add only a few opaque accents, and partially bury selected busy passages. Do not regularize the water into one smooth repeating curve pattern.”
 - **Over-blended sky:** “Restore distinct neighboring gray-blue, lavender, rose, coral, peach, and muted-orange marks across the sky. Let them overlap and partially bury one another while preserving visible color separation and irregular ridges; do not convert the atmospheric transition into a seamless gradient or flat uniform surface.”
@@ -308,3 +342,4 @@ When the first output fails, diagnose the exact failure and issue a targeted edi
 - **Too photographic:** “Discard the source's optical microtexture while preserving its factual skeleton. Reduce the scene to five to nine large color-value masses, merge repeated small details into irregular painted passages, remove most secondary edges and local contrast, and rebuild the image in visible paint rather than tracing pixels.”
 - **Too precise or cleaned up:** “Keep the factual silhouette and large masses, but collapse secondary sky, sand, ground, foliage, and distant architecture into visibly worked color fields. Restore coarse overlaps, buried marks, broken edges, approximate texture, and irregular paint loading; do not polish them into exact illustration.”
 - **Too abstract:** “Restore the subject silhouette, landmarks, facial structure, and prop placement; keep abstraction inside the painted surfaces, not the factual composition.”
+- **Mirrored or rotated:** “Return to the original source and restore its displayed orientation and exact left/right anchor order: [state two or more source anchors]. Do not mirror, flip, rotate, transpose, reverse facing direction, or swap sides. Keep the original crop, aspect ratio, viewpoint, subject count, and painterly treatment.”
