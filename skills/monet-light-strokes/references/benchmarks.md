@@ -292,3 +292,23 @@ Keep the road, slopes, forest silhouette, value recession, and blue mountain atm
 ### Correction Rule
 
 Keep the house silhouette, roof pitch, placement, openings, crop, and orientation, but remove most internal construction description. Establish the house from a light plane, chromatic shadow plane, reflected green plane, and a few broken anchors. Let glare and foliage overlap consume long roof, gutter, siding, trim, and window lines. Apply the line-removal test: the house must remain recognizable after those secondary lines are mentally erased.
+
+## R013 — Chalky-Pastel Flower House (Rejected)
+
+- **Status:** text-only failure-mode calibration supplied by the user on 2026-08-10; the evaluated image is not bundled.
+- **Use for:** negative calibration against false luminosity created by canvas-wide white admixture, sweet pastel color, flat chalky shadows, and thin disconnected atmosphere. Do not use it as a positive style reference.
+
+### Why It Fails
+
+- It is a major mechanical improvement over rigid architectural drafting, but opaque baby blue, lime green, and cotton-pink mixtures dominate too many materials.
+- The image raises lightness by sharing white across the palette. That narrows the value and chroma relationships, weakens optical vibration, and makes the surface feel frosted instead of radiant.
+- House and foliage shadows remain colorful in name but too pale and chalky in effect. They lack enough source-appropriate deep cobalt, indigo, violet, blue-green, crimson, olive, or violet-brown anchors to give the highlights force.
+- The house edges are softer, yet the air does not fully bind sky, facade, foliage, and shadow. Too little ambient sky color enters the building shadows, and too little reflected foliage or ground color crosses its light planes.
+
+### Correction Rule
+
+Preserve the source time of day, weather, house silhouette, roof pitch, openings, foliage masses, crop, and orientation. Remove the common milky-white base rather than globally darkening the image. Rebuild selected light with clean cream, gold, peach, coral, yellow-green, or source-derived notes beside quieter atmospheric grays and deeper chromatic shadows. Carry sky color into shadow planes and reflected foliage or ground color into selected facade edges so the atmosphere wraps around the house. Keep white local to true glare, haze, cloud light, and a few accents.
+
+### Clarification
+
+Monet-like brightness is relational, not synonymous with pastel. A high-key source may remain pale and misty, but it still needs temperature variation, chromatic shadow, selective clean pigment, and enough value structure to avoid a uniformly sweet, opaque surface. Dramatic golden hour, mist, or twilight may be requested as a separate observation; do not change the source condition automatically just to manufacture contrast.

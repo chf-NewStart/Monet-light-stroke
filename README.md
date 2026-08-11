@@ -2,7 +2,7 @@
 
 A reusable Codex skill for turning photographs and original scenes into luminous, painting-first French Impressionist images while preserving factual composition.
 
-The skill grew from iterative visual critique rather than a single prompt. It encodes broken color, chromatic shadows, selective impasto, material-specific brushwork, painting-first abstraction, and strict preservation of people, pose, architecture, props, crop, and orientation.
+The skill grew from iterative visual critique rather than a single prompt. It encodes broken color, chromatic shadows, relational luminosity, atmospheric color exchange, selective impasto, material-specific brushwork, painting-first abstraction, and strict preservation of people, pose, architecture, props, crop, and orientation.
 
 ## What consistency means
 

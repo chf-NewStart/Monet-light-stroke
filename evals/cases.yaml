@@ -26,6 +26,7 @@ scoring:
     - layered_oil_construction
     - chromatic_shadows
     - coherent_light
+    - relational_luminosity_and_atmospheric_envelope
   acceptance: >-
     Every hard gate must score 2. The painterly mean must be at least 1.67,
     with no painterly dimension scoring 0.
@@ -39,6 +40,7 @@ global_failures:
   - smooth_digital_gradients_or_globally_blended_color
   - uniform_impasto_stipple_mosaic_or_palette_knife_facets
   - flat_black_shadows_or_hard_ink_contours
+  - canvas_wide_milky_pastel_whitening_or_flat_chalky_shadows
   - signature_text_watermark_unrequested_frame_or_photographic_ui
 
 cases:
@@ -111,6 +113,24 @@ cases:
     known_failure: >-
       A stronger facial likeness does not compensate for zooming into a
       headshot, losing shoes, changing pose, or inventing people.
+
+  - id: flower_house_relational_luminosity
+    benchmarks: [B004, B010]
+    rejected_calibrations: [R009, R012, R013]
+    source_status: private_local_fixture
+    invariants:
+      - house_silhouette_roof_pitch_openings_and_orientation
+      - foliage_and_blossom_mass_placement
+      - source_time_weather_crop_and_light_direction
+    material_checks:
+      architecture: broad_light_and_chromatic_shadow_planes_with_interrupted_anchors
+      foliage: connected_growth_masses_with_sparse_accents_not_pastel_confetti
+      color: selective_clean_pigment_and_deep_chromatic_anchors_not_shared_white
+      atmosphere: sky_and_reflected_colors_cross_selected_house_and_foliage_edges
+    known_failure: >-
+      A mechanically looser house still fails when every material shares the
+      same opaque baby-blue, lime, or cotton-pink lightness, or when softened
+      edges do not create a continuous chromatic envelope around the building.
 
   - id: optional_presentation_frame
     source_status: user_references_local_not_bundled

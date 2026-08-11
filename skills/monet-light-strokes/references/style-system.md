@@ -96,6 +96,20 @@ Translate the source's color relationships rather than copying literal sampled h
 
 Avoid global saturation, uniform exposure lifts, neon accents everywhere, crushed darks, pure white glare, one cinematic color grade, and hue changes that destroy identity or contradict the source light.
 
+## Intensity, White, and the Atmospheric Envelope
+
+Separate perceived luminosity from literal lightness. A painting may feel brighter than the source because a few clean pigments, chromatic darks, and warm-cool intervals intensify one another. It should not become bright because every mixture receives the same dose of opaque white.
+
+- Reserve the clearest high-chroma notes for selected light-facing planes, glints, flowers, foliage tips, or focal edges. Let quieter gray-lavender, muted olive, blue-gray, and lower-chroma air make them radiate.
+- Keep dark anchors colorful. Deep cobalt, indigo, violet, blue-green, crimson, olive, and violet-brown can remain low in value without becoming dead black; they give pale and warm light something to act against.
+- Use white, cream, and pale mixtures locally for glare, haze, cloud light, and sun-struck surfaces. Do not give sky, facade, foliage, blossoms, and shadows one shared milky base that turns the palette into baby blue, lime, and cotton-candy pink.
+- Keep high-key mist or overcast genuinely high-key when the source requires it. Retain subtle value anchors and temperature changes rather than inventing sunset or crushing the shadows merely to create drama.
+- Preserve the source time of day and weather in a style transfer. Offer golden hour, morning mist, or twilight as a requested variant, not as an automatic cure for weak color.
+
+Build the atmospheric envelope through color recurrence across boundaries. Let a sky blue or violet enter a house shadow, reflected foliage green interrupt a sunlit wall, warm ground light touch a lower edge, and humid air soften selected contours. Vary the strength with depth and material so the air feels continuous, not pasted on as one white veil.
+
+Run a white-admixture test on representative sky, light, and shadow patches. If all three share the same opaque chalkiness and narrow middle-light value range, remove the common whitening, reopen clean neighboring pigments, and restore deeper chromatic notes. Then run an envelope test: if the house, foliage, and sky still look separately cut out, carry a few ambient colors across their boundaries without redrawing or globally blurring the scene.
+
 ## Stroke Scale and Paint Surface
 
 Make the painted construction visible without turning it into generic texture.
@@ -309,7 +323,9 @@ Avoid rendering cacti with the sky's broad scumbles, the ground's granular dabs,
 - Establish the building as two or three broad value-color planes, then preserve only the roof pitch, main openings, silhouette, and a few orientation anchors.
 - Suggest siding, gutters, downspouts, trim, shingles, and window divisions with sparse interrupted horizontal or vertical strokes. Never draft every board or carry a clean secondary line across the full form.
 - Let sunlit facades fragment into cream, peach, pale yellow, lilac, and reflected green-blue.
+- Keep those light notes selectively clean rather than uniformly pastel. Counter sunlit cream, peach, and yellow with source-appropriate cobalt, violet, blue-green, crimson, olive, or violet-brown shadow notes; avoid whitening walls, leaves, blossoms, and sky into one sweet chalky family.
 - Let glare, humidity, reflected foliage color, and neighboring air break and partially consume roof, trim, gutter, and window edges while retaining factual geometry.
+- Let the sky's ambient hue enter the building's shadow planes and let foliage or ground reflections cross a few facade edges. This chromatic exchange is the atmospheric envelope; it must vary locally rather than appearing as a uniform haze filter.
 - Suggest windows and rooflines with a few chromatic dark marks; do not outline every edge or resolve every mullion.
 - Reduce contrast and precision as buildings recede.
 
@@ -383,6 +399,8 @@ When the first output fails, diagnose the exact failure and issue a targeted edi
 - **Crystallized water texture:** “Remove the dense network of short, structured, hard-edged impasto ridges. Rebuild the water with unequal broad and medium strokes, thinner scumbled intervals, soft or lost joins, broken side-by-side warm and cool notes, and selective thickness only at a few crests and glints. Preserve wave state and composition; do not replace the ridges with another repeated stamp.”
 - **Muddy color:** “Separate warm light from blue-violet and green shadows using adjacent clean notes; reduce brown and black.”
 - **Dull or overly literal color:** “Preserve the source's value hierarchy, light direction, and recognizable color families, but tune local hues into neighboring warm and cool notes. Place a few clean light-catching accents beside quieter pearl, lavender-gray, olive, and blue-gray fields so luminosity comes from contrast rather than a global brightness increase.”
+- **Chalky pastel or sweet palette:** “Remove the canvas-wide opaque-white admixture. Keep pale cream, peach, lilac, blue, and green only where the source light calls for them, then restore clean pigment separation and source-appropriate deep cobalt, indigo, violet, blue-green, crimson, olive, or violet-brown anchors. Make selected light radiate through chroma, value, and temperature contrast; do not wash every material into baby blue, lime, and cotton-candy pink.”
+- **Thin or disconnected atmosphere:** “Preserve the source time and weather, but strengthen the atmospheric envelope: carry restrained sky color into house and foliage shadows, reflected foliage or ground color into selected light planes, and humid air across a few secondary edges. Vary this exchange with depth and material; do not add a uniform white fog or globally blur the scene.”
 - **Globally bright or oversaturated:** “Lower chroma and value across the broad atmospheric field while retaining a few clear coral, gold, yellow-green, emerald, cobalt, or violet accents at light-facing and focal passages. Restore chromatic shadow and quiet gray intervals; do not dim every color equally.”
 - **Too photographic:** “Discard the source's optical microtexture while preserving its factual skeleton. Reduce the scene to five to nine large color-value masses, merge repeated small details into irregular painted passages, remove most secondary edges and local contrast, and rebuild the image in visible paint rather than tracing pixels.”
 - **Too precise or cleaned up:** “Keep the factual silhouette and large masses, but collapse secondary sky, sand, ground, foliage, and distant architecture into visibly worked color fields. Restore coarse overlaps, buried marks, broken edges, approximate texture, and irregular paint loading; do not polish them into exact illustration.”

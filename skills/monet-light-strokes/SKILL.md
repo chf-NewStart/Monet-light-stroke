@@ -51,6 +51,9 @@ Do not use “in the style of Monet” as the entire prompt. Translate the desir
 - Preserve facial identity and expression while simplifying features into painterly planes.
 - Keep shadows chromatic: blue, violet, green, rose, or warm gray instead of flat black.
 - Preserve recognizable source color identities where they carry factual meaning, especially skin, clothing, and key props, but tune hue, temperature, and chroma within those identities to express the atmospheric light. Treat literal sampled color as a starting point rather than a ceiling.
+- Create luminosity relationally. Use a few clear, saturated pigment notes beside quieter grays and deeper chromatic shadows; do not brighten the painting by mixing the same opaque white into every sky, wall, leaf, flower, and shadow color. Bright is not synonymous with pastel.
+- Preserve a source-appropriate value span and enough deep cobalt, indigo, violet, blue-green, crimson, olive, or violet-brown anchors to make selected light appear radiant. Keep those darks colorful rather than black, and do not force dramatic contrast onto a genuinely misty high-key source.
+- Build an atmospheric envelope by recurring sky, ground, foliage, and reflected-light colors across material boundaries at altered value and intensity. Let ambient sky color enter architectural and foliage shadows and let nearby reflected color interrupt selected edges; avoid both thin cutout clarity and a uniform milky haze.
 - Define silhouettes and contours through neighboring shifts of value, temperature, and reflected color rather than heavy black outlines. Keep the deepest accents chromatic and allow light to break selected edges.
 - Use adjacent broken colors that mix optically; avoid globally blended or airbrushed surfaces.
 - Build the paint surface from fewer broad and medium overlapping strokes with selective thick accents. Avoid covering the image in tiny, uniformly distributed mosaic marks.
@@ -99,6 +102,8 @@ Before returning the image, verify:
 - Edge sharpness, local contrast, and mark count fall with distance. Reject scenes in which foreground leaves, middle-ground house details, and distant rooflines all appear equally focused and exhaustively described.
 - Warm and cool notes vibrate without becoming neon or muddy brown.
 - Apparent brightness comes from selective clear color beside quieter grays and chromatic shadows, not from raising exposure or saturation across the whole image.
+- The white-admixture test passes: sky, sunlit architecture, foliage, flowers, and shadows do not all collapse into opaque baby-blue, lime, and cotton-pink mixtures with the same chalky lightness. If every material looks sweet, milky, or frosted, restore cleaner pigment separation and deeper chromatic anchors instead of merely lowering exposure.
+- The atmospheric-envelope test passes: ambient sky and reflected colors visibly recur across selected edges and shadow planes, making the air feel continuous around the subjects without becoming a global fog overlay or changing the source weather.
 - Large dark foreground masses remain internally chromatic: weave restrained blue, violet, green, reflected warm, and atmospheric notes through them instead of allowing cactus, foliage, clothing, or ground to collapse into heavy near-black shapes.
 - The output reads as an oil painting at both thumbnail size and close inspection.
 - The result does not read as a photograph with a paint texture or brush filter laid over it.
