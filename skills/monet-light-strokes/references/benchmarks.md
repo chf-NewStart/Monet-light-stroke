@@ -1,6 +1,6 @@
 # Approved Benchmarks
 
-Use approved images as visual calibration for reusable paint behavior. Preserve the new source's factual scene; never copy a benchmark's subjects, objects, crop, palette, or composition unless the user explicitly asks.
+Use approved images as visual calibration for reusable paint behavior. Preserve the new source's factual scene; never copy a benchmark's subjects, objects, crop, palette, or composition unless the user explicitly asks. Use B010 as the primary general benchmark for light-defined form and overall Monet-like decision making; use other positive benchmarks for their narrower stated strengths.
 
 ## B001 — Sunset Seabird
 
@@ -234,3 +234,61 @@ Transfer B008's state-aware water zoning, broad-to-medium hierarchy, optical col
 Preserve the house silhouette, roof pitch, openings, left pink-flowering tree, right white-flowering shrub, crop, and orientation. Reduce the scene first to a handful of connected foliage, house, sky, and shadow masses. Rebuild architecture with broad broken planes and only a few interrupted structural anchors; allow glare, humidity, and reflected foliage color to dissolve secondary edges. Rebuild plants from merged color masses with overlapping broad and medium commas, hooks, flicks, and sweeps; reserve small blossom marks for sparse accents. Decrease edge sharpness, contrast, mark count, and descriptive detail through depth.
 
 Reject future outputs resembling R009 even when factual fidelity and palette are attractive. Mass before parts and atmosphere before drafting are requirements, not optional cleanup.
+
+## B010 — Light-Defined Lake
+
+- **Status:** approved by the user on 2026-08-10 as the primary gold-standard benchmark
+- **Image:** [benchmark-010-light-defined-lake.png](../assets/benchmarks/benchmark-010-light-defined-lake.png)
+- **SHA-256:** `ff79a44bf4da868fd52549ae15dfa8019bd1733733825b6ab08c20560074e71c`
+- **Dimensions:** 1254 × 1254
+- **Use for:** primary general calibration, light-defined form, calm-water mechanics, atmospheric depth, scumbled sky color, soft distant masses, and economical subject suggestion.
+
+### Why It Works
+
+- Flat horizontal broken dashes establish the calm lake's physical plane and rhythm. Their length, spacing, loading, edge, and neighboring blue, lavender, pink, gray, and cream notes vary enough to avoid mechanical stamping.
+- The sky is constructed from soft overlapping scumbles of blue, violet, pink, peach, cream, and gray rather than a single blended gradient. The eye completes part of the mixture.
+- Light, adjacent color-value fields, and atmosphere define the scene. Hard illustrative contours are absent, and the distant shore is compressed into a soft connected band.
+- The boat is recognizable as a small suggestive clump of directional warm and dark marks rather than a drafted object with rails, panels, and exact edges.
+- The sun and reflection organize the entire image, so subject forms feel embedded in one observed instant of air rather than separately rendered and later textured.
+
+### Transfer Rule
+
+Transfer B010's governing hierarchy: let light organize the image, let material-state strokes carry form, use soft scumbled atmosphere, preserve broad connected masses, and spend only a few marks on identifying detail. Use flat horizontal dashes specifically for calm reflective water; reroute strokes for other materials and water states. Do not copy its lake, boat, shoreline, sun placement, square crop, exact palette, or visible stroke pattern.
+
+When B010 conflicts with a more detailed but factually faithful result, prefer B010's light-defined economy. Recognizability should survive through silhouette, large color-value relationships, and atmosphere—not through underlying drafting.
+
+## R011 — Stippled Mountain Forest (Rejected)
+
+- **Status:** partially successful but rejected as a full benchmark by the user on 2026-08-10
+- **Image:** [rejected-011-stippled-mountain-forest.png](../assets/benchmarks/rejected-011-stippled-mountain-forest.png)
+- **SHA-256:** `130fb1c2c0fcc0e129491b1da72ff25a30fa53bd1fe59bd2946a0deaf4221414`
+- **Dimensions:** 1086 × 1448
+- **Use for:** negative calibration against a stippled forest carpet. Do not use it as a positive style reference, though its atmospheric mountain recession demonstrates the intended depth direction.
+
+### Why It Fails
+
+- The fading blue mountain bands successfully reduce contrast and create convincing atmospheric distance.
+- The middle forest abandons those large atmospheric masses and resolves into hundreds of similarly sized, similarly spaced short tree or leaf marks.
+- The repeated stippling distributes equal attention across the entire forest, so the passage reads as a procedural carpet instead of sweeping wooded volume.
+
+### Correction Rule
+
+Keep the road, slopes, forest silhouette, value recession, and blue mountain atmosphere. Merge the midground woods into several broad interlocked blue-green, olive, violet, and source-light masses; partly bury busy texture; then use only a few varied verticals, commas, and openings to suggest tree rhythm. Do not translate each tree into a mark.
+
+## R012 — Illustration-Led Flower House (Rejected)
+
+- **Status:** rejected by the user on 2026-08-10 after the mass-first revision
+- **Image:** [rejected-012-illustration-led-flower-house.png](../assets/benchmarks/rejected-012-illustration-led-flower-house.png)
+- **SHA-256:** `e1ac6bb1bd97104c3358381fd69f5741dacf075e30c867457c0720199247f84e`
+- **Dimensions:** 1536 × 1024
+- **Use for:** negative calibration against a prettier but still drawing-dependent architectural result. Do not use it as a positive style reference.
+
+### Why It Fails
+
+- The sky, foliage masses, and glare improve over R009, but the house still depends on continuous roof, siding, gutter, trim, and window geometry to stay legible.
+- Paint softens the surface without fully replacing the underlying modern-realistic construction. The result remains illustration-led rather than light-defined.
+- The building reads as an accurately drafted object behind brushwork; Monet-like form should emerge from adjacent light, shadow, reflected foliage color, and selectively lost edges.
+
+### Correction Rule
+
+Keep the house silhouette, roof pitch, placement, openings, crop, and orientation, but remove most internal construction description. Establish the house from a light plane, chromatic shadow plane, reflected green plane, and a few broken anchors. Let glare and foliage overlap consume long roof, gutter, siding, trim, and window lines. Apply the line-removal test: the house must remain recognizable after those secondary lines are mentally erased.

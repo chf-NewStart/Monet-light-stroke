@@ -6,6 +6,8 @@ Use this reference to translate “Monet feeling and strokes” into concrete im
 
 The scene should feel observed in a particular instant of weather and light. Objects remain legible, but atmosphere partly dissolves their edges. Color changes carry more information than line. Visible brushwork is purposeful and varies with the material being described.
 
+Let light define form rather than decorating an underlying drawing. Silhouette, neighboring color-value fields, reflected color, and atmospheric overlap should carry recognizability after secondary contours and construction lines are mentally removed.
+
 Aim for:
 
 - luminous air between viewer and subject;
@@ -135,6 +137,18 @@ Control not only stroke size but how much information the painting describes. A 
 
 Avoid confusing coarse texture with abstraction. A field of thousands of small coarse dots is still over-described and pointillist; use fewer, larger, overlapping, partly buried passages.
 
+## Light-Defined Form
+
+Build objects as events inside one atmosphere, not as accurately drafted shapes receiving a paint texture.
+
+- Establish a form through a dominant light plane, a chromatic shadow plane, reflected color, and a few lost-and-found edge fragments.
+- Allow sunlight, haze, mist, humidity, glare, foliage overlap, and reflected color to remove parts of contours and internal divisions.
+- Preserve recognition through silhouette, placement, proportion, and a few decisive anchors. Do not preserve every line that a camera records.
+- Use the line-removal test: mentally erase siding lines, gutters, window grids, branch outlines, boat rails, and distant tree marks. If the scene stops reading, color and light are not yet doing enough structural work.
+- Treat a small distant boat, house, or tree group as a suggestive directional clump before adding one or two identifying accents.
+
+Avoid building a precise drawing first and merely roughening its surface. Broken edges are structural decisions, not decorative noise.
+
 ## Chaotic Yet Structured
 
 Separate local paint behavior from global pictorial order.
@@ -242,7 +256,7 @@ Calm mist, fog, or broad overcast may justify quieter and more merged passages, 
 ### Water and reflections
 
 - Choose the water state before choosing its mark vocabulary, and classify separate zones when one scene contains calm reflections, rolling swells, and breaking surf together.
-- For calm reflective water, build the surface from short horizontal or slightly diagonal broken strokes over broad connected color fields.
+- For calm lakes, ponds, and slow rivers, make flat horizontal broken dashes the dominant surface grammar over broad connected color fields. Keep the direction disciplined while varying length, spacing, loading, opacity, edge, and color so rhythm does not become stamping.
 - Reflect major objects as loose vertical bands of their dominant colors.
 - Interrupt those bands with horizontal ripples so they never read as mirrored vector shapes.
 - Add a few light glints without covering the entire surface in white.
@@ -278,6 +292,7 @@ Avoid tracing every stone, evenly stamped granules, sharp photographic footprint
 - Use broad and medium hooks, short commas, upward flicks, sweeps, and uneven color patches to describe growth direction. Vary their scale and allow marks to merge; do not isolate each leaf.
 - For poplars, combine tall vertical trunks with irregular blue-green and yellow-green leaf clusters.
 - Treat blossom-heavy shrubs as several merged warm or pale color clouds crossed by foliage color, then add only a handful of sharper floral accents. Avoid pointillist confetti, thousands of separate dots, and equal petal detail across the plant.
+- Treat broad or midground forests as several sweeping interlocked value-color masses with directional growth rhythms, not as a carpet of hundreds of same-sized tree or leaf marks. Use only a few selective uprights or comma clusters to imply the larger population.
 
 ### Cacti and succulent forms
 
@@ -373,6 +388,8 @@ When the first output fails, diagnose the exact failure and issue a targeted edi
 - **Too precise or cleaned up:** “Keep the factual silhouette and large masses, but collapse secondary sky, sand, ground, foliage, and distant architecture into visibly worked color fields. Restore coarse overlaps, buried marks, broken edges, approximate texture, and irregular paint loading; do not polish them into exact illustration.”
 - **Finely drafted architecture:** “Preserve the building's silhouette, roof pitch, placement, openings, and orientation, but stop describing it board by board. Merge siding and walls into broad broken color planes; reduce gutters, trim, frames, and mullions to a few interrupted anchors; let sunlight, humidity, reflected foliage color, and air eat through secondary edges. The building must read as a light-bearing mass before it reads as construction detail.”
 - **Pointillist foliage or blossoms:** “Erase the thousands of isolated leaf and flower dots without changing the plant silhouettes. Rebuild each tree or shrub from several broad connected color masses, cross them with overlapping medium comma, hook, flick, and sweep strokes, partially bury busy areas, and reserve only a handful of small blossom accents. Make collective mass and motion precede individual detail.”
+- **Stippled forest carpet:** “Keep the mountain depth, road, and forest silhouette, but merge the midground woods into several sweeping interlocked blue-green, olive, violet, and source-light masses. Bury most identical tree dots beneath broad scumble, then re-enter with only a few varied verticals and comma clusters. The forest must read as atmospheric volume before it reads as many trees.”
+- **Drawing carries the form:** “Preserve silhouette, placement, proportion, and essential anchors, but remove reliance on continuous contours and construction lines. Rebuild the subject from adjacent light and chromatic-shadow planes, reflected color, lost-and-found edges, and atmospheric overlap. It must remain recognizable after gutters, siding lines, window grids, rails, and minor outlines are mentally removed.”
 - **Equal focus at every depth:** “Keep the foreground focal clues, then progressively reduce edge certainty, local contrast, mark count, and small detail through the middle ground and distance. Use softer overlaps and atmospheric color recurrence so air separates the planes instead of a camera-like all-over focus.”
 - **Too abstract:** “Restore the subject silhouette, landmarks, facial structure, and prop placement; keep abstraction inside the painted surfaces, not the factual composition.”
 - **Mirrored or rotated:** “Return to the original source and restore its displayed orientation and exact left/right anchor order: [state two or more source anchors]. Do not mirror, flip, rotate, transpose, reverse facing direction, or swap sides. Keep the original crop, aspect ratio, viewpoint, subject count, and painterly treatment.”
