@@ -101,28 +101,39 @@ Use the cropped generation reference rather than the full context image so its a
 
 Transfer only the relational palette behavior: preserve the new source's light and recognizable color families, tune local hues within them, keep most of the field restrained, and concentrate clearer warm-cool accents where light or structure calls for them. Do not copy the poplars, exact palette, vertical arrangement, reflection design, signature, border, or composition.
 
-## B005 — Material-Routed Cactus Dusk
+## B005 — Atmospheric, Material-Routed Cactus Dusk
 
-- **Status:** full-image benchmark approved by the user as the clear winner on 2026-08-10
-- **Accepted image:** [benchmark-005-material-routed-cactus-dusk.png](../assets/benchmarks/benchmark-005-material-routed-cactus-dusk.png)
-- **Accepted SHA-256:** `6522be2337099f8d52a44f4222e0bbff4978f4bec93917fdd302bff0c22373a2`
+- **Status:** official cactus benchmark approved by the user on 2026-08-11; supersedes the more uniformly active 2026-08-10 cactus benchmark
+- **Accepted image:** [benchmark-005-atmospheric-cactus-dusk.jpg](../assets/benchmarks/benchmark-005-atmospheric-cactus-dusk.jpg)
+- **Accepted SHA-256:** `413e0a23dcca2eeb0ded237a8a61b01c7d4e049cd770e881a17cd99784e28d4b`
+- **Superseded comparison:** [superseded-005-active-surface-cactus-dusk.png](../assets/benchmarks/superseded-005-active-surface-cactus-dusk.png)
+- **Superseded SHA-256:** `6522be2337099f8d52a44f4222e0bbff4978f4bec93917fdd302bff0c22373a2`
 - **Rejected comparison:** [rejected-005-overblended-cactus-dusk.png](../assets/benchmarks/rejected-005-overblended-cactus-dusk.png)
 - **Rejected SHA-256:** `c43a48430901cb5fc733d380e735e300072c6a7ee9a5046ec368d363ace9e50e`
-- **Dimensions:** 1086 × 1448 for both
-- **Use for:** material-routed coarseness, separated dusk-sky color, optical vibration, vertical cactus structure, simplified village planes, broken foreground ground, and chromatic twilight shadows.
+- **Dimensions:** accepted image 960 × 1280; comparison images 1086 × 1448
+- **Use for:** routing strokes by material, physical state, distance, and scale; quiet scumbled sky; lost-and-found cactus edges; internally chromatic dark anchors; softened distant town; irregular broken ground; and selective atmospheric color exchange.
 
 ### Accepted Qualities
 
-- The sky is built from visibly separated gray-blue, lavender, rose, coral, peach, and muted-orange marks rather than a seamless gradient. Broad and medium passages overlap while retaining enough raw separation for optical mixing.
-- Bold upper-sky marks remain distinct from the cacti's elongated vertical rib strokes, the town's compressed planar marks, and the ground's clustered dragged strokes; the image passes the material-transfer test.
-- Paint thickness and edge energy vary across the scene instead of flattening into one uniform surface.
+- The sky recedes through broad, quiet gray-blue, lavender, rose, and coral scumbles. It remains visibly painted without becoming either a smooth gradient or a field of equal short mosaic marks.
+- The cacti use elongated, rib-following strokes; the distant town compresses into fewer lower-contrast planes; the foreground ground breaks into broader dragged clusters. A representative patch cannot migrate unchanged between these materials or depths.
+- Sky and reflected dusk color cross selected cactus edges, especially near the brightest atmosphere, while a few firmer edges and deep chromatic cores preserve the cactus silhouettes as visual anchors.
 - Cactus and foreground shadows remain dark but contain blue, violet, olive, reflected coral, warm-gray, and muted atmospheric touches that prevent dead near-black weight.
-- Clear coral sky notes and sparse village lights create luminosity relationally against quieter gray-blue and chromatic-dark fields.
+- Activity is hierarchical: quiet sky passages give the more active cactus, town lights, and broken ground room to breathe.
 - The factual crop, orientation, cactus arrangement, skyline, mountain ridge, and light direction remain faithful to the source.
+
+### Superseded Comparison
+
+The former winner remains painterly and factually faithful, but it is no longer the primary cactus reference:
+
+- Its upper sky is more uniformly active and physically thick, so sky, town, cactus, and ground compete at a more similar surface intensity.
+- Its cactus contours read more continuously against the sky, with less selective atmospheric exchange across their edges.
+- Its distant town retains more local certainty instead of clearly dropping edge sharpness, contrast, and mark count with distance.
+- Keep it only as evidence that coarse paint is not enough; material, state, distance, quiet-space ratio, and selected edge loss must work together.
 
 ### Rejected Comparison
 
-The smoother revision is factually coherent but loses the preferred painting logic:
+The overblended revision is factually coherent but loses the preferred painting logic:
 
 - Its blue-gray-to-coral sky transition is more seamlessly blended, reducing visible color separation and optical vibration.
 - Its upper sky has a flatter, more uniform surface and fewer decisive paint events.
@@ -131,7 +142,7 @@ The smoother revision is factually coherent but loses the preferred painting log
 
 ### Transfer Rule
 
-Transfer B005's hierarchy, not its scene: keep distinct but overlapping atmospheric color notes, route strokes by material, preserve internally chromatic dark masses, and resist smoothing an approved energetic passage into conventional realism. Derive the subjects, crop, exact palette, sky pattern, cactus forms, town, and light key from the new source.
+Transfer B005's hierarchy, not its scene: route strokes by material, physical state, distance, and scale; keep recessive passages quiet but visibly worked; carry atmospheric color across selected edges; preserve a few decisive edges and internally chromatic dark cores; and let description fall with distance. Derive the subjects, crop, exact palette, sky pattern, cactus forms, town, and light key from the new source.
 
 ## Cross-Benchmark Preference
 
@@ -141,7 +152,7 @@ When color feels more literal but less alive in one result, prefer selective rel
 
 Reject any result that fails the material-transfer test: if a representative stroke patch could move unchanged between sky, water, ground, foliage, architecture, or cactus and remain plausible, the coarseness is generic rather than descriptive.
 
-When B005 and its rejected comparison are relevant, prefer the accepted image's separated sky marks and chromatic shadow weave. Do not let an automatic cleanup pass replace optical vibration with a seamless gradient merely because the result appears calmer or more polished.
+When B005 and its comparisons are relevant, prefer the accepted image's quiet scumbled sky, selected breathing edges, chromatic cactus cores, and depth-dependent mark hierarchy. Do not confuse quiet paint with a smooth gradient, or coarse paint with equal activity and relief across the whole canvas.
 
 ## R006 — Uniform-Facet House (Rejected)
 

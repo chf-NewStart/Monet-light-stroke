@@ -64,10 +64,15 @@ cases:
       - skyline_mountain_ridge_and_light_direction
       - original_crop_and_orientation
     material_checks:
-      sky: separated_gray_blue_lavender_rose_coral_peach_and_orange_marks
-      cacti: elongated_vertical_rib_following_marks_with_chromatic_darkness
-      town: compressed_planar_marks
-      ground: clustered_dragged_broken_field
+      sky: quiet_broad_scumbles_with_visible_broken_gray_blue_lavender_rose_and_coral_color
+      cacti: elongated_rib_following_marks_with_selected_breathing_edges_and_deep_chromatic_cores
+      town: compressed_lower_contrast_planar_marks_with_reduced_edge_certainty
+      ground: broad_clustered_dragged_broken_field
+    hierarchy_checks:
+      - quiet_sky_gives_active_foreground_room_to_breathe
+      - edge_sharpness_contrast_and_mark_count_fall_with_distance
+      - material_state_distance_and_scale_route_the_marks
+    superseded_comparison: superseded-005-active-surface-cactus-dusk.png
     rejected_comparison: rejected-005-overblended-cactus-dusk.png
 
   - id: night_house_architecture_and_ground
