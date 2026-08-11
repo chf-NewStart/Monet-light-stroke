@@ -122,6 +122,19 @@ Broken color describes how neighboring pigments interact; it does not require co
 - Judge uniformity in grayscale as well as color. If the paint still looks like one embossed pattern after color is mentally removed, changing the palette has not solved the problem.
 - Run a ridge test: if most neighboring marks are bounded by similarly raised, hard-edged seams and the surface reads as crystalline relief before it reads as color, reduce the repeated impasto, reopen softer and thinner passages, and restore optical interaction between unequal marks.
 
+## Description Scale: Mass Before Parts
+
+Control not only stroke size but how much information the painting describes. A canvas may use visibly varied strokes and still fail when every board, gutter, window bar, leaf, blossom, or pebble is individually resolved.
+
+- Decide the five to nine connected masses first and give each a simple value-temperature role. They must remain legible beneath later marks.
+- Spend most marks on relationships between light, air, and material masses. Spend only a small remainder on selected focal clues.
+- Preserve factual geometry through silhouette, placement, proportion, roof pitch, openings, and major overlaps—not through exhaustive construction lines.
+- Merge repeated units into collective passages: siding into broken planes, flowers into color clouds, leaves into moving foliage masses, gravel into dragged fields, and distant roofs into compressed bands.
+- Let description fall with depth. Reduce edge certainty, mark count, contrast, and color separation from foreground to distance; do not render every plane at one camera-like focus.
+- Run a first-read test at normal size: if individual components announce themselves before light and large color masses, simplify and partially bury them.
+
+Avoid confusing coarse texture with abstraction. A field of thousands of small coarse dots is still over-described and pointillist; use fewer, larger, overlapping, partly buried passages.
+
 ## Chaotic Yet Structured
 
 Separate local paint behavior from global pictorial order.
@@ -261,10 +274,10 @@ Avoid tracing every stone, evenly stamped granules, sharp photographic footprint
 
 ### Foliage and flowers
 
-- Use clustered dabs, hooks, short commas, and uneven color patches.
-- Describe tree mass before individual leaves.
+- Begin with a few broad connected olive, yellow-green, emerald, blue-green, violet-green, or source-derived masses. Bury and overlap their edges so the plant reads as a moving volume before any leaf-like mark appears.
+- Use broad and medium hooks, short commas, upward flicks, sweeps, and uneven color patches to describe growth direction. Vary their scale and allow marks to merge; do not isolate each leaf.
 - For poplars, combine tall vertical trunks with irregular blue-green and yellow-green leaf clusters.
-- Let floral accents sit on top of the color field as a handful of warmer, sharper marks.
+- Treat blossom-heavy shrubs as several merged warm or pale color clouds crossed by foliage color, then add only a handful of sharper floral accents. Avoid pointillist confetti, thousands of separate dots, and equal petal detail across the plant.
 
 ### Cacti and succulent forms
 
@@ -278,9 +291,11 @@ Avoid rendering cacti with the sky's broad scumbles, the ground's granular dabs,
 
 ### Architecture
 
-- Establish walls with blocky horizontal and vertical strokes.
+- Establish the building as two or three broad value-color planes, then preserve only the roof pitch, main openings, silhouette, and a few orientation anchors.
+- Suggest siding, gutters, downspouts, trim, shingles, and window divisions with sparse interrupted horizontal or vertical strokes. Never draft every board or carry a clean secondary line across the full form.
 - Let sunlit facades fragment into cream, peach, pale yellow, lilac, and reflected green-blue.
-- Suggest windows and rooflines with a few dark marks; do not outline every edge.
+- Let glare, humidity, reflected foliage color, and neighboring air break and partially consume roof, trim, gutter, and window edges while retaining factual geometry.
+- Suggest windows and rooflines with a few chromatic dark marks; do not outline every edge or resolve every mullion.
 - Reduce contrast and precision as buildings recede.
 
 ### People and portraits
@@ -303,6 +318,7 @@ Avoid rendering cacti with the sky's broad scumbles, the ground's granular dabs,
 - Distance: cooler, lighter, lower-contrast masses with fewer marks.
 - Focal edge: one or two areas may be relatively crisp.
 - Peripheral edges: dissolve into adjacent atmosphere while keeping the outer composition intact.
+- Do not give foreground foliage, middle-ground architecture, and distant roofline the same edge sharpness or descriptive density. Atmosphere must visibly separate the planes.
 
 ## Motif Recipes
 
@@ -355,5 +371,8 @@ When the first output fails, diagnose the exact failure and issue a targeted edi
 - **Globally bright or oversaturated:** “Lower chroma and value across the broad atmospheric field while retaining a few clear coral, gold, yellow-green, emerald, cobalt, or violet accents at light-facing and focal passages. Restore chromatic shadow and quiet gray intervals; do not dim every color equally.”
 - **Too photographic:** “Discard the source's optical microtexture while preserving its factual skeleton. Reduce the scene to five to nine large color-value masses, merge repeated small details into irregular painted passages, remove most secondary edges and local contrast, and rebuild the image in visible paint rather than tracing pixels.”
 - **Too precise or cleaned up:** “Keep the factual silhouette and large masses, but collapse secondary sky, sand, ground, foliage, and distant architecture into visibly worked color fields. Restore coarse overlaps, buried marks, broken edges, approximate texture, and irregular paint loading; do not polish them into exact illustration.”
+- **Finely drafted architecture:** “Preserve the building's silhouette, roof pitch, placement, openings, and orientation, but stop describing it board by board. Merge siding and walls into broad broken color planes; reduce gutters, trim, frames, and mullions to a few interrupted anchors; let sunlight, humidity, reflected foliage color, and air eat through secondary edges. The building must read as a light-bearing mass before it reads as construction detail.”
+- **Pointillist foliage or blossoms:** “Erase the thousands of isolated leaf and flower dots without changing the plant silhouettes. Rebuild each tree or shrub from several broad connected color masses, cross them with overlapping medium comma, hook, flick, and sweep strokes, partially bury busy areas, and reserve only a handful of small blossom accents. Make collective mass and motion precede individual detail.”
+- **Equal focus at every depth:** “Keep the foreground focal clues, then progressively reduce edge certainty, local contrast, mark count, and small detail through the middle ground and distance. Use softer overlaps and atmospheric color recurrence so air separates the planes instead of a camera-like all-over focus.”
 - **Too abstract:** “Restore the subject silhouette, landmarks, facial structure, and prop placement; keep abstraction inside the painted surfaces, not the factual composition.”
 - **Mirrored or rotated:** “Return to the original source and restore its displayed orientation and exact left/right anchor order: [state two or more source anchors]. Do not mirror, flip, rotate, transpose, reverse facing direction, or swap sides. Keep the original crop, aspect ratio, viewpoint, subject count, and painterly treatment.”

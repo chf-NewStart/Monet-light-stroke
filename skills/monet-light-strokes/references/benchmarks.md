@@ -213,3 +213,24 @@ Reject short, structured, crystallized water strokes that form a dense network o
 ### Transfer Rule
 
 Transfer B008's state-aware water zoning, broad-to-medium hierarchy, optical color separation, selective relief, and factual fidelity. Do not copy its bird, sunset layout, wave placement, palette, crop, or exact visible stroke pattern into a different source.
+
+## R009 — Fine-Drafted Flower House (Rejected)
+
+- **Status:** rejected by the user on 2026-08-10
+- **Image:** [rejected-009-fine-drafted-flower-house.png](../assets/benchmarks/rejected-009-fine-drafted-flower-house.png)
+- **SHA-256:** `6ed2789ba9d91dd5b158dc6e9285c627f2d52fe4efbfd0457e0d8e22be3d403c`
+- **Dimensions:** 1536 × 1024
+- **Use for:** negative calibration against excessive descriptive resolution, pointillist foliage, precise architectural drafting, and camera-like equal focus. Do not use it as a positive style reference.
+
+### Why It Fails
+
+- The composition and orientation are faithful, but house siding, gutter, downspout, window frames, and roof edges remain too straight, continuous, and individually resolved. The building reads as drafted construction before it reads as a mass carrying sunlight and reflected color.
+- Leaves and pink-white blossoms become countless small separate marks. Their isolation resembles stippling or Pointillism more than broad overlapping Impressionist foliage construction.
+- Foreground leaves, middle-ground house detail, and upper roofline remain similarly sharp and densely described, so atmosphere does not create enough depth.
+- Varying stroke direction was insufficient because the descriptive granularity stayed fine and tightly controlled across the scene.
+
+### Correction Rule
+
+Preserve the house silhouette, roof pitch, openings, left pink-flowering tree, right white-flowering shrub, crop, and orientation. Reduce the scene first to a handful of connected foliage, house, sky, and shadow masses. Rebuild architecture with broad broken planes and only a few interrupted structural anchors; allow glare, humidity, and reflected foliage color to dissolve secondary edges. Rebuild plants from merged color masses with overlapping broad and medium commas, hooks, flicks, and sweeps; reserve small blossom marks for sparse accents. Decrease edge sharpness, contrast, mark count, and descriptive detail through depth.
+
+Reject future outputs resembling R009 even when factual fidelity and palette are attractive. Mass before parts and atmosphere before drafting are requirements, not optional cleanup.
