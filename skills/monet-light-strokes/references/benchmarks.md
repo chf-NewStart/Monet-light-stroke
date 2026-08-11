@@ -1,6 +1,6 @@
 # Approved Benchmarks
 
-Use approved images as visual calibration for reusable paint behavior. Preserve the new source's factual scene; never copy a benchmark's subjects, objects, crop, palette, or composition unless the user explicitly asks. Use B010 as the primary general benchmark for light-defined form and overall Monet-like decision making; use other positive benchmarks for their narrower stated strengths.
+Use approved images as visual calibration for reusable paint behavior. Preserve the new source's factual scene; never copy a benchmark's subjects, objects, crop, palette, or composition unless the user explicitly asks. Use B010 as the primary general benchmark for light-defined form and overall Monet-like decision making; use other positive benchmarks for their narrower stated strengths. When the new source contains daylight architecture wrapped in flowering foliage, pair B010 with B014 and use B014 only for description scale, edge loss, foliage massing, and chromatic-shadow behavior.
 
 ## B001 — Sunset Seabird
 
@@ -312,3 +312,42 @@ Preserve the source time of day, weather, house silhouette, roof pitch, openings
 ### Clarification
 
 Monet-like brightness is relational, not synonymous with pastel. A high-key source may remain pale and misty, but it still needs temperature variation, chromatic shadow, selective clean pigment, and enough value structure to avoid a uniformly sweet, opaque surface. Dramatic golden hour, mist, or twilight may be requested as a separate observation; do not change the source condition automatically just to manufacture contrast.
+
+## B014 — Atmospheric Flower House
+
+- **Status:** approved by the user on 2026-08-10 as the preferred flower-house pass
+- **Image:** [benchmark-014-atmospheric-flower-house.png](../assets/benchmarks/benchmark-014-atmospheric-flower-house.png)
+- **SHA-256:** `be666f8d406524064933da13b8e8a84981dcbf910ae7a6f7c0a74b3eac447f1f`
+- **Dimensions:** 1024 × 682
+- **Use for:** daylight architecture embedded in flowering foliage, mass-first description, selective architectural edge loss, broad blossom grouping, chromatic spring shadows, and light-defined recognizability.
+
+### Why It Works
+
+- The house reads first as a cool sunlit mass inside one spring atmosphere. Its roof pitch, placement, main openings, and silhouette remain recognizable, while siding, trim, gutter, and window divisions are sparse, interrupted, lower-contrast, or partly consumed by glare and foliage overlap.
+- The left pink canopy, lower green growth, and right pale blossom mass are built from broad and medium overlapping color passages before a handful of smaller accents. Blossoms appear as clustered clouds rather than pointillist confetti.
+- Deep teal, cobalt, blue-violet, olive, and violet-brown notes ventilate the foliage and house shadows, giving the cream, yellow-green, pink, and sky-blue light enough contrast to radiate without canvas-wide pastel whitening.
+- Sky color enters selected house and foliage shadows; reflected green and blossom color cross some architectural edges. This atmospheric exchange binds the building and garden without erasing the factual scene.
+- Brush scale and edge certainty vary by depth. The foreground foliage carries thicker irregular marks, the house retains only a few planar anchors, and the rear roof and sky dissolve more gently.
+
+### Transfer Rule
+
+Use B014 only to calibrate description scale, lost-and-found architectural edges, collective foliage and blossom masses, chromatic shadow depth, and the atmospheric exchange between vegetation, building, and sky. The new source remains sole authority for crop, orientation, geometry, subject placement, palette, weather, and light direction. Never copy B014's house, tree arrangement, blossom placement, spring palette, or visible stroke pattern into another scene.
+
+## R015 — Neat Stippled Flower House (Rejected)
+
+- **Status:** rejected by the user on 2026-08-10
+- **Image:** [rejected-015-neat-stippled-flower-house.png](../assets/benchmarks/rejected-015-neat-stippled-flower-house.png)
+- **SHA-256:** `52b8db839b0c70e17d71da295aca85f81bcfb4a59ddcb85043e0d8fe28291bbc`
+- **Dimensions:** 1536 × 1024
+- **Use for:** negative calibration against ruler-neat architecture, dotty foliage, shallow green-only shadows, and paint that decorates an underlying drawing. Do not use it as a positive generation reference.
+
+### Why It Fails
+
+- Parallel siding, clean gutter and window geometry, and continuous roof or trim edges describe the building board by board. The house remains dependent on drafting instead of adjacent light and chromatic-shadow planes.
+- Foliage and blossoms break into many similarly small, separate marks. The plants read as stippled inventory rather than broad moving masses crossed by selective commas, hooks, flicks, and sweeps.
+- Dark passages lean too heavily on generic green and lack enough cobalt, violet, teal, olive, and reflected warm color to make the sunlit planes luminous.
+- Light sits on top of the house and plants as decoration; it does not dissolve selected edges or create a continuous atmospheric envelope around them.
+
+### Correction Rule
+
+Return to the original source, use B010 for light-defined economy, and use B014 only for mark scale, architectural edge loss, foliage massing, and chromatic-shadow behavior. Preserve the exact source silhouette and orientation while replacing repeated siding, trim, gutter, window, leaf, and blossom description with broad connected planes, irregular overlapping masses, and only a few interrupted focal anchors. Do not include R015 as a visual generation reference.

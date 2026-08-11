@@ -115,22 +115,25 @@ cases:
       headshot, losing shoes, changing pose, or inventing people.
 
   - id: flower_house_relational_luminosity
-    benchmarks: [B004, B010]
-    rejected_calibrations: [R009, R012, R013]
+    benchmarks: [B004, B010, B014]
+    rejected_calibrations: [R009, R012, R013, R015]
     source_status: private_local_fixture
     invariants:
       - house_silhouette_roof_pitch_openings_and_orientation
       - foliage_and_blossom_mass_placement
       - source_time_weather_crop_and_light_direction
     material_checks:
-      architecture: broad_light_and_chromatic_shadow_planes_with_interrupted_anchors
-      foliage: connected_growth_masses_with_sparse_accents_not_pastel_confetti
+      architecture: broad_light_and_chromatic_shadow_planes_with_few_interrupted_anchors_not_parallel_siding
+      foliage: connected_growth_and_blossom_masses_with_sparse_accents_not_stippled_inventory
       color: selective_clean_pigment_and_deep_chromatic_anchors_not_shared_white
       atmosphere: sky_and_reflected_colors_cross_selected_house_and_foliage_edges
     known_failure: >-
       A mechanically looser house still fails when every material shares the
       same opaque baby-blue, lime, or cotton-pink lightness, or when softened
       edges do not create a continuous chromatic envelope around the building.
+      It also fails when parallel siding, clean gutters, window grids, or many
+      equal leaf and blossom marks carry the description before the large
+      light, house, and foliage masses.
 
   - id: optional_presentation_frame
     source_status: user_references_local_not_bundled

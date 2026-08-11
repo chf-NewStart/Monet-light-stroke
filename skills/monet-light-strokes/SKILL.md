@@ -7,7 +7,7 @@ description: Transform photos or generate original scenes with luminous Claude M
 
 Create an original Impressionist interpretation in which light and atmosphere organize the scene. Synthesize the shared visual grammar across the references; never reproduce a particular painting's composition, exact palette, or signature.
 
-Read [references/style-system.md](references/style-system.md) before writing the final generation or edit prompt. Read [references/benchmarks.md](references/benchmarks.md) when an approved benchmark should guide a new result, and use its image only for paint behavior—not scene content. Treat B010 as the primary general benchmark for light-defined form; use the other positive benchmarks only for their stated materials or conditions. Use the image-generation tool for raster output.
+Read [references/style-system.md](references/style-system.md) before writing the final generation or edit prompt. Read [references/benchmarks.md](references/benchmarks.md) when an approved benchmark should guide a new result, and use its image only for paint behavior—not scene content. Treat B010 as the primary general benchmark for light-defined form; use the other positive benchmarks only for their stated materials or conditions. For daylight architecture wrapped in flowering foliage, pair B010 with B014 and transfer from B014 only its description scale, edge loss, foliage massing, and chromatic-shadow behavior. Use the image-generation tool for raster output.
 
 Return the artwork only. Do not add or offer frames, mats, walls, glass, labels, or museum-style presentation mockups. Physical presentation is intentionally outside this skill's scope because it requires separate composition, scale, and shared-lighting control.
 
