@@ -106,6 +106,7 @@ Make the painted construction visible without turning it into generic texture.
 - Keep calm passages beside active passages. Do not give every square inch the same density or sharpness.
 - Make the dominant strokes readable at ordinary display size, not only when zoomed in.
 - Avoid pixel-sized dabs, uniform pointillism, repeating leaf-shaped stamps, knitted texture, and evenly distributed palette-knife facets.
+- Reject short, structured, crystallized ridges that interlock into a dense cell pattern. Heavy relief is not a substitute for broken color: preserve side-by-side pigment differences, varied edge quality, and meaningful changes in paint thickness instead of embossing every mark equally.
 
 For water-lily and reflective-water scenes, begin with broad blue, violet, green, mauve, and cream masses; cross them with medium horizontal strokes; finish with only a few decisive flower, foam, or light dabs.
 
@@ -119,6 +120,7 @@ Broken color describes how neighboring pigments interact; it does not require co
 - Vary scale inside each material. Interrupt broad sky veils with a few medium broken notes; interrupt granular ground with longer dragged strokes and quiet shadow fields.
 - Reject interlocking palette-knife tiles, repeated diagonal diamonds, same-sized rectangular facets, woven hatching, or any recognizable digital brush stamp that becomes the canvas's universal unit.
 - Judge uniformity in grayscale as well as color. If the paint still looks like one embossed pattern after color is mentally removed, changing the palette has not solved the problem.
+- Run a ridge test: if most neighboring marks are bounded by similarly raised, hard-edged seams and the surface reads as crystalline relief before it reads as color, reduce the repeated impasto, reopen softer and thinner passages, and restore optical interaction between unequal marks.
 
 ## Chaotic Yet Structured
 
@@ -245,7 +247,7 @@ For choppy open sea:
 - Permit subdued muddy-neutral mixtures within the water body while keeping foam and reflected light clean. The field should feel optically mixed, not brightly tiled.
 - Preserve the source's wave bands and light direction, but invent the exact curvature, overlap, and interruption of individual painted gestures.
 
-Avoid a one-formula “water brush,” chunky palette-knife blocks, checkerboard color slabs, polygonal tessellation, uniformly short or evenly spaced dashes, canvas-wide crosshatching, thick white frosting on every crest, equal stroke density across the entire water surface, and a single smooth repeating wave pattern that looks digitally combed.
+Avoid a one-formula “water brush,” chunky palette-knife blocks, checkerboard color slabs, polygonal tessellation, short crystallized ridge cells, uniformly short or evenly spaced dashes, canvas-wide crosshatching, thick white frosting on every crest, equal stroke density or relief across the entire water surface, and a single smooth repeating wave pattern that looks digitally combed.
 
 ### Ground, sand, and gravel
 
@@ -347,6 +349,7 @@ When the first output fails, diagnose the exact failure and issue a targeted edi
 - **Over-blended sky:** “Restore distinct neighboring gray-blue, lavender, rose, coral, peach, and muted-orange marks across the sky. Let them overlap and partially bury one another while preserving visible color separation and irregular ridges; do not convert the atmospheric transition into a seamless gradient or flat uniform surface.”
 - **Heavy dead foreground shadow:** “Keep the source's dark value structure, but ventilate cactus, foliage, and ground shadows with restrained blue, violet, teal, olive, reflected coral, and warm-gray notes. Preserve darkness through value relationships rather than near-black fill.”
 - **Too mechanical:** “Break the repeated pattern with uneven clusters and pauses, varied pressure and loading, imperfect overlaps, dry-brush interruptions, and a few restrained warm/cool surprise notes; keep every scene-level fact unchanged.”
+- **Crystallized water texture:** “Remove the dense network of short, structured, hard-edged impasto ridges. Rebuild the water with unequal broad and medium strokes, thinner scumbled intervals, soft or lost joins, broken side-by-side warm and cool notes, and selective thickness only at a few crests and glints. Preserve wave state and composition; do not replace the ridges with another repeated stamp.”
 - **Muddy color:** “Separate warm light from blue-violet and green shadows using adjacent clean notes; reduce brown and black.”
 - **Dull or overly literal color:** “Preserve the source's value hierarchy, light direction, and recognizable color families, but tune local hues into neighboring warm and cool notes. Place a few clean light-catching accents beside quieter pearl, lavender-gray, olive, and blue-gray fields so luminosity comes from contrast rather than a global brightness increase.”
 - **Globally bright or oversaturated:** “Lower chroma and value across the broad atmospheric field while retaining a few clear coral, gold, yellow-green, emerald, cobalt, or violet accents at light-facing and focal passages. Restore chromatic shadow and quiet gray intervals; do not dim every color equally.”

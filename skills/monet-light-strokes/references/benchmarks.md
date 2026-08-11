@@ -190,3 +190,26 @@ Do not classify every coarse facet as a failure. Reject mechanical sameness acro
 ### Transfer Rule
 
 Transfer only B007's chaos-structure relationship, chromatic nocturne logic, energetic-but-varied sky rhythm, selective warm focus, and material differentiation. Derive the new source's subjects, orientation, crop, palette, architecture, figure placement, and exact marks independently.
+
+## B008 — State-Routed Sunset Seabird
+
+- **Status:** approved by the user on 2026-08-10 as the preferred complete bird pass
+- **Image:** [benchmark-008-state-routed-sunset-seabird.png](../assets/benchmarks/benchmark-008-state-routed-sunset-seabird.png)
+- **SHA-256:** `67c7f9dc88b9f8b45faa8935c8f8d1b5a3f5d6febb1682aa4dde444651808cdc`
+- **Dimensions:** 1254 × 1254
+- **Use for:** mixed-state sunset water, broad-to-medium stroke hierarchy, optical color interaction, restrained relief, and faithful bird/reflection preservation.
+
+### Accepted Qualities
+
+- The large breaker bands, middle swells, reflection path, and foreground shore break remain structurally distinct without being covered by one universal water mark.
+- Broad and medium gray-blue, lavender, olive, peach, ochre, coral, and cream strokes overlap and mix optically; their color interaction matters more than a repeated embossed surface.
+- Paint loading varies. Thick accents remain selective while thinner scumbled and softer-edged passages keep the sea from becoming uniformly crusted.
+- The bird, right-facing direction, raised-wing pose, vertical reflection, sun, shoreline, crop, and displayed orientation remain faithful.
+
+### Rejected Counterexample
+
+Reject short, structured, crystallized water strokes that form a dense network of similarly raised ridges. That texture reads as uniform impasto relief instead of varied descriptive paint and weakens side-by-side broken-color mixing. Do not “fix” this by changing only hue or stroke direction; change mark scale, loading, edge hardness, overlap, and the ratio of thin to thick passages.
+
+### Transfer Rule
+
+Transfer B008's state-aware water zoning, broad-to-medium hierarchy, optical color separation, selective relief, and factual fidelity. Do not copy its bird, sunset layout, wave placement, palette, crop, or exact visible stroke pattern into a different source.
