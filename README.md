@@ -2,7 +2,9 @@
 
 A reusable Codex skill for turning photographs and original scenes into luminous, painting-first French Impressionist images while preserving factual composition.
 
-The skill grew from iterative visual critique rather than a single prompt. It encodes broken color, chromatic shadows, relational luminosity, atmospheric color exchange, selective impasto, material-specific brushwork, painting-first abstraction, and strict preservation of people, pose, architecture, props, crop, and orientation.
+The skill grew from iterative visual critique rather than a single prompt. It encodes broken color, chromatic shadows, relational luminosity, atmospheric color exchange, selective impasto, material-specific brushwork, painting-first abstraction, spatial-frequency composition, object-material contact, and strict preservation of people, pose, architecture, props, crop, and orientation.
+
+Its anti-uniformity gate operates inside each dominant material, not only across the full image. Water, sky, meadow, snow, foliage, and ground must each contain perceptibly different quiet, transitional, and active passages. A color-rich image still fails when one dash, curl, ridge, or facet footprint tiles the dominant region, or when subjects sit on top of an uninterrupted texture without physical interaction.
 
 ## What consistency means
 
@@ -31,6 +33,8 @@ skills/monet-light-strokes/
     people-in-scenes.md    Figure distance, clothing, and integration rules
     benchmarks.md          Accepted and rejected benchmark registry
     collage-output.md      Paired clean-artwork and source-derived collage rules
+  scripts/
+    audit_surface_uniformity.py  Whole-image and dominant-material diagnostics
   assets/benchmarks/       Redistributable calibration images
 evals/cases.yaml           Scene-diverse regression suite and scoring gates
 ```

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 purpose: >-
   Test whether changes improve painterly behavior without sacrificing source fidelity.
 
@@ -13,6 +13,8 @@ scoring:
     - subject_and_object_count
     - identity_pose_and_anatomy
     - landmark_geometry
+    - dominant_material_spatial_frequency
+    - object_material_contact
   painterly_dimensions:
     - painting_first_abstraction
     - light_defined_boundaries_and_edge_hierarchy
@@ -20,6 +22,7 @@ scoring:
     - broken_color_and_optical_mixing
     - varied_touch_and_discrete_mark_economy
     - information_weighted_paint_activity
+    - within_material_quiet_transition_active_zones
     - layered_oil_construction
     - chromatic_shadows
     - coherent_light
@@ -42,6 +45,9 @@ global_failures:
   - uniform_impasto_stipple_mosaic_or_palette_knife_facets
   - broken_color_misread_as_uniform_dots_commas_or_short_dabs
   - paint_activity_distributed_uniformly_or_as_a_photographic_edge_map
+  - dominant_material_uses_one_continuous_stamp_frequency_despite_varied_color_or_angle
+  - whole_image_contrast_hides_a_locally_uniform_water_sky_field_snow_foliage_or_ground_crop
+  - objects_appear_pasted_over_uninterrupted_water_ground_or_atmospheric_texture
   - overdescribed_leaf_petals_clothing_or_architectural_inventory
   - flat_black_shadows_or_hard_ink_contours
   - one_fixed_hue_range_or_automatic_violet_shadow_across_all_conditions
@@ -57,6 +63,32 @@ global_failures:
   - upper_original_has_stroke_keyline_mat_rim_halo_bevel_or_shadow
 
 cases:
+  - id: dominant_material_spatial_frequency_and_contact
+    source_status: consented_private_local_fixture
+    hard_gate: true
+    crop_checks:
+      - inspect_largest_dominant_material_separately_in_color_and_grayscale
+      - require_quiet_body_transitional_passages_and_sparse_active_events_at_normal_size
+      - require_broad_mass_and_activity_islands_to_survive_at_thumbnail_size
+      - reject_one_recognizable_stamp_family_tiling_most_of_the_material
+      - do_not_count_contrast_with_other_materials_as_within_material_modulation
+    contact_checks:
+      - important_subjects_interrupt_adjacent_material_through_source_supported_physical_evidence
+      - water_contacts_use_lapping_wake_reflection_occlusion_wet_seam_or_displaced_flow_as_applicable
+      - stationary_subjects_on_exposed_rocks_do_not_receive_generic_concentric_rings
+      - contact_evidence_remains_economical_and_does_not_redesign_subjects
+    prompt_checks:
+      - describe_broad_bodies_and_quiet_passages_before_surface_mark_nouns
+      - avoid_long_lists_of_dashes_curls_hooks_facets_ripples_and_impasto_that_imply_full_coverage
+      - never_freeze_a_surface_that_has_not_passed_the_material_crop_gate
+    known_failure: >-
+      A result fails even when whole-image metrics and palette look plausible if
+      its largest material crop repeats one short ridge, dash, curl, comma, or
+      facet at similar density and relief. It also fails when birds, rocks,
+      boats, figures, or architecture sit on an uninterrupted texture without
+      wake, lapping, reflection, occlusion, cast color, wet contact, overlap, or
+      flow displacement appropriate to the source.
+
   - id: paired_clean_painting_and_source_colored_collage
     source_status: consented_private_local_fixture
     output_contract:

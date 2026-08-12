@@ -208,6 +208,28 @@ Broken color describes how neighboring pigments interact; it does not require co
 - Judge uniformity in grayscale as well as color. If the paint still looks like one embossed pattern after color is mentally removed, changing the palette has not solved the problem.
 - Run a ridge test: if most neighboring marks are bounded by similarly raised, hard-edged seams and the surface reads as crystalline relief before it reads as color, reduce the repeated impasto, reopen softer and thinner passages, and restore optical interaction between unequal marks.
 
+## Spatial-Frequency Composition
+
+Do not solve uniformity only by randomizing individual marks. A field can vary hue, angle, length, and pressure yet still read as one synthetic texture when the same frequency, density, and relief continue without interruption. Compose the distribution of activity at the scale of passages.
+
+For every dominant material, map three functional regimes before naming surface marks:
+
+1. **Quiet body:** broad connected color, thin scumble, rubbing, soft wet joins, exposed ground, or partly buried paint. It remains visibly painted but does not advertise a repeating unit.
+2. **Transition:** unequal medium overlaps that turn, thin, widen, merge, or change direction as depth, light, current, wind, material state, or occlusion changes.
+3. **Active event:** locally denser, smaller, higher-contrast, or more loaded marks reserved for a crest, glint, flower cluster, contact edge, reflected light path, focal silhouette, or material break.
+
+Make the regimes visibly different at ordinary display size. Do not distribute them as equal stripes or a procedural foreground-middle-distance template. Conventional depth may change them gradually; shallow all-over water or late pond fields should arrange them as irregular islands, vertical color paths, overlaps, pauses, and buried passages.
+
+Run these gates before acceptance:
+
+- **Dominant-material crop test:** mentally or literally crop the largest water, sky, field, snow, foliage, or ground area. It must still show strong density modulation and at least three activity regimes. Global contrast between different materials does not count.
+- **Two-scale test:** inspect at thumbnail and normal size. Thumbnail view must show broad bodies and unequal activity zones; normal view may reveal varied touch. If texture appears only as one even grain at both scales, reject it.
+- **Desaturation test:** remove color mentally. Quiet and active passages must remain different through scale, density, loading, edge, and burial. Hue variation cannot disguise a stamped surface.
+- **Stamp-family test:** identify the most common visible mark silhouette. If it can tile a large region without obvious interruption, merge or bury most instances and introduce broader bodies plus a different transitional family.
+- **Contact test:** at every important object-material boundary, the adjacent field must respond through wake, lapping, reflection, occlusion, cast color, wet seam, overlap, or directional interruption. An object resting on an uninterrupted texture fails even when its silhouette is accurate.
+
+Corpus measurements across 1,193 user-supplied Monet reproductions support these visual gates: stroke-band density varies strongly from block to block (median coefficient of variation about 0.70), while a jittered dot-grid control remains nearly uniform (about 0.09). Use the figures as diagnostic context, not as proof of authenticity or rigid per-image targets. Whole-image statistics can be fooled by contrast between materials, so always inspect the dominant material separately.
+
 ## Description Scale: Mass Before Parts
 
 Control not only stroke size but how much information the painting describes. A canvas may use visibly varied strokes and still fail when every board, gutter, window bar, leaf, blossom, or pebble is individually resolved.
@@ -371,6 +393,8 @@ Avoid a uniform milky overlay, equal blur on every depth plane, pure-white vapor
 - Translate dense photographed reflection loops, squiggles, sparkle paths, and wave-edge tracings selectively. Keep a few irregular broken chromatic contours that reveal flow; merge or bury the rest so they do not become a wire mesh, contour map, tiled ripple field, or inventory of camera-recorded highlights.
 - When a small duck, bird, buoy, leaf, or other anchor occupies an all-water field, preserve its exact count, placement, scale, facing direction, silhouette, and wake or contact clue. Render it as a concise chromatic cluster and let the surrounding light field remain the first read.
 - Distinguish compositionally meaningful floating objects from microdebris. Preserve decisive twigs, fragments, or foam anchors when their placement affects recognition or balance; absorb most incidental specks into broad paint chronology instead of translating them one by one.
+- Build the water body before naming its surface signs. Assign at least one broad quiet body, unequal transitional currents, and sparse active events. In calm or gently moving water, let rubbed or scumbled color occupy substantial area; gather medium gestures only around changes in reflection, wind, depth, shore, current, or contact; reserve smaller or thicker accents for a few glints, crests, lapping edges, or wake fragments. Do not let prompt words such as ripple, curl, dash, hook, or impasto become a coverage instruction.
+- At rocks, birds, boats, piers, or banks, interrupt the base rhythm with source-supported physical evidence: a darker wet seam, displaced or softened reflection, broken lapping band, short wake, pooled shadow, occlusion, or a surface gesture bending around the obstruction. Concentric rings are optional and often wrong for stationary subjects on exposed rocks; interaction is mandatory.
 
 #### Perspective-scaled water rhythm
 
@@ -384,7 +408,7 @@ Apply this rule only when the source contains readable near-to-far water recessi
 - Diminish stroke width, paint loading, contrast, edge certainty, and descriptive detail with distance while letting spacing compress naturally. Preserve the water state and perspective; do not turn the transition into three mechanical bands.
 - Arrange reflected yellows, greens, blues, and chromatic darks into loose vertical color paths beneath the surface grammar, then let the horizontal or state-specific water gestures interrupt those paths optically.
 
-Avoid same-sized oval stamps, tiled ripples, evenly spaced dashes, uniform impasto, tessellated water, or identical stroke density from foreground to horizon.
+Avoid same-sized oval stamps, tiled ripples, evenly spaced dashes, uniform impasto, tessellated water, or identical stroke density from foreground to horizon. Reject water when foreground, middle, and far passages share one mark scale, or when a shallow all-over field lacks irregular islands of quiet, transition, and activity.
 
 For choppy open sea:
 
@@ -542,6 +566,8 @@ When the first output fails, diagnose the exact failure and issue a targeted edi
 - **Washed-out focal anchor:** “Change only the focal subject and its direct reflection or cast shadow. Restore the source's decisive low-value anchor with deep indigo, cobalt, violet-brown, blue-green, and restrained olive while retaining loose broken paint and a few atmospheric edge notes. Keep its core significantly darker than the immediate light field; do not sharpen it into an outlined cutout, fill it with flat black, or alter the successful surrounding paint.”
 - **Too mechanical:** “Break the repeated pattern with uneven clusters and pauses, varied pressure and loading, imperfect overlaps, dry-brush interruptions, and a few restrained warm/cool surprise notes; keep every scene-level fact unchanged.”
 - **Uniform activity map:** “Preserve the source facts and successful broad masses, but redistribute paint activity by pictorial information and attention. Concentrate stronger contrast, direction changes, loading, and smaller accents around meaningful light events, motion, overlap, material transitions, and focal recognition. Quiet supporting fields with broader joins, thinner paint, softer burial, and longer intervals. Do not trace every photographic edge or make the whole canvas equally busy.”
+- **Locally uniform dominant material:** “Return to the original source or last factually faithful edit. Freeze composition and any passages that passed independently, but do not freeze the failed material because its color was approved. Rebuild the largest water, sky, meadow, snow, foliage, or ground region as a spatial-frequency composition: one or more broad quiet bodies, unequal transitional passages, and sparse active events. Change density, scale, loading, edge, direction, and burial between zones. Inspect that material alone in grayscale; contrast with another material may not supply the variation.”
+- **Objects pasted onto water or ground:** “Keep every object’s exact count, placement, scale, pose, and silhouette, but rebuild the adjacent material response. Interrupt the base stroke rhythm with source-supported wake, lapping, reflection, occlusion, cast color, wet seams, pooled shadow, overlap, or directional flow. Keep the evidence economical; do not add generic concentric rings, halos, or sharp outlines.”
 - **Wrong hue latitude:** “Preserve the value structure, source color identities, and dominant atmospheric family, but reset the hue range to the condition. Converge fog, haze, or quiet atmosphere into a restrained family with small warm-cool deviations; allow gardens, flowers, or late reflective fields a wider organized range with bounded counter-notes. Do not make the narrow scene monochrome or the wide scene a scattered rainbow.”
 - **Wrong historical handling:** “Preserve the entire factual composition and source light. Rebuild only the handling mode: tighter early uses firmer planar anchors, smaller transitions, and calmer loading; classic middle uses directed broken color and balanced atmospheric loss; broad late uses larger overlapping passages, fewer descriptive contours, and shallower all-over organization only where the source permits it. Do not change crop, horizon, subject count, identity, or landmark geometry.”
 - **Crystallized water texture:** “Remove the dense network of short, structured, hard-edged impasto ridges. Rebuild the water with unequal broad and medium strokes, thinner scumbled intervals, soft or lost joins, broken side-by-side warm and cool notes, and selective thickness only at a few crests and glints. Preserve wave state and composition; do not replace the ridges with another repeated stamp.”

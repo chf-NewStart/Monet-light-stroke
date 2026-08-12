@@ -8,6 +8,7 @@ Use approved images as visual calibration for reusable paint behavior. Preserve 
 - **Open sea, surf, or sunset water:** B001 or B008; choose by the needed water-state lesson.
 - **Cool daylight lake with a large foreground bird, populated ferry or excursion boat, and strong depth scaling:** B021.
 - **Horizonless close water with a small animal anchor, sparse debris, and shallow all-over space:** B022.
+- **Water that looks varied globally but repeats one embossed curl, ridge, or stamp inside the water crop:** use R023 as negative calibration; rebuild quiet, transitional, and active water passages plus physical contact around birds, rocks, or boats.
 - **Dusk sky component:** B002 only for sky passages.
 - **Rough low-light ground component:** B003 only for ground passages.
 - **Relational luminous color:** B004 as text-only calibration.
@@ -529,3 +530,23 @@ Use B021 to calibrate quiet-sky versus active-water separation, broad lake conti
 ### Transfer Rule
 
 Use B022 to calibrate horizonless close-water composition, broad connected color bodies, shallow-depth organization through overlap and color pathways, selective reflection-contour reduction, sparse debris handling, and the economy of a tiny subordinate anchor. The new source remains sole authority for crop, orientation, viewpoint, subject count, species, placement, scale, facing direction, water state, reflection structure, debris anchors, palette, and light. Never copy B022's duck, twig arrangement, blue-green palette, upper-left anchor placement, wide crop, or visible stroke paths into another scene. Do not import B010's horizon or B021's conventional near-to-far depth scaling into a horizonless source.
+
+## R023 — Uniform-Relief Goose Water (Rejected)
+
+- **Status:** rejected by the user on 2026-08-12 after several color and bird-clarity revisions
+- **Asset:** not bundled; the private generated preview remains outside the repository
+- **Use for:** negative calibration against locally uniform water, equal relief across a dominant material, and birds or rocks appearing pasted onto an uninterrupted surface. Do not use it as a positive visual reference.
+
+### Why It Fails
+
+- Silver-blue, lavender, mauve, pale-rose, and blue-green color improved, but hue variety disguised a nearly continuous short curved-ridge footprint across the water.
+- The upper, middle, and lower water retained similar mark size, density, edge hardness, and impasto. The surface read as textured glass, stucco, or a rug before it read as liquid.
+- Global contrast between dark foliage and pale water made whole-image activity appear varied, but a water-only crop remained repetitive. Whole-image metrics and material-transfer checks therefore failed to expose the local problem soon enough.
+- The geese became alternately too dissolved or too descriptive because corrections changed their silhouettes without rebuilding the surrounding water response. Their rocks, legs, and reflections sat on top of the texture rather than interrupting it.
+- Prompt language repeatedly named ripples, curls, strokes, texture, and impasto. The generator treated those nouns as coverage instructions and tiled the dominant material.
+
+### Correction Rule
+
+Return to the original photograph or last factually faithful edit. Preserve crop, foliage framing, rock placement, bird count, pose, and source light. Rebuild water alone as a spatial-frequency composition: broad thin quiet bodies; unequal transitional currents that change direction, scale, and opacity; and sparse active glints or lapping events. In conventional depth, taper scale, contrast, loading, and edge certainty gradually; in shallow all-over water, use irregular islands, vertical color paths, pauses, and burial instead of depth bands. Make rocks and birds interrupt the field through wet seams, broken reflections, lapping, occlusion, or flow displacement. Run the water-only crop, desaturation, stamp-family, two-scale, and contact tests before accepting or freezing any passage.
+
+Do not fix R023 by changing palette, randomly jittering the same stamp, smoothing the entire lake, adding generic concentric rings, sharpening the birds, or relying on foliage-versus-water contrast.
