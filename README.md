@@ -30,6 +30,7 @@ skills/monet-light-strokes/
     style-system.md        Palette, layering, material, and retry rules
     people-in-scenes.md    Figure distance, clothing, and integration rules
     benchmarks.md          Accepted and rejected benchmark registry
+    collage-output.md      Paired clean-artwork and source-derived collage rules
   assets/benchmarks/       Redistributable calibration images
 evals/cases.yaml           Scene-diverse regression suite and scoring gates
 ```
@@ -40,9 +41,11 @@ Ask Codex to install the skill from this repository, then invoke `$monet-light-s
 
 For a photo transfer, the source remains factual authority. Paint-level randomness is welcome; randomness in identity, anatomy, object count, orientation, crop, light direction, or landmark geometry is a failure.
 
-### Artwork-only scope
+### Paired photo output
 
-The skill currently returns the painting itself. Frames, mats, museum walls, glass, and presentation mockups are intentionally excluded; they require a separate workflow to preserve composition, subject scale, and shared physical lighting convincingly.
+For photo transformations, the skill returns the clean converted painting first and a separate portrait collage by default. The collage places the original photo as a smaller upper panel and the approved conversion as the larger lower focal panel inside a restrained source-colored editorial frame. Its background and accent palette come from the source's dominant colors, with sparse subject-related decoration. Supplied collage examples guide layout only unless the user explicitly requests their text or graphics. Original-scene generation remains artwork-only unless a collage is requested.
+
+Museum frames, walls, glass, and environmental presentation mockups remain excluded. The companion collage may use a flat graphic border and keyline around the converted panel, never a physical mockup wrapped around the clean painting.
 
 ## Benchmark policy
 

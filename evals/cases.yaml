@@ -1,4 +1,4 @@
-version: 4
+version: 5
 purpose: >-
   Test whether changes improve painterly behavior without sacrificing source fidelity.
 
@@ -50,8 +50,40 @@ global_failures:
   - snow_or_fog_rendered_as_an_opaque_white_overlay
   - fixed_motif_series_reduced_to_recolors
   - signature_text_watermark_unrequested_frame_or_photographic_ui
+  - missing_clean_painting_or_missing_default_companion_collage_for_photo_transfer
+  - collage_panel_repainted_mirrored_recropped_replaced_or_misassigned
+  - collage_palette_unrelated_to_source_or_reference_text_ui_copied_without_request
 
 cases:
+  - id: paired_clean_painting_and_source_colored_collage
+    source_status: consented_private_local_fixture
+    output_contract:
+      - clean_converted_painting_returned_as_its_own_file
+      - separate_companion_collage_returned_unless_user_opts_out
+      - collage_created_only_after_clean_conversion_passes_factual_and_painterly_checks
+    clean_painting_checks:
+      - exact_source_orientation_aspect_ratio_crop_and_subject_facts
+      - no_frame_mat_wall_glass_label_signature_watermark_text_ui_or_collage_treatment
+    collage_checks:
+      - original_photo_and_approved_conversion_are_distinct_complete_fixed_panels
+      - neither_panel_is_mirrored_rotated_recropped_repainted_substituted_or_misassigned
+      - original_photo_is_the_smaller_upper_panel_and_conversion_is_the_larger_lower_focal_panel_unless_user_requests_another_order
+      - converted_panel_has_a_flat_source_colored_editorial_frame_without_glass_gilding_bevel_wall_easel_hand_or_room_mockup
+      - dominant_source_color_family_governs_the_background_field
+      - restrained_source_focal_or_counter_color_supplies_accents
+      - source_tinted_light_neutral_supplies_linework_or_keylines
+      - decoration_is_sparse_subject_related_and_confined_to_negative_space
+      - supplied_layout_reference_guides_hierarchy_without_copying_its_text_ui_logo_or_subject_matter
+      - no_invented_title_location_date_caption_logo_watermark_extra_photo_frame_mockup_wall_or_hand
+    known_failure: >-
+      The paired output fails when only the collage is returned, when the clean
+      artwork is embedded in a frame or graphic layout instead of also being
+      delivered clean, when either panel is regenerated or cropped to fit, when
+      the original and conversion hierarchy is reversed without instruction,
+      when the lower editorial frame becomes a physical mockup, when a generic
+      unrelated palette replaces the source-derived field, or when text and
+      interface motifs are copied from the layout example without a request.
+
   - id: open_sea_sunset_subject
     benchmark: B001
     source_status: private_local_fixture

@@ -1,4 +1,4 @@
 interface:
   display_name: "Monet Light & Strokes"
   short_description: "Paint scenes with luminous broken-color strokes"
-  default_prompt: "Use $monet-light-strokes to repaint this image with luminous Impressionist light while preserving its exact composition, orientation, and complete visible subjects."
+  default_prompt: "Use $monet-light-strokes to repaint this image with luminous Impressionist light while preserving its exact composition, orientation, and complete visible subjects, then return both the clean painting and a source-colored companion collage."

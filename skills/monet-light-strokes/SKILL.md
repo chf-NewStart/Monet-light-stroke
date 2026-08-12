@@ -7,13 +7,14 @@ description: Transform photos or generate original scenes as luminous Claude Mon
 
 Create an original Impressionist interpretation in which light and atmosphere organize the scene. Translate reference paintings into observable behavior—palette relationships, edge hierarchy, stroke routing, and paint loading—without copying their subjects, composition, exact palette, visible mark pattern, or signature.
 
-Use the image-generation tool for raster output. Return the artwork only. Never add or offer a frame, mat, wall, glass, label, museum mockup, signature, watermark, text, or photographic UI.
+Use the image-generation tool for raster output. For photo transformations in this user's workflow, return two separate deliverables by default: the clean converted painting first, then a companion collage that pairs the approved conversion with the original photo. The clean painting must never contain a frame, mat, wall, glass, label, museum mockup, signature, watermark, text, photographic UI, or collage treatment. The companion collage is a distinct graphic artifact and follows [references/collage-output.md](references/collage-output.md).
 
 ## Load the Right Guidance
 
 - Read [references/style-system.md](references/style-system.md) completely before writing the final generation or edit prompt.
 - Read [references/people-in-scenes.md](references/people-in-scenes.md) completely whenever any person is visible, including crowds, cyclists, distant figures, or people used only as scale anchors.
 - Read [references/benchmarks.md](references/benchmarks.md) when a benchmark should guide the result. Use B010 as the general benchmark; select at most the few scene-specific benchmarks named in its routing table. Use benchmark images only for their stated paint behavior.
+- Read [references/collage-output.md](references/collage-output.md) completely for the default companion collage or whenever the user requests a collage, poster, comparison layout, or presentation graphic.
 
 Resolve conflicts in this order: the user's current instruction; source or approved-edit invariants; this file's non-negotiables; scene-specific material guidance; benchmark traits. A benchmark never overrides source facts or a passage the user explicitly approved.
 
@@ -22,6 +23,7 @@ Resolve conflicts in this order: the user's current instruction; source or appro
 - **Style transfer:** treat the source as factual authority for subject count, identity, pose, outfit, props, setting, landmarks, viewpoint, crop, aspect ratio, displayed orientation, and left/right order. Preserve this factual skeleton, not photographic microtexture or every tiny edge.
 - **Original scene:** treat the requested subjects, setting, viewpoint, and format as factual authority; invent the remaining composition.
 - **Profile picture:** default to square, but keep the complete visible figure. Do not turn a full-body source into a headshot.
+- **Paired photo output:** unless the user opts out, approve the clean converted painting before making a separate collage from that exact conversion and the original photo. Default to the original photo as a smaller upper panel and the converted painting as the larger lower focal panel inside a source-colored flat editorial frame. Derive the collage's field color, accents, and decorative motif from the source's dominant and focal colors. Treat any supplied collage example as layout inspiration only unless the user explicitly asks to copy particular text or graphics.
 - **Series:** keep the requested subject, viewpoint, crop, and stroke grammar recognizable while varying only the requested light, weather, season, or time. Rebuild the value compression, surviving edges, shadow and reflection shapes, color dominance, and paint activity for each observation; do not make a recolor or reuse one visible texture pattern.
 - **Historical handling:** default an unspecified Monet request to a classic middle-period balance of broken color, directed visible touch, and legible structure. Use tighter early handling or broader all-over late handling only when requested or clearly appropriate; change paint behavior, never source facts.
 
@@ -41,6 +43,7 @@ Generate directly when the request is sufficiently specified. Ask only when an u
 8. **Write the prompt in priority order.** State preservation requirements first, requested changes second, painterly construction third, exclusions last. For a localized revision, explicitly freeze every approved passage and change only the named region or property.
 9. **Generate and inspect the complete image.** Check factual preservation before aesthetics, then large masses, form boundaries, activity hierarchy, mark hierarchy, color, and material routing.
 10. **Retry once when required.** Return to the original source or last explicitly approved edit, freeze successful passages, and correct one diagnosed failure. Do not compound drift by repeatedly editing a failed derivative.
+11. **Build the companion collage after approval.** Use the original photo and final approved conversion as fixed panels. Choose a source-derived background, one restrained counter-accent, and a subject-related decorative motif; inspect both panels for crop, orientation, and content drift before returning both files.
 
 ## Non-Negotiable Painting Rules
 
@@ -96,9 +99,17 @@ Reject or revise the image if any applicable check fails:
 - Hue variety matches the atmospheric condition and motif rather than staying equally broad or equally narrow in every scene; dark hue remains locally derived rather than automatically violet.
 - Ambient color crosses selected edges without erasing all boundaries or adding a fog overlay.
 
-### Output
+### Clean painting output
 
 - The result reads as an oil painting at thumbnail and close view, not a photograph behind glass, a paint filter, a fine mosaic, a smooth digital illustration, or a uniformly embossed surface.
 - No frame, mat, wall, glass, label, signature, watermark, text, or UI appears.
 
-If a factual preservation check fails, revise before returning the artwork.
+### Companion collage output
+
+- The approved clean painting and original photo remain distinct, complete, correctly oriented panels; the collage does not silently repaint, mirror, recrop, or substitute either one. By default the smaller original sits above and the larger converted painting sits below inside a flat, source-colored editorial frame.
+- The broad background field comes from the source's dominant color family, while focal or complementary source colors supply restrained accents and a tinted neutral supplies linework or borders.
+- Graphic decoration is sparse, subject-related, and confined to negative space. Supplied reference text, icons, controls, logos, and decorative motifs are not copied unless explicitly requested.
+- The converted panel's flat editorial frame may use a tinted-neutral outer border, restrained source-colored inner keyline, and a narrow field-color separation. It must not become ornate gilding, glass, bevelled 3D rendering, a room, wall, easel, or physical mockup.
+- No invented title, location, date, caption, signature, logo, watermark, wall, hand, or additional photo appears.
+
+If a factual preservation check fails in either deliverable, revise before returning it.
