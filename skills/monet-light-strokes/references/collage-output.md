@@ -34,14 +34,14 @@ Do not average every attractive source color into a scattered palette. One famil
 Default to a tall editorial poster when the user supplies a portrait collage reference:
 
 - leave generous negative space around the upper section;
-- place the original photo as the smaller, quieter upper panel;
+- place the original photo as the smaller, quieter, completely borderless upper panel whose pixels meet the graphic field directly;
 - feature the converted painting as the larger lower focal panel;
 - surround the converted lower panel with a complete museum-style carved frame isolated on the graphic field;
 - preserve both panels without content-obscuring overlap;
-- separate panels with a quiet band of the field color and, when useful, a thin tinted-neutral keyline;
+- separate panels with a quiet band of the field color;
 - maintain clear alignment and a deliberate hierarchy rather than filling every gap.
 
-Keep the original upper panel comparatively light, usually with only a thin tinted-neutral keyline. The converted lower panel carries the substantial frame hierarchy.
+Keep the original upper panel completely unframed: no stroke, keyline, mat, rim, halo, bevel, or panel shadow on any side. Its pixels meet the graphic field directly. The converted lower panel alone carries the substantial frame hierarchy.
 
 ## Museum-Frame Construction
 
@@ -85,7 +85,8 @@ Inspect the collage at full view and panel level:
 
 - both source panels are present, correctly assigned, and visibly distinct;
 - no panel is mirrored, rotated, recropped, replaced, or newly repainted;
-- the original is the smaller upper panel and the converted painting is the larger framed lower focal panel unless the user requests another order;
+- the original is the smaller borderless upper panel and the converted painting is the larger framed lower focal panel unless the user requests another order;
+- the upper original's pixels meet the field directly with no stroke_keyline_mat_rim_halo_bevel_or_shadow;
 - the converted panel's frame contains an outer repeat rail, darker cove, raised restrained ornament, recessed reveal, and thin inner slip;
 - all four sides and corners remain visible with consistent mitres, proportional molding, coherent upper-left light, believable aged metal/wood relief, and restrained patina;
 - the field, accent, and neutral are traceable to the source palette;

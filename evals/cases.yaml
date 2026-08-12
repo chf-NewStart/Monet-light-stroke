@@ -54,6 +54,7 @@ global_failures:
   - collage_panel_repainted_mirrored_recropped_replaced_or_misassigned
   - collage_palette_unrelated_to_source_or_reference_text_ui_copied_without_request
   - collage_frame_flat_mat_printed_border_incomplete_molding_or_gallery_mockup
+  - upper_original_has_stroke_keyline_mat_rim_halo_bevel_or_shadow
 
 cases:
   - id: paired_clean_painting_and_source_colored_collage
@@ -68,7 +69,8 @@ cases:
     collage_checks:
       - original_photo_and_approved_conversion_are_distinct_complete_fixed_panels
       - neither_panel_is_mirrored_rotated_recropped_repainted_substituted_or_misassigned
-      - original_photo_is_the_smaller_upper_panel_and_conversion_is_the_larger_lower_focal_panel_unless_user_requests_another_order
+      - original_photo_is_the_smaller_borderless_upper_panel_and_conversion_is_the_larger_lower_focal_panel_unless_user_requests_another_order
+      - upper_original_pixels_meet_graphic_field_directly_without_stroke_keyline_mat_rim_halo_bevel_or_shadow
       - converted_panel_has_complete_museum_frame_with_outer_repeat_rail_dark_cove_raised_ornament_recessed_reveal_and_inner_slip
       - all_four_frame_sides_and_corners_visible_with_consistent_mitres_proportion_relief_patina_and_light_direction
       - frame_is_isolated_on_graphic_field_without_wall_room_label_glass_easel_hardware_hand_or_gallery_mockup
@@ -83,7 +85,8 @@ cases:
       artwork is embedded in a frame or graphic layout instead of also being
       delivered clean, when either panel is regenerated or cropped to fit, when
       the original and conversion hierarchy is reversed without instruction,
-      when the lower frame is a flat mat, printed border, neon metallic strip,
+      when the upper original receives any pale outline, mat, rim, halo, bevel,
+      or panel shadow, when the lower frame is a flat mat, printed border, neon metallic strip,
       incomplete molding, inconsistent corner construction, or full gallery
       mockup; when a generic unrelated palette replaces the source-derived
       field; or when text and interface motifs are copied from the layout
