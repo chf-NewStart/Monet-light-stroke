@@ -14,6 +14,7 @@ Use approved images as visual calibration for reusable paint behavior. Preserve 
 - **Daylight architecture inside flowering foliage:** pair B010 with B014.
 - **Meadow, flower field, distant tree band, or figure embedded in vegetation:** B016; do not transfer its skirt folds.
 - **Close floral subject against a deep painted field:** provisional B017.
+- **Silver-overcast autumn canopy with restrained architecture:** B018.
 
 Use the smallest relevant benchmark set. Positive benchmarks contribute only their stated behavior; rejected benchmarks are negative calibration and must never be supplied as positive generation references.
 
@@ -421,3 +422,24 @@ Use B016 to calibrate collective-before-individual massing, sparse unequal accen
 ### Transfer Rule
 
 Use B017 only to calibrate the value relationship between luminous flowers and a deep chromatic field, irregular vertical background construction, simplified leaf description, blossom grouping, and selective floral impasto. The new source remains sole authority for crop, orientation, species, flower and leaf placement, palette, light direction, and composition. Do not copy B017's plant, dark palette, cascading arrangement, exact vertical stroke pattern, or portrait crop into unrelated scenes. Keep B017 provisional until broader floral testing confirms that its behavior generalizes.
+
+## B018 — Silver-Overcast Autumn Canopy
+
+- **Status:** approved by the user on 2026-08-12
+- **Image:** [benchmark-018-silver-overcast-autumn-canopy.png](../assets/benchmarks/benchmark-018-silver-overcast-autumn-canopy.png)
+- **SHA-256:** `3689ccef60c7c625a5ba9eaac83f5c47367849ff453d09e3b308f2bf347666db`
+- **Dimensions:** 1448 × 1086
+- **Use for:** quiet silver-overcast sky, broad autumn canopy massing, dominant-palette restraint, chromatic tree structure, and secondary architecture held below the foliage-and-air first read.
+
+### Why It Works
+
+- The compressed pearl, blue-gray, lavender, and faint-cream sky remains broad, quiet, and visibly worked; its longer scumbles contrast with the more active canopy without becoming a smooth digital gradient.
+- Foliage reads as connected ochre, dusty-gold, olive, muted-russet, and deep-green masses before individual leaf clues. Unequal medium hooks and patches create movement without pointillist inventory or one repeated stamp.
+- Dark trunk and branch structure remains internally chromatic and directional. It anchors the right side without turning into a flat black outline or receiving the foliage's mark footprint.
+- The cropped row-house band stays recognizable through roof silhouette, gables, windows, and a few planar anchors, while its reduced contrast and interrupted secondary detail keep it subordinate to sky and canopy.
+- One dominant autumn family governs the active field. Cooler sky and roof notes act as broad counter-fields rather than scattering every attractive pigment evenly across the image.
+- The original landscape crop, sky-left/tree-right balance, roof placement, branch direction, and major overlaps remain faithful.
+
+### Transfer Rule
+
+Use B018 only to calibrate silver-overcast value compression, quiet-sky versus active-canopy hierarchy, collective autumn foliage, chromatic branch structure, palette dominance, and restrained architectural description. The new source remains sole authority for crop, orientation, tree species, foliage placement, buildings, weather, palette, and light. Never copy B018's roofline, tree arrangement, sky-to-canopy division, exact autumn colors, or visible mark pattern into another scene.

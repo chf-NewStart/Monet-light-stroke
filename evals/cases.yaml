@@ -243,3 +243,25 @@ cases:
       An all-over pond fails when conventional foreground-middle-distance bands
       or a horizon are invented, when every pad is equally described, or when
       the shallow reflection field becomes a tiled ripple pattern.
+
+  - id: silver_overcast_autumn_canopy
+    benchmark: B018
+    source_status: private_local_fixture
+    invariants:
+      - original_landscape_crop_orientation_and_sky_left_tree_right_balance
+      - roofline_placement_branch_direction_and_major_overlaps
+      - source_overcast_light_and_compressed_value_interval
+    material_checks:
+      sky: broad_quiet_pearl_blue_gray_and_lavender_scumbles_not_smooth_gradient_or_equal_dabs
+      canopy: connected_ochre_gold_olive_russet_and_green_masses_before_sparse_leaf_clues
+      trunk_and_branches: directional_internally_chromatic_structure_not_black_outline_or_foliage_stamp
+      architecture: recognizable_restrained_planar_band_subordinate_to_air_and_canopy
+      palette: dominant_autumn_family_with_cool_broad_counter_fields_not_scattered_rainbow_color
+    hierarchy_checks:
+      - overcast_air_and_collective_canopy_are_the_first_read
+      - quiet_sky_gives_the_active_foliage_room_to_breathe
+      - architecture_retains_landmark_geometry_without_building_inventory
+    known_failure: >-
+      The result fails when the sky becomes a blank gradient, the canopy becomes
+      leaf-by-leaf stippling, branches turn into flat black outlines, or detailed
+      windows and masonry compete with the atmospheric autumn masses.
