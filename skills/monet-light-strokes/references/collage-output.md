@@ -24,7 +24,7 @@ Choose the graphic palette relationally from the source:
 
 - **Field color:** use the dominant broad color family, usually in a deeper or quieter value so the image panels remain primary.
 - **Counter-accent:** use one restrained focal, complementary, or high-chroma source color for small marks or separators.
-- **Line and border neutral:** use a source-tinted cream, pearl, pale gray, muted lilac, or other light neutral instead of pure white.
+- **Line and frame light:** use a source-tinted cream, pearl, pale gray, muted lilac, aged gold, bronze, or other related light note instead of pure white or neon metal.
 - **Optional lower band:** use a darker or lower-chroma relative of the field color, not an unrelated generic black.
 
 Do not average every attractive source color into a scattered palette. One family should govern the field and one accent should answer it.
@@ -36,12 +36,30 @@ Default to a tall editorial poster when the user supplies a portrait collage ref
 - leave generous negative space around the upper section;
 - place the original photo as the smaller, quieter upper panel;
 - feature the converted painting as the larger lower focal panel;
-- surround the converted lower panel with a deliberate flat editorial frame: a source-tinted neutral outer border, a very thin restrained accent keyline, and a narrow separation in the field color;
+- surround the converted lower panel with a complete museum-style carved frame isolated on the graphic field;
 - preserve both panels without content-obscuring overlap;
 - separate panels with a quiet band of the field color and, when useful, a thin tinted-neutral keyline;
 - maintain clear alignment and a deliberate hierarchy rather than filling every gap.
 
-The frame belongs to the flat graphic layout. Do not render ornate gilding, glass, shadows that imply a room, bevelled 3D molding, a wall, easel, hand, or presentation mockup. Keep the original upper panel comparatively light, usually with only a thin tinted-neutral keyline.
+Keep the original upper panel comparatively light, usually with only a thin tinted-neutral keyline. The converted lower panel carries the substantial frame hierarchy.
+
+## Museum-Frame Construction
+
+Treat supplied museum-frame photographs as structural evidence, never as content to copy. Use their molding hierarchy, relief, material aging, and proportion without reproducing a protected painting, wall, label, exact carved motif, or visible damage pattern.
+
+Build the converted panel's frame as layered carved wood from outside to inside:
+
+1. a narrow bronze-gold beaded, leaf, or restrained repeat molding;
+2. a broad darker concave cove that establishes depth;
+3. a raised antique-gold carved rail with controlled acanthus, leaf, floral, or rocaille relief concentrated at corners or sparse centers;
+4. a narrow recessed dark reveal in umber, olive, or the poster's field color;
+5. a thin warm metal or tinted-neutral inner slip immediately against the canvas.
+
+Keep the complete rectangular frame visible with breathing room on every side. Use correct 45-degree mitres, coherent rail widths, symmetric corner joins, and consistent molding depth. As a starting point, let the total molding occupy roughly 8–12 percent of the framed object's width on each side; reduce it when needed to preserve the full painting or poster hierarchy.
+
+Make the frame substantial through relief rather than loud decoration. Use rubbed bronze or gold leaf, darker patina in recesses, restrained highlights on raised ornament, slight wear, and one consistent light direction. Corner ornament may be richer than the long rails, but the frame must remain subordinate to the painting.
+
+Use only a subtle localized cast shadow to separate the frame from the graphic field. The frame may be physically dimensional while the overall collage remains a designed poster. Do not add glass glare, a textured wall, room, gallery label, easel, hanging wire, visible nail, hand, dramatic perspective, cropped corner, plastic resin, flat printed ornament, neon gold, or a full museum mockup.
 
 Adapt this hierarchy to a landscape or square source without forcing destructive crops. If the requested collage aspect ratio cannot contain both fixed panels legibly, add field space rather than trimming subject matter.
 
@@ -68,9 +86,10 @@ Inspect the collage at full view and panel level:
 - both source panels are present, correctly assigned, and visibly distinct;
 - no panel is mirrored, rotated, recropped, replaced, or newly repainted;
 - the original is the smaller upper panel and the converted painting is the larger framed lower focal panel unless the user requests another order;
-- the converted panel's frame is flat, source-colored, restrained, and free of physical-mockup effects;
+- the converted panel's frame contains an outer repeat rail, darker cove, raised restrained ornament, recessed reveal, and thin inner slip;
+- all four sides and corners remain visible with consistent mitres, proportional molding, coherent upper-left light, believable aged metal/wood relief, and restrained patina;
 - the field, accent, and neutral are traceable to the source palette;
 - decoration stays sparse and subject-related;
-- no copied or invented text, UI, logo, watermark, extra image, physical frame mockup, wall, easel, glass, or hand appears.
+- no copied or invented text, UI, logo, watermark, extra image, museum wall, room, label, easel, glass, hanging hardware, or hand appears.
 
-If a panel drifts, retry once from the original photo and approved conversion, freezing their content and changing only the layout treatment. Do not repair a collage by accepting a newly synthesized substitute panel.
+If a panel drifts, retry once from the original photo and approved conversion, freezing their content and changing only the layout treatment. If the frame reads as a flat mat or printed border, preserve both panels and rebuild only the molding from layered rails, recessed depth, corner relief, patina, and coherent self-shadow. Do not repair a collage by accepting a newly synthesized substitute panel.

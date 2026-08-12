@@ -43,9 +43,9 @@ For a photo transfer, the source remains factual authority. Paint-level randomne
 
 ### Paired photo output
 
-For photo transformations, the skill returns the clean converted painting first and a separate portrait collage by default. The collage places the original photo as a smaller upper panel and the approved conversion as the larger lower focal panel inside a restrained source-colored editorial frame. Its background and accent palette come from the source's dominant colors, with sparse subject-related decoration. Supplied collage examples guide layout only unless the user explicitly requests their text or graphics. Original-scene generation remains artwork-only unless a collage is requested.
+For photo transformations, the skill returns the clean converted painting first and a separate portrait collage by default. The collage places the original photo as a smaller upper panel and the approved conversion as the larger lower focal panel inside a complete museum-style carved frame. Its background, accents, and frame patina come from the source's dominant colors, with sparse subject-related decoration. Supplied collage and frame examples guide structure only unless the user explicitly requests their text, graphics, or exact ornament. Original-scene generation remains artwork-only unless a collage is requested.
 
-Museum frames, walls, glass, and environmental presentation mockups remain excluded. The companion collage may use a flat graphic border and keyline around the converted panel, never a physical mockup wrapped around the clean painting.
+The framed panel may have believable carved-wood relief, layered molding, aged metal leaf, and a subtle localized shadow while remaining isolated on the graphic field. Museum walls, rooms, labels, glass, easels, hands, and environmental presentation mockups remain excluded.
 
 ## Benchmark policy
 
