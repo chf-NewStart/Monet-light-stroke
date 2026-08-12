@@ -13,20 +13,16 @@ scoring:
     - subject_and_object_count
     - identity_pose_and_anatomy
     - landmark_geometry
-  conditional_hard_gates:
-    frame_requested:
-      - accepted_artwork_unchanged_inside_aperture
-      - selected_aperture_and_frame_type
-      - complete_rails_corner_joins_and_inner_liner
-      - no_unapproved_occlusion_of_people_props_or_landmarks
   painterly_dimensions:
     - painting_first_abstraction
+    - light_defined_boundaries_and_edge_hierarchy
     - material_specific_strokes
     - broken_color_and_optical_mixing
     - layered_oil_construction
     - chromatic_shadows
     - coherent_light
     - relational_luminosity_and_atmospheric_envelope
+    - source_relative_value_interval_and_depth
   acceptance: >-
     Every hard gate must score 2. The painterly mean must be at least 1.67,
     with no painterly dimension scoring 0.
@@ -34,13 +30,19 @@ scoring:
 global_failures:
   - flipped_rotated_zoomed_or_recropped_source
   - invented_removed_duplicated_or_redesigned_people_or_props
+  - unapproved_change_outside_a_local_edit_target
   - changed_landmark_architecture_or_viewpoint
   - photograph_with_a_canvas_or_brush_filter
   - one_generic_texture_shared_by_unrelated_materials
   - smooth_digital_gradients_or_globally_blended_color
+  - underdefined_forms_without_value_temperature_boundaries
   - uniform_impasto_stipple_mosaic_or_palette_knife_facets
+  - overdescribed_leaf_petals_clothing_or_architectural_inventory
   - flat_black_shadows_or_hard_ink_contours
   - canvas_wide_milky_pastel_whitening_or_flat_chalky_shadows
+  - source_contradicting_automatic_cool_distance
+  - snow_or_fog_rendered_as_an_opaque_white_overlay
+  - fixed_motif_series_reduced_to_recolors
   - signature_text_watermark_unrequested_frame_or_photographic_ui
 
 cases:
@@ -140,26 +142,104 @@ cases:
       equal leaf and blossom marks carry the description before the large
       light, house, and foliage masses.
 
-  - id: optional_presentation_frame
-    source_status: user_references_local_not_bundled
-    run_after: accepted_unframed_artwork
-    modes:
-      - rectangular_carved_gilt
-      - oval_salon_aperture_with_explicit_crop_consent
-      - simple_aged_gilt
-      - reference_led
+  - id: atmospheric_meadow_figure
+    benchmark: B016
+    source_status: consented_private_local_fixture
     invariants:
-      - accepted_artwork_content_color_and_mark_pattern
-      - subject_identity_count_pose_and_complete_visible_body
-      - inner_artwork_aspect_ratio_unless_oval_crop_is_explicitly_approved
-      - selected_frame_mode_and_aperture_shape
-    frame_checks:
-      structure: continuous_rails_regular_aperture_and_believable_corner_joins
-      material: carved_wood_gold_leaf_warm_recesses_subtle_age_and_physical_depth
-      separation: frame_inner_liner_and_shadow_gap_do_not_fuse_into_painted_marks
-      lighting: one_coherent_light_direction_across_all_frame_sides
-      presentation: no_wall_label_glare_signature_watermark_or_ui
+      - original_landscape_crop_orientation_and_meadow_extent
+      - figure_count_placement_pose_body_direction_and_complete_visible_extent
+      - white_dress_dark_hair_bag_phone_and_distant_tree_band
+    material_checks:
+      meadow: connected_green_rust_violet_and_muted_flower_masses_with_sparse_unequal_accents
+      figure: integrated_warm_cool_planes_with_chromatic_dark_core_and_environmental_edge_exchange
+      clothing: two_to_four_connected_planes_and_one_or_two_broad_fold_gestures_not_ruffle_inventory
+      distance: softer_lower_contrast_tree_band_with_fewer_marks
     known_failure: >-
-      A beautiful frame still fails if it repaints the accepted artwork,
-      changes its composition, hides unapproved content, melts ornament into
-      the canvas, or produces broken and mismatched corners.
+      Figure integration still fails when the person becomes a smooth protected
+      sticker. Clothing simplification still fails when it changes the dress
+      silhouette or movement; clothing definition still fails when repeated
+      ruffles, pleats, seams, printed details, or sharp dark grooves return.
+
+  - id: dark_chromatic_close_floral
+    benchmark: B017
+    source_status: private_local_fixture
+    invariants:
+      - original_portrait_crop_orientation_and_plant_arrangement
+      - focal_white_flower_pale_buds_coral_cascades_and_major_leaf_placement
+      - no_vase_tabletop_frame_glass_signature_text_or_ui
+    material_checks:
+      focal_flower: selective_cream_impasto_warm_center_and_clearer_edges
+      foliage: five_to_seven_connected_masses_with_simple_light_shadow_boundaries_not_vein_inventory
+      blossoms: connected_coral_clouds_with_sparse_petals_not_equal_detail
+      background: deep_chromatic_vertical_interwoven_strokes_not_black_smooth_wallpaper_or_horizontal_sweeps
+    known_failure: >-
+      Simplifying leaves still fails when all boundaries disappear into one
+      green cloud; defining them still fails when veins, serrations, glossy
+      highlights, or repeated internal marks return. The intended midpoint is
+      broad light and chromatic-shadow planes with selective lost edges.
+
+  - id: chromatic_snow_and_thaw
+    source_status: needs_open_access_fixture
+    invariants:
+      - snow_extent_slope_tracks_and_melt_boundaries
+      - tree_roof_rail_figure_and_water_anchors
+      - source_value_compression_light_direction_crop_and_orientation
+    material_checks:
+      snow: broad_connected_source_colored_planes_not_pure_white_fill_or_crystal_stipple
+      shadow_and_tracks: sparse_directional_chromatic_bands_with_exposed_undercolor_not_blue_outlines
+      thaw: wet_horizontal_or_gravity_led_channels_with_warmer_exposed_earth_notes
+      anchors: economical_chromatic_darks_with_selected_edges_consumed_by_glare_or_moisture
+      depth: lower_contrast_edge_certainty_and_detail_without_automatic_cool_temperature
+    known_failure: >-
+      Snow still fails when pure white and cyan replace its relational color,
+      every drift receives a contour, or foreground and distance share one
+      glittering granular stamp. Value compression must survive the repaint.
+
+  - id: fog_steam_and_partial_landmarks
+    source_status: needs_open_access_fixture
+    invariants:
+      - landmark_placement_scale_and_partial_visibility
+      - vapor_source_and_direction_of_drift
+      - source_value_interval_light_direction_crop_and_orientation
+    material_checks:
+      vapor: connected_source_colored_scumbles_with_changing_opacity_and_direction
+      landmarks: appear_disappear_and_return_without_moving_or_redesigning_geometry
+      anchors: few_chromatic_silhouettes_and_reflections_not_full_scene_contrast
+      atmosphere: selective_occlusion_not_uniform_milky_blur
+    known_failure: >-
+      Fog or steam still fails when it is a white overlay on a finished sharp
+      scene, when every object remains equally visible through it, or when lost
+      edges are recovered by black outlines or invented contrast.
+
+  - id: fixed_motif_light_series
+    source_status: needs_open_access_series_fixture
+    invariants:
+      - subject_viewpoint_crop_orientation_and_landmark_geometry
+      - recognizable_material_specific_stroke_grammar
+      - requested_condition_is_the_only_scene_level_change
+    variation_checks:
+      - dominant_value_interval_rebuilt_for_each_condition
+      - edge_survival_visibility_and_atmospheric_occlusion_change_with_light
+      - shadow_and_reflection_shapes_respond_to_the_condition
+      - color_dominance_and_bounded_counter_notes_change_relationally
+      - paint_activity_loading_and_visible_mark_pattern_are_new_each_time
+    known_failure: >-
+      A series fails when every image preserves one tonal map, reflection shape,
+      edge pattern, or visible texture and merely rotates the palette. Structural
+      light behavior must change while the factual motif remains fixed.
+
+  - id: horizonless_water_lily_reflection_field
+    source_status: needs_open_access_fixture
+    invariants:
+      - original_horizonless_crop_orientation_and_reflection_paths
+      - lily_pad_and_blossom_mass_placement
+      - source_depth_ambiguity_and_dominant_value_interval
+    material_checks:
+      water: broad_connected_color_field_with_broken_horizontal_or_state_specific_surface_marks
+      reflections: loose_vertical_color_paths_interrupted_by_surface_gestures
+      depth: overlap_scale_temperature_and_edge_loss_without_invented_horizon_or_three_bands
+      accents: sparse_decisive_pads_blossoms_and_glints_not_equal_inventory
+    known_failure: >-
+      An all-over pond fails when conventional foreground-middle-distance bands
+      or a horizon are invented, when every pad is equally described, or when
+      the shallow reflection field becomes a tiled ripple pattern.

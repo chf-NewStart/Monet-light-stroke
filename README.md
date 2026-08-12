@@ -18,6 +18,8 @@ More examples help when they add information. Useful examples are:
 
 Many near-duplicate “pretty” images without annotations can make the system less clear and encourage accidental motif copying.
 
+Large historical image collections may be used to derive recurring behavior such as value compression, edge survival, palette dominance, serial variation, and material-specific mark routing. Keep the source archive outside the skill unless redistribution rights are explicit; encode transferable observations and test cases rather than bundling paintings or copying their compositions.
+
 ## Repository layout
 
 ```text
@@ -26,6 +28,7 @@ skills/monet-light-strokes/
   agents/openai.yaml       Codex UI metadata
   references/
     style-system.md        Palette, layering, material, and retry rules
+    people-in-scenes.md    Figure distance, clothing, and integration rules
     benchmarks.md          Accepted and rejected benchmark registry
   assets/benchmarks/       Redistributable calibration images
 evals/cases.yaml           Scene-diverse regression suite and scoring gates

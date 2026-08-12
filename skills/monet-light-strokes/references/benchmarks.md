@@ -1,6 +1,21 @@
 # Approved Benchmarks
 
-Use approved images as visual calibration for reusable paint behavior. Preserve the new source's factual scene; never copy a benchmark's subjects, objects, crop, palette, or composition unless the user explicitly asks. Use B010 as the primary general benchmark for light-defined form and overall Monet-like decision making; use other positive benchmarks for their narrower stated strengths. When the new source contains daylight architecture wrapped in flowering foliage, pair B010 with B014 and use B014 only for description scale, edge loss, foliage massing, and chromatic-shadow behavior.
+Use approved images as visual calibration for reusable paint behavior. Preserve the new source's factual scene; never copy a benchmark's subjects, objects, crop, palette, composition, or visible mark pattern unless the user explicitly asks.
+
+## Routing Table
+
+- **General light-defined form:** B010.
+- **Open sea, surf, or sunset water:** B001 or B008; choose by the needed water-state lesson.
+- **Dusk sky component:** B002 only for sky passages.
+- **Rough low-light ground component:** B003 only for ground passages.
+- **Relational luminous color:** B004 as text-only calibration.
+- **Cactus dusk and material/distance hierarchy:** B005.
+- **Energetic structured nocturne:** B007.
+- **Daylight architecture inside flowering foliage:** pair B010 with B014.
+- **Meadow, flower field, distant tree band, or figure embedded in vegetation:** B016; do not transfer its skirt folds.
+- **Close floral subject against a deep painted field:** provisional B017.
+
+Use the smallest relevant benchmark set. Positive benchmarks contribute only their stated behavior; rejected benchmarks are negative calibration and must never be supplied as positive generation references.
 
 ## B001 — Sunset Seabird
 
@@ -362,3 +377,47 @@ Use B014 only to calibrate description scale, lost-and-found architectural edges
 ### Correction Rule
 
 Return to the original source, use B010 for light-defined economy, and use B014 only for mark scale, architectural edge loss, foliage massing, and chromatic-shadow behavior. Preserve the exact source silhouette and orientation while replacing repeated siding, trim, gutter, window, leaf, and blossom description with broad connected planes, irregular overlapping masses, and only a few interrupted focal anchors. Do not include R015 as a visual generation reference.
+
+## B016 — Atmospheric Meadow Figure
+
+- **Status:** approved by the user on 2026-08-11 for meadow atmosphere and figure integration; the skirt-detail limitation was recorded the same day.
+- **Image:** [benchmark-016-atmospheric-meadow-figure.png](../assets/benchmarks/benchmark-016-atmospheric-meadow-figure.png)
+- **SHA-256:** `b219efad15b8a3ee8357ac2fafe558997a9b305d9ae22d5ac734acb1187baa95`
+- **Dimensions:** 1448 × 1086
+- **Use for:** meadows and flower fields, a single midground figure embedded in vegetation, collective-before-individual description, sparse floral accents, integrated figure placement, and low-contrast distant tree bands. Do not transfer its skirt's secondary folds or ruffles.
+
+### Why It Works
+
+- The meadow reads first as several connected green, rust, violet, and muted-flower color masses. Unequal medium strokes establish flow before a sparse, irregular handful of flower notes appear.
+- Flowers punctuate the atmosphere instead of forming a pointillist carpet. Clusters, gaps, partial burial, and changing scale prevent any dot from becoming the field's structural unit.
+- The woman preserves source placement, pose, body direction, white dress, dark hair mass, bag, and phone. Hair strands, polished arm shading, printed bag dots, fingers, and facial inventory are omitted, while the upper body and silhouette remain economical.
+- Vegetation color and air cross selected figure edges while a chromatic dark hair core and a few clothing or prop anchors retain recognition. The person belongs to the same paint chronology as the meadow rather than appearing as a protected digital sticker.
+- The distant trees compress into a soft lower-contrast band with a few broad vertical rhythms. Mark count, edge certainty, and local contrast fall with distance, while the quiet scumbled sky allows the field and figure to carry the scene.
+
+### Known Limitation
+
+- The white skirt retains too many secondary ruffles, sharp folds, and dark grooves for its apparent size. Keep B016 as a positive reference for meadow massing, atmospheric recession, and figure integration, but never treat that tailoring inventory as approved clothing behavior. A better revision should preserve the same dress silhouette and movement while reducing the skirt to two to four connected planes and one or two broad fold gestures.
+
+### Transfer Rule
+
+Use B016 to calibrate collective-before-individual massing, sparse unequal accents, midground figure placement, atmospheric edge exchange, and distant-band recession—not detailed drapery. The new source remains sole authority for crop, orientation, people, pose, clothing, props, vegetation, palette, weather, and light. Never copy B016's woman, dress, bag, phone, meadow arrangement, tree line, color placement, or skirt folds into another scene.
+
+## B017 — Dark Chromatic Floral
+
+- **Status:** provisional floral benchmark approved by the user on 2026-08-12
+- **Image:** [benchmark-017-dark-chromatic-floral.png](../assets/benchmarks/benchmark-017-dark-chromatic-floral.png)
+- **SHA-256:** `a1b5dda0f9b3d47f8826ff5e45c30b7d71426189bbeecf1cefa4b72cf1b70a54`
+- **Dimensions:** 1023 × 1537
+- **Use for:** close floral subjects against deep chromatic fields, predominantly vertical background handling, simplified broad leaf masses, grouped cascading blossoms, and selectively loaded pale focal flowers.
+
+### Why It Works
+
+- The background remains dark without collapsing into black. Indigo, ultramarine, blue-violet, violet-brown, moss, muted teal, rose, and ochre stay visible inside the low-value field.
+- Long and medium vertical strokes overlap, partly merge, and bury one another with irregular length, width, loading, and edge softness. They create atmosphere behind the plant without becoming a smooth gradient, neat wallpaper stripes, or a competing horizontal pattern.
+- The deep field gives the cream-white flower and coral blossoms relational luminosity. The focal flower carries the thickest pale impasto, warm ochre center, and clearest edges while surrounding passages remain quieter.
+- Foliage reads first as overlapping olive, emerald, blue-green, teal, and violet-green masses. Major leaves separate through simple light and chromatic-shadow planes rather than veins, serrations, glossy highlights, or botanical inventory.
+- Coral blossoms form connected descending color clouds with selective petal accents. Their collective rhythm survives without equal detail on every bloom.
+
+### Transfer Rule
+
+Use B017 only to calibrate the value relationship between luminous flowers and a deep chromatic field, irregular vertical background construction, simplified leaf description, blossom grouping, and selective floral impasto. The new source remains sole authority for crop, orientation, species, flower and leaf placement, palette, light direction, and composition. Do not copy B017's plant, dark palette, cascading arrangement, exact vertical stroke pattern, or portrait crop into unrelated scenes. Keep B017 provisional until broader floral testing confirms that its behavior generalizes.
