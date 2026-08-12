@@ -3,11 +3,12 @@
 ## Contents
 
 - Core impression, light keys, and value intervals
+- Historical handling modes and hue latitude
 - Palette dominance, luminosity, and atmosphere
 - Stroke hierarchy and paint chronology
 - Massing, boundaries, and controlled irregularity
 - Material-specific stroke routing
-- Snow, fog, depth, motif recipes, prompt scaffold, and retry language
+- Corpus-measurement limits, snow, fog, depth, motif recipes, prompt scaffold, and retry language
 
 Use this reference to translate “Monet feeling and strokes” into concrete image decisions. These principles were distilled through iterative photo transformations and checked against a broad user-supplied corpus of historical Monet reproductions spanning serial motifs, snow, fog, gardens, coasts, architecture, figures, and reflection fields. They describe reusable behavior rather than any painting to copy. Treat small reproductions as evidence for composition, value, palette, and edge hierarchy—not as reliable evidence for microscopic paint relief.
 
@@ -107,6 +108,16 @@ Choose one primary key and keep it coherent. Define it through four linked decis
 - Reflections: echo the light event in broken paths without lifting every shadow or sharpening every object.
 - Best for sunsets, river silhouettes, parliament or city series, and low-light water.
 
+## Historical Handling Modes
+
+Treat Monet's career as several useful handling modes, not one universal surface. Default an unspecified Monet request to the classic middle-period balance because it best matches the skill's broad use: legible masses, directed broken color, visible layered touch, and atmospheric edge loss.
+
+- **Tighter early handling:** retain firmer planar anchors, more continuous modeling, smaller transitions, and calmer paint loading while keeping chromatic shadows, visible touch, and atmospheric color. Do not turn it into academic realism, sepia varnish, or smooth illustration.
+- **Classic middle handling:** use the default hierarchy of broad connected masses, material-directed medium strokes, unequal broken color, selective impasto, lost-and-found edges, and a clear light event.
+- **Broad late handling:** allow larger, juicier, more overlapping passages, stronger local hue variety, shallower all-over organization, and fewer descriptive contours. Remove a horizon or dissolve geometry only when the source or requested motif permits it; a late handling mode never authorizes compositional drift.
+
+Change edge certainty, stroke scale, loading, overlap, description density, and spatial organization together. A mode is not a preset texture or antique color grade. Preserve source time, weather, subject count, orientation, identity, and landmark geometry unless the user requests a factual change.
+
 ## Value Interval and Palette Dominance
 
 Preserve how much of the value scale the source actually uses. A misty bridge, snow field, backlit facade, or late water-lily surface may be organized inside a narrow interval; a sunset silhouette or shaded garden may depend on a deeper span. Do not normalize both into the same medium-contrast pastel painting.
@@ -116,6 +127,7 @@ Preserve how much of the value scale the source actually uses. A misty bridge, s
 - In a broad-range scene, let a few low and high notes carry the span while the majority remains quieter. Avoid equal contrast from corner to corner.
 - Choose one dominant source-derived color family for the atmospheric field. Let complementary or clearer pigments enter as bounded counter-notes at light events, reflections, flowers, roofs, figures, or focal edges.
 - Do not make “broken color” mean equal quantities of every palette color. Optical variety can live inside a strongly blue, violet, green, ochre, rose, or neutral-dominant painting.
+- Set hue latitude from the observed condition and motif. Fog, haze, and quiet river atmosphere usually converge into a narrower family with small warm-cool deviations; gardens, flower fields, and late reflective surfaces may sustain a wider range inside the same value structure. Wide latitude still needs one governing field and bounded counter-notes; narrow latitude still needs visible pigment differences.
 - Let dominance change by condition in a series. A fixed motif may move from pale violet compression to warm ochre haze or deep blue silhouette while keeping viewpoint and geometry stable.
 - Run a grayscale interval test and a color-dominance test. If every condition has the same value map and only the hue changes, the series is a recolor; if no family governs the broad field, the palette is merely scattered.
 
@@ -150,7 +162,7 @@ Avoid global saturation, uniform exposure lifts, neon accents everywhere, crushe
 Separate perceived luminosity from literal lightness. A painting may feel brighter than the source because a few clean pigments, chromatic darks, and warm-cool intervals intensify one another. It should not become bright because every mixture receives the same dose of opaque white.
 
 - Reserve the clearest high-chroma notes for selected light-facing planes, glints, flowers, foliage tips, or focal edges. Let quieter gray-lavender, muted olive, blue-gray, and lower-chroma air make them radiate.
-- Keep dark anchors colorful. Deep cobalt, indigo, violet, blue-green, crimson, olive, and violet-brown can remain low in value without becoming dead black; they give pale and warm light something to act against.
+- Keep dark anchors colorful and locally plausible. Foliage often supports deep green, blue-green, or olive; cool reflected light may support cobalt, indigo, or violet; warm earth, hair, fabric, or masonry may support crimson, violet-brown, or reflected warmth. Do not make every shadow violet, impose one minimum saturation, or desaturate every dark toward neutral black.
 - Use white, cream, and pale mixtures locally for glare, haze, cloud light, and sun-struck surfaces. Do not give sky, facade, foliage, blossoms, and shadows one shared milky base that turns the palette into baby blue, lime, and cotton-candy pink.
 - Keep high-key mist or overcast genuinely high-key when the source requires it. Retain subtle value anchors and temperature changes rather than inventing sunset or crushing the shadows merely to create drama.
 - Preserve the source time of day and weather in a style transfer. Offer golden hour, morning mist, or twilight as a requested variant, not as an automatic cure for weak color.
@@ -173,6 +185,13 @@ Make the painted construction visible without turning it into generic texture.
 - Make the dominant strokes readable at ordinary display size, not only when zoomed in.
 - Avoid pixel-sized dabs, uniform pointillism, repeating leaf-shaped stamps, knitted texture, and evenly distributed palette-knife facets.
 - Reject short, structured, crystallized ridges that interlock into a dense cell pattern. Heavy relief is not a substitute for broken color: preserve side-by-side pigment differences, varied edge quality, and meaningful changes in paint thickness instead of embossing every mark equally.
+
+Before adding smaller marks, make an activity map from pictorial information and attention—not raw photographic edge count.
+
+- Increase activity selectively where a light event changes, wave turns or breaks, forms overlap, a material changes state, a focal silhouette needs recognition, or an expressive passage carries the scene.
+- Quiet supporting fields with longer intervals, thinner paint, lower contrast, broader joins, softer burial, or a narrower temperature range. A quiet sky or calm water may remain visibly worked; an active storm sky or all-over late pond may legitimately carry activity across much of the canvas.
+- Let saliency guide emphasis without tracing every leaf edge, window, sparkle, feather, ripple, or high-frequency camera detail. If all photographic edges receive marks, the result becomes a filter; if activity is uniform, the hierarchy disappears.
+- Judge activity relationally. A busy flower bed needs quieter neighboring air or ground; a calm field can support one concentrated figure or light path; an all-over motif still needs changes in loading, overlap, opacity, and pause.
 
 For horizonless water-lily, reflection, or close-water scenes, begin with broad source-derived blue, violet, green, mauve, gray, and cream masses; cross them with medium state-specific surface strokes; finish with only a few decisive flowers, animals, debris anchors, foam, or light dabs. Keep any tiny subject subordinate to the water-and-light field.
 
@@ -467,6 +486,15 @@ Avoid rendering cacti with the sky's broad scumbles, the ground's granular dabs,
 - Let people remain absent or act as small staffage when the original brief is primarily about nature, weather, or a repeated motif. Never add, shrink, or remove people in a style transfer to imitate that convention.
 - Keep reflections subordinate to the water state. Translate reflected objects into broken vertical color echoes, then interrupt, gray, smear, or displace them with surface movement; never produce a literal mirror duplicate.
 
+## Corpus-Measurement Guardrail
+
+Use small reproduction corpora to discover hypotheses about composition, value intervals, palette families, density variation, and broad directional behavior. Do not treat whole-image statistics from 256-pixel reproductions as direct measurements of physical brushstrokes or as stand-alone acceptance gates.
+
+- Global frequency, coherence, density, luminance, and saturation metrics also respond to subject matter, object edges, composition, photographic texture, reproduction processing, and compression. A photograph or a visibly stippled failure may satisfy the same threshold as a painting.
+- Never infer a universal stroke aspect ratio or absolute pixel size from a downsampled reproduction. Never clamp every scene to one luminance or saturation envelope.
+- Before adopting a numerical gate, test it against approved paintings, known rejected outputs, raw photographs, and diverse Monet modes. Reject the gate if it accepts known failures, rejects approved work, or excludes substantial parts of the reference corpus.
+- Keep visual and factual evaluation primary: source fidelity, connected masses, light logic, material routing, activity hierarchy, hue latitude, chromatic darks, paint chronology, and benchmark comparison.
+
 ## Motif Recipes
 
 ### River town
@@ -513,6 +541,9 @@ When the first output fails, diagnose the exact failure and issue a targeted edi
 - **Heavy dead foreground shadow:** “Keep the source's dark value structure, but ventilate cactus, foliage, and ground shadows with restrained blue, violet, teal, olive, reflected coral, and warm-gray notes. Preserve darkness through value relationships rather than near-black fill.”
 - **Washed-out focal anchor:** “Change only the focal subject and its direct reflection or cast shadow. Restore the source's decisive low-value anchor with deep indigo, cobalt, violet-brown, blue-green, and restrained olive while retaining loose broken paint and a few atmospheric edge notes. Keep its core significantly darker than the immediate light field; do not sharpen it into an outlined cutout, fill it with flat black, or alter the successful surrounding paint.”
 - **Too mechanical:** “Break the repeated pattern with uneven clusters and pauses, varied pressure and loading, imperfect overlaps, dry-brush interruptions, and a few restrained warm/cool surprise notes; keep every scene-level fact unchanged.”
+- **Uniform activity map:** “Preserve the source facts and successful broad masses, but redistribute paint activity by pictorial information and attention. Concentrate stronger contrast, direction changes, loading, and smaller accents around meaningful light events, motion, overlap, material transitions, and focal recognition. Quiet supporting fields with broader joins, thinner paint, softer burial, and longer intervals. Do not trace every photographic edge or make the whole canvas equally busy.”
+- **Wrong hue latitude:** “Preserve the value structure, source color identities, and dominant atmospheric family, but reset the hue range to the condition. Converge fog, haze, or quiet atmosphere into a restrained family with small warm-cool deviations; allow gardens, flowers, or late reflective fields a wider organized range with bounded counter-notes. Do not make the narrow scene monochrome or the wide scene a scattered rainbow.”
+- **Wrong historical handling:** “Preserve the entire factual composition and source light. Rebuild only the handling mode: tighter early uses firmer planar anchors, smaller transitions, and calmer loading; classic middle uses directed broken color and balanced atmospheric loss; broad late uses larger overlapping passages, fewer descriptive contours, and shallower all-over organization only where the source permits it. Do not change crop, horizon, subject count, identity, or landmark geometry.”
 - **Crystallized water texture:** “Remove the dense network of short, structured, hard-edged impasto ridges. Rebuild the water with unequal broad and medium strokes, thinner scumbled intervals, soft or lost joins, broken side-by-side warm and cool notes, and selective thickness only at a few crests and glints. Preserve wave state and composition; do not replace the ridges with another repeated stamp.”
 - **Flat water stroke scale:** “Rebuild the water in continuous pictorial depth. Use broad, longer, more loaded and widely broken gestures in the foreground; unequal medium dashes through the middle distance; and thinner, shorter, closer, softer, lower-contrast slivers toward the far distance. Let width, loading, contrast, spacing, edge certainty, and detail diminish gradually rather than repeating one ripple stamp across the lake. Stack reflected color loosely in vertical paths beneath the surface marks, then interrupt it with the water-state rhythm.”
 - **Sky inherits water texture:** “Return to the original source or last approved edit and freeze the composition. Rebuild only the sky and water mark systems: use broad rubbed veils, long pale scumbles, soft merges, and quiet intervals in the sky; use one continuous water body plus sparse state- and depth-scaled surface gestures below. No short ripple, dash, hook, or facet vocabulary may migrate into the sky.”
