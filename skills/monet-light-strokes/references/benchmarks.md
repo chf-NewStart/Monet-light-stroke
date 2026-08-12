@@ -6,13 +6,16 @@ Use approved images as visual calibration for reusable paint behavior. Preserve 
 
 - **General light-defined form:** B010.
 - **Open sea, surf, or sunset water:** B001 or B008; choose by the needed water-state lesson.
+- **Cool daylight lake with a large foreground bird, populated ferry or excursion boat, and strong depth scaling:** B021.
+- **Horizonless close water with a small animal anchor, sparse debris, and shallow all-over space:** B022.
 - **Dusk sky component:** B002 only for sky passages.
 - **Rough low-light ground component:** B003 only for ground passages.
 - **Relational luminous color:** B004 as text-only calibration.
 - **Cactus dusk and material/distance hierarchy:** B005.
 - **Energetic structured nocturne:** B007.
 - **Daylight architecture inside flowering foliage:** pair B010 with B014.
-- **Meadow, flower field, distant tree band, or figure embedded in vegetation:** B016; do not transfer its skirt folds.
+- **Meadow or flower field built from broad brushed and rubbed passages, especially with one integrated figure:** B020. Use B016 only when sparse floral accents and distant-band recession are the main lesson; do not transfer its skirt folds.
+- **Pale meadow that still reads as dots or short dabs:** use R019 as negative calibration; rebuild the base with drags, rubbed stains, scumbles, and mergers.
 - **Close floral subject against a deep painted field:** provisional B017.
 - **Silver-overcast autumn canopy with restrained architecture:** B018.
 
@@ -443,3 +446,86 @@ Use B017 only to calibrate the value relationship between luminous flowers and a
 ### Transfer Rule
 
 Use B018 only to calibrate silver-overcast value compression, quiet-sky versus active-canopy hierarchy, collective autumn foliage, chromatic branch structure, palette dominance, and restrained architectural description. The new source remains sole authority for crop, orientation, tree species, foliage placement, buildings, weather, palette, and light. Never copy B018's roofline, tree arrangement, sky-to-canopy division, exact autumn colors, or visible mark pattern into another scene.
+
+## R019 — Pale Uniform-Dab Meadow (Rejected)
+
+- **Status:** text-only failure-mode calibration from user feedback on 2026-08-12; the evaluated preview is not bundled.
+- **Use for:** negative calibration against a high-key meadow whose pale palette and softened contrast conceal a repeated dot, comma, or short-dab surface. Do not use it as a positive style reference.
+
+### Why It Fails
+
+- The lighter value interval, restrained color, and atmospheric figure integration move toward the intended observation, but foliage and meadow still share an evenly distributed discrete-mark footprint.
+- The viewer reads thousands of dots or short stamps before broad ground, air, and vegetation masses. Changing the palette or softening the dots does not correct the construction.
+- Positive instructions for leaf flicks, commas, and floral notes overpower the broader massing rules when those marks are not explicitly delayed and limited.
+
+### Correction Rule
+
+Return to the source or last factually faithful edit. Rebuild sky, trees, and meadow from unequal broad drags, rubbed stains, scumbles, wet-into-wet mergers, and partial burial. Let those connected passages carry the scene before adding a limited number of local sweeps, hooks, flower stains, or accents. Run the discrete-mark test at ordinary size: if dots, commas, spikes, or short dabs form the field's visible base layer, merge and bury most of them rather than merely making them paler.
+
+## B020 — Brushed Silver-Overcast Meadow Figure
+
+- **Status:** approved by the user on 2026-08-12 as the preferred new-rules meadow result.
+- **Image:** [benchmark-020-brushed-meadow-figure.png](../assets/benchmarks/benchmark-020-brushed-meadow-figure.png)
+- **SHA-256:** `09ab387fc037ec425e1a4aedc82c69abb8e2290c50fb10c3135f3c6978028292`
+- **Dimensions:** 1254 × 1254
+- **Use for:** silver-overcast meadow scenes, broad brushed and rubbed ground construction, low lateral color flow, sparse nonliteral flower color, fused tree bands, and a single figure embedded in the same atmospheric paint chronology.
+
+### Why It Works
+
+- The meadow survives the removal test. Long low drags, lateral scrapes, rubbed stains, soft diagonal sweeps, and partly merged passages carry the ground before any small accent is considered.
+- Coral, mauve, ochre, celadon, gray-green, and lavender appear as broad interrupted color currents rather than an inventory of flowers. No dot, comma, spike, or same-sized short dab becomes the field's structural unit.
+- The tree line reads first as several fused chromatic silhouettes. Individual crowns are suggested economically while the band remains subordinate to the large pearl, pale-blue, cream, and lavender overcast sky.
+- The compressed value interval is separated through temperature and a few chromatic anchors rather than hard outlines or expanded contrast. Dark hair, tree cores, gazebo, lamp, and the right trunk stay colorful instead of black.
+- The woman remains recognizable through placement, facing direction, hair mass, white-dress planes, bag, and phone gesture while sharing softened edges, undercolor, and paint chronology with the meadow.
+- Broad and medium passages dominate the square. Small accents are scarce, and the materials keep distinct behaviors: scumbled sky, fused foliage, dragged field, planar dress, and concise props.
+
+### Transfer Rule
+
+Use B020 to calibrate discrete-mark economy, long brushed meadow flow, rubbed and partly buried color, silver-overcast temperature separation, fused tree-band handling, and figure-atmosphere integration. The new source remains sole authority for crop, orientation, person count, identity, placement, pose, clothing, props, architecture, vegetation zones, palette, weather, and light direction. Never copy B020's woman, white dress, bag, phone, gazebo, tree arrangement, square crop, color-band placement, or visible brush pattern into another scene.
+
+## B021 — Cool Daylight Ferry and Foreground Gull
+
+- **Status:** approved by the user on 2026-08-12 after a targeted self-correction from the original source.
+- **Image:** [benchmark-021-cool-daylight-ferry-gull.png](../assets/benchmarks/benchmark-021-cool-daylight-ferry-gull.png)
+- **SHA-256:** `21f70eb057923b094d53d55f2125572015c5a2be08005f0a891aeca2acd59112`
+- **Dimensions:** 1448 × 1086
+- **Use for:** cool clear daylight over mildly choppy inland water, broad continuous water fields with sparse depth-scaled gestures, quiet sky-versus-water material separation, a large cropped foreground bird, a populated ferry or excursion boat, compressed shoreline architecture, and targeted retry behavior after generic texture or invented text.
+
+### Why It Works
+
+- The lake begins as broad connected blue-green, teal, slate, gray-blue, violet, and muted-cyan fields. Longer foreground sweeps, unequal middle-distance gestures, and softer far-water slivers vary without becoming a same-sized dash carpet.
+- Large quiet intervals and partly merged passages remain visible between wave accents. The water reads as one moving body before it reads as many marks.
+- The sky uses broad rubbed veils and long pale scumbles rather than inheriting the lake's short wave vocabulary. Sky and water share atmosphere but not one universal stamp.
+- The ferry stays legible through compact white-and-navy planes, smokestack, cabin, mast rhythm, interrupted window and railing anchors, and tiny passenger clumps. Its identity does not depend on readable name or banner text.
+- The gull remains a decisive right-facing foreground silhouette built from connected pearl, cream, lilac, gray-blue, and chromatic-dark planes. Wing structure, tail, and yellow legs survive without feather-by-feather inventory or a black outline.
+- The thin tree, building, and mast band keeps the source depth and landmark order while remaining softer, quieter, and less descriptive than the two principal anchors.
+
+### Correction Lesson
+
+The first pass preserved the composition but failed the material-transfer and depth-scaling tests: sky and water shared an all-over short-stroke texture, the water held similar mark density from front to back, and the ferry acquired pseudo-lettering. The successful retry returned to the original source, froze subject placement, facing direction, scale, crop, crowd distribution, and shoreline order, then changed only paint behavior and signage: broad rubbed sky; continuous lake body with fewer longer depth-scaled gestures; compact ferry planes; and no text.
+
+### Transfer Rule
+
+Use B021 to calibrate quiet-sky versus active-water separation, broad lake continuity, continuous depth scaling, large-bird simplification, populated-boat economy, chromatic cool daylight, distant shoreline compression, and the targeted retry sequence above. The new source remains sole authority for crop, orientation, subject and person count, species, pose, facing direction, boat type, vessel geometry, shoreline, architecture, water state, weather, palette, and light. Never copy B021's gull, ferry, passengers, lake, shoreline, blue palette, wide crop, anchor placement, or visible brush pattern into another scene.
+
+## B022 — Horizonless Duck Water
+
+- **Status:** approved by the user on 2026-08-12 as the preferred horizonless close-water result.
+- **Image:** [benchmark-022-horizonless-duck-water.png](../assets/benchmarks/benchmark-022-horizonless-duck-water.png)
+- **SHA-256:** `8251dff06f71903a83bb8256f5e5eb13e1f239685242b9a42a58d673937127ee`
+- **Dimensions:** 1448 × 1086
+- **Use for:** close downward views in which water fills every edge; broad connected cool-water massing; irregular lateral and oblique surface flow; selective translation of dark reflection contours; shallow all-over space without an invented horizon; sparse debris economy; and a very small animal or object kept subordinate to the light field.
+
+### Why It Works
+
+- Water remains the entire composition. The downward viewpoint and shallow all-over field survive without a shoreline, sky strip, horizon, or three mechanical recession bands.
+- Broad blue-green, teal, gray-blue, indigo, violet, lavender, and restrained cream passages establish one continuous body before medium surface gestures appear. The water reads as moving color before it reads as many separate marks.
+- Unequal lateral sweeps, oblique curls, rubbed joins, overlaps, and partly buried strokes create wave flow with active clusters and quieter intervals. No same-sized dash, oval, ripple, or ridge becomes a tiled base pattern.
+- The photograph's many dark loop-like reflections are reduced to a few broken indigo, blue-violet, and teal serpentine interruptions. They remain evidence of reflected movement instead of becoming a traced wire mesh.
+- The single right-facing duck stays small in the upper-left and reads through a compact dark-green head, warm brown body, pale bill, and minimal wake. It anchors scale and direction without becoming the subject of an animal portrait or receiving feather inventory.
+- Incidental floating matter is edited into a few subdued warm twig and fragment accents, including the cropped lower-right anchor. Tiny debris is merged into the water chronology rather than translated speck by speck.
+- Cool reflected daylight governs the broad field. Warmer ochre and brown notes remain bounded to the duck and debris, while pale glints stay tinted and darks remain chromatic.
+
+### Transfer Rule
+
+Use B022 to calibrate horizonless close-water composition, broad connected color bodies, shallow-depth organization through overlap and color pathways, selective reflection-contour reduction, sparse debris handling, and the economy of a tiny subordinate anchor. The new source remains sole authority for crop, orientation, viewpoint, subject count, species, placement, scale, facing direction, water state, reflection structure, debris anchors, palette, and light. Never copy B022's duck, twig arrangement, blue-green palette, upper-left anchor placement, wide crop, or visible stroke paths into another scene. Do not import B010's horizon or B021's conventional near-to-far depth scaling into a horizonless source.

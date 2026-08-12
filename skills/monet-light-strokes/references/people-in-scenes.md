@@ -16,6 +16,7 @@ Use this reference whenever people appear. Preserve the source facts, then alloc
 - Use roughly two to five connected marks: a vertical or leaning body mass, one head or hat note, and an optional limb, prop, or reflected accent.
 - Let value contrast, gesture, spacing, and color identify the figure; omit eyes, fingers, seams, and facial anatomy.
 - Group crowds into irregular dark-light rhythms while keeping the source count and major spacing readable. Do not resolve every person equally.
+- For an original nature or weather scene, add a person only when the brief calls for one or when staffage materially clarifies scale. Keep such figures subordinate to the atmospheric event. This does not permit removing or shrinking people from a style-transfer source.
 
 ### Midground figures
 
@@ -45,6 +46,7 @@ Use this reference whenever people appear. Preserve the source facts, then alloc
 - **Garden promenade:** larger seated and standing figures retain pose through hats, umbrellas, broad clothing planes, and silhouette while faces stay economical.
 - **Poppy field:** figures dissolve most strongly into air and vegetation; a blue parasol, dark dress, or warm hat carries recognition more effectively than anatomy.
 - **Atmospheric meadow figure:** the meadow is established as a few connected green, rust, violet, and muted-flower masses before sparse accents appear; the single figure keeps pose, white dress, dark hair mass, bag, and phone through connected planes while the distant tree line compresses into a soft low-contrast band.
+- **Brushed silver-overcast meadow figure:** long low field drags, rubbed stains, and partly merged color currents carry the meadow without an upright flower-mark carpet; the small figure remains legible through a chromatic hair mass, two or three dress planes, bag shape, and phone gesture while sharing softened edges and undercolor with the field.
 
 Use these as behavior references only. Do not copy their compositions, clothing, gardens, boats, flags, or palettes into a new source.
 

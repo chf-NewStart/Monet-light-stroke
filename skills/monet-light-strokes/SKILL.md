@@ -24,15 +24,17 @@ Resolve conflicts in this order: the user's current instruction; source or appro
 - **Profile picture:** default to square, but keep the complete visible figure. Do not turn a full-body source into a headshot.
 - **Series:** keep the requested subject, viewpoint, crop, and stroke grammar recognizable while varying only the requested light, weather, season, or time. Rebuild the value compression, surviving edges, shadow and reflection shapes, color dominance, and paint activity for each observation; do not make a recolor or reuse one visible texture pattern.
 
+Treat the motif as a measuring instrument for light and weather. Preserve or invent enough subject structure to make the scene factual and legible, but let the observed atmospheric condition govern value compression, temperature, edge survival, and paint activity. The object is not a pre-rendered drawing that later receives an Impressionist surface.
+
 Generate directly when the request is sufficiently specified. Ask only when an unresolved choice would materially change the result.
 
 ## Build the Painting
 
 1. **Lock invariants.** Record the source facts internally. For asymmetric edits, state at least two anchors that would expose a mirror, rotation, side swap, or viewpoint drift.
-2. **Choose one light key.** Preserve source time and weather unless the user requests a change. Record its dominant value interval, light direction, atmospheric visibility, and temperature bias; let those four properties organize color, edge certainty, and paint loading.
+2. **Choose one light key.** Preserve source time and weather unless the user requests a change. Record its dominant value interval, light direction, atmospheric visibility, and temperature bias; let those four properties organize color, edge certainty, and paint loading. In a compressed interval, try warm-cool separation before inventing stronger value contrast.
 3. **Map five to nine masses.** Establish broad connected value-color zones before parts. Treat foliage, blossoms, meadows, forests, crowds, roofs, and similar repeated units as collective masses before adding sparse individual clues.
 4. **Define form with color boundaries.** Use a light plane, chromatic shadow plane, reflected color, overlap, and lost-and-found edges. Simplify secondary detail without dissolving all structure: major forms must remain legible through neighboring value and temperature changes, not continuous outlines or smooth blur.
-5. **Build visible paint chronology.** Use thin ground, broad scumble, irregular broken middle strokes, partial burial or revision, and a few opaque accents. Let broad and medium marks dominate; reserve small marks and thick impasto for focal sites.
+5. **Build visible paint chronology.** Use thin ground, broad scumble, brushed or dragged joins, irregular broken middle strokes, partial burial or revision, and a few opaque accents. Let broad and medium marks dominate; reserve small marks and thick impasto for focal sites. Treat broken color as varied visible touch, not as a requirement to cover every region in discrete dabs.
 6. **Route marks by material, state, and depth.** Sky, water, ground, architecture, foliage, flowers, skin, hair, fabric, and props must not share one universal stamp. Within each material, vary direction, length, width, loading, opacity, spacing, overlap, and edge quality. Where the source has conventional recession, reduce contrast, mark count, loading, and edge certainty with distance. Do not force cooler distance or near-to-far scaling when the source light or an all-over reflection field contradicts it.
 7. **Write the prompt in priority order.** State preservation requirements first, requested changes second, painterly construction third, exclusions last. For a localized revision, explicitly freeze every approved passage and change only the named region or property.
 8. **Generate and inspect the complete image.** Check factual preservation before aesthetics, then large masses, form boundaries, mark hierarchy, color, and material routing.
@@ -43,10 +45,11 @@ Generate directly when the request is sufficiently specified. Ask only when an u
 - Preserve the displayed orientation exactly. Never mirror, flip, rotate, transpose, reverse a facing direction or path, swap sides, zoom, or recrop unless requested.
 - Preserve people and meaningful objects: count, identity, scale, pose, silhouette, complete visible extent, clothing-color anchors, props, and placement. Do not invent, remove, duplicate, or redesign them.
 - Make light and adjacent color-value fields carry form. Keep a few decisive edges where recognition needs them; let secondary edges break, merge, or disappear into atmosphere.
-- Use adjacent broken pigments that mix optically. Do not replace broken color with seamless gradients, airbrushing, one premixed fill, or a global blur.
+- Use adjacent pigments that mix optically through unequal dabs, strokes, drags, scumbles, veils, smears, and partial burial. Do not replace broken color with seamless gradients, airbrushing, one premixed fill, or a global blur; do not interpret it as dots everywhere.
 - Keep transitions visibly painted but non-mechanical. Reject tiny mosaic cells, interlocking facets, repeated lozenges, uniform stippling, parallel wallpaper stripes, knitted hatching, identical short dabs, and dense crystalline ridges.
 - Maintain a hierarchy of broad fields, medium descriptive strokes, and sparse small accents. Do not mistake more dabs or equal heavy impasto for more painterly work.
 - Keep shadows and dark anchors chromatic—indigo, cobalt, violet, blue-green, olive, crimson, violet-brown, or reflected warmth—not flat black. Preserve a source-defining dark focal anchor when present.
+- Keep the lightest notes tinted by their atmosphere—cream, pearl, peach, lilac, or sky color—rather than using broad pure-white fill. Reserve near-white for a few source-supported accents.
 - Create luminosity relationally: place selected clean color and pale paint beside quieter grays and deeper chromatic notes. Do not whiten every material into the same chalky pastel value.
 - Preserve the source's value-range strategy. Fog, snow glare, backlight, and some series paintings may compress most of the scene into a narrow high, middle, or dark interval; retain a few decisive chromatic anchors instead of expanding every scene to full contrast.
 - Let one source-derived color family govern the broad atmospheric field and use complementary or higher-chroma notes as selective counterweights. Do not distribute every attractive pigment evenly across the canvas.
@@ -75,6 +78,7 @@ Reject or revise the image if any applicable check fails:
 ### Paint and material
 
 - Broad and medium irregular strokes dominate; small marks and thick impasto are selective.
+- Visible touch includes fused, dragged, rubbed, scumbled, and partly buried passages; isolated dot-like marks never become the default unit of foliage, meadow, sky, or the whole canvas.
 - Thin ground, scumble, broken middle paint, burial, and accents create multiple passes rather than one digital filter.
 - A representative mark patch would look wrong if transplanted unchanged between unrelated materials.
 - Active passages include irregular overlaps and interruptions; quiet passages remain visibly worked through thinner paint, lower contrast, softer burial, or longer intervals.

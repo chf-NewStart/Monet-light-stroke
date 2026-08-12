@@ -1,4 +1,4 @@
-version: 2
+version: 3
 purpose: >-
   Test whether changes improve painterly behavior without sacrificing source fidelity.
 
@@ -18,6 +18,7 @@ scoring:
     - light_defined_boundaries_and_edge_hierarchy
     - material_specific_strokes
     - broken_color_and_optical_mixing
+    - varied_touch_and_discrete_mark_economy
     - layered_oil_construction
     - chromatic_shadows
     - coherent_light
@@ -37,6 +38,7 @@ global_failures:
   - smooth_digital_gradients_or_globally_blended_color
   - underdefined_forms_without_value_temperature_boundaries
   - uniform_impasto_stipple_mosaic_or_palette_knife_facets
+  - broken_color_misread_as_uniform_dots_commas_or_short_dabs
   - overdescribed_leaf_petals_clothing_or_architectural_inventory
   - flat_black_shadows_or_hard_ink_contours
   - canvas_wide_milky_pastel_whitening_or_flat_chalky_shadows
@@ -106,6 +108,35 @@ cases:
       reflections: vertical_color_echoes_broken_by_horizontal_water_marks
       color: selective_relational_chroma_not_global_brightness
 
+  - id: cool_daylight_ferry_and_foreground_gull
+    benchmark: B021
+    source_status: consented_private_local_fixture
+    invariants:
+      - original_wide_crop_orientation_horizon_and_viewpoint
+      - exactly_one_large_foreground_gull_with_source_scale_pose_facing_and_bottom_crop
+      - exactly_one_upper_left_ferry_with_source_scale_geometry_facing_and_placement
+      - passenger_count_impression_distribution_and_complete_visible_extent
+      - shoreline_tree_building_and_mast_order
+    material_checks:
+      sky: broad_rubbed_veils_and_long_scumbles_not_water_dashes_or_blank_gradient
+      water: continuous_blue_green_body_with_sparse_depth_scaled_lateral_oblique_gestures_and_quiet_intervals
+      ferry: compact_white_navy_planes_with_smokestack_cabin_masts_and_interrupted_structural_anchors_not_drafted_inventory
+      passengers: tiny_irregular_chromatic_clumps_not_faces_or_equal_detail
+      gull: connected_tinted_light_and_chromatic_shadow_planes_with_tail_and_leg_anchors_not_feather_inventory
+      shoreline: compressed_soft_band_subordinate_to_ferry_gull_and_water
+      text: no_invented_readable_or_pseudo_lettering_on_vessel_or_scene
+    retry_checks:
+      - return_to_original_and_freeze_factual_composition
+      - correct_material_routing_depth_scale_and_signage_only
+      - do_not_edit_forward_from_a_failed_derivative
+    known_failure: >-
+      The result fails when sky and water share an all-over short-stroke texture,
+      when the lake repeats one dash size or density from foreground to horizon,
+      when ferry identity depends on pseudo-lettering, when passengers become
+      facial inventory, or when the foreground gull is redesigned, moved, or
+      described feather by feather. A targeted retry must preserve the source
+      skeleton and change only the diagnosed paint behavior or unwanted text.
+
   - id: full_body_outdoor_portrait
     source_status: consented_private_local_fixture
     invariants:
@@ -143,14 +174,14 @@ cases:
       light, house, and foliage masses.
 
   - id: atmospheric_meadow_figure
-    benchmark: B016
+    benchmarks: [B016, B020]
     source_status: consented_private_local_fixture
     invariants:
       - original_landscape_crop_orientation_and_meadow_extent
       - figure_count_placement_pose_body_direction_and_complete_visible_extent
       - white_dress_dark_hair_bag_phone_and_distant_tree_band
     material_checks:
-      meadow: connected_green_rust_violet_and_muted_flower_masses_with_sparse_unequal_accents
+      meadow: connected_green_rust_violet_and_muted_flower_masses_built_from_long_low_drags_lateral_scrapes_rubbed_stains_and_soft_mergers_with_sparse_unequal_accents
       figure: integrated_warm_cool_planes_with_chromatic_dark_core_and_environmental_edge_exchange
       clothing: two_to_four_connected_planes_and_one_or_two_broad_fold_gestures_not_ruffle_inventory
       distance: softer_lower_contrast_tree_band_with_fewer_marks
@@ -158,7 +189,11 @@ cases:
       Figure integration still fails when the person becomes a smooth protected
       sticker. Clothing simplification still fails when it changes the dress
       silhouette or movement; clothing definition still fails when repeated
-      ruffles, pleats, seams, printed details, or sharp dark grooves return.
+      ruffles, pleats, seams, printed details, or sharp dark grooves return. The
+      meadow still fails when a pale palette disguises an evenly distributed
+      carpet of dots, commas, flower spikes, or same-sized short dabs. B020 is
+      the preferred positive calibration for broad lateral meadow construction;
+      B016 remains useful for sparse accents and distant-band recession.
 
   - id: dark_chromatic_close_floral
     benchmark: B017
@@ -243,6 +278,31 @@ cases:
       An all-over pond fails when conventional foreground-middle-distance bands
       or a horizon are invented, when every pad is equally described, or when
       the shallow reflection field becomes a tiled ripple pattern.
+
+  - id: horizonless_close_water_and_small_duck
+    benchmark: B022
+    source_status: consented_private_local_fixture
+    invariants:
+      - original_wide_crop_orientation_and_downward_viewpoint
+      - water_fills_every_edge_without_sky_shoreline_or_horizon
+      - exactly_one_small_upper_left_right_facing_duck_with_source_scale_silhouette_and_short_wake
+      - selected_compositionally_decisive_debris_anchors_including_the_cropped_lower_right_fragment
+      - source_cool_reflected_daylight_and_shallow_all_over_spatial_field
+    material_checks:
+      water: broad_connected_blue_green_teal_gray_blue_violet_and_indigo_bodies_before_unequal_lateral_oblique_curved_and_hooked_surface_gestures
+      reflections: few_broken_chromatic_serpentine_interruptions_not_traced_loop_mesh_or_contour_inventory
+      duck: compact_chromatic_planes_with_pale_bill_and_minimal_wake_not_enlarged_centered_outlined_or_described_feather_by_feather
+      debris: few_subdued_warm_fragments_and_twigs_with_microdebris_merged_or_omitted_not_speck_inventory
+      depth: overlap_local_scale_temperature_pathways_and_selective_edge_loss_without_horizon_or_three_recession_bands
+      hierarchy: water_and_reflected_light_first_tiny_duck_second_debris_last
+    known_failure: >-
+      The result fails when a sky, bank, horizon, lilies, or extra animals are
+      invented; when the duck is enlarged, centered, mirrored, redesigned, or
+      resolved as an animal portrait; when every photographed squiggle and
+      sparkle becomes a wire mesh; when one dash or oval stamp tiles the water;
+      or when incidental debris is translated speck by speck. B022 is the
+      positive calibration for preserving a tiny factual anchor inside a broad,
+      shallow, horizonless light-and-water field.
 
   - id: silver_overcast_autumn_canopy
     benchmark: B018

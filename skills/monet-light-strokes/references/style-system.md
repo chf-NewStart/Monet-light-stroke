@@ -17,6 +17,8 @@ The scene should feel observed in a particular instant of weather and light. Obj
 
 Let light define form rather than decorating an underlying drawing. Silhouette, neighboring color-value fields, reflected color, and atmospheric overlap should carry recognizability after secondary contours and construction lines are mentally removed.
 
+Treat the motif as an instrument for observing light. Ask first what the sun, cloud, fog, moisture, season, or reflected illumination is doing to the motif; then decide which object facts survive that condition. The subject provides stability and recognition, while the atmospheric event determines the painting's value interval, temperature structure, edge survival, and surface activity.
+
 Aim for:
 
 - luminous air between viewer and subject;
@@ -41,7 +43,7 @@ Avoid:
 
 Use these as the compact style test:
 
-- **Broken color:** replace solid fields with neighboring dabs and strokes of varied pigment that mix optically. Build a golden reflection from yellow, ochre, coral, lilac, blue, and gray notes rather than one premixed gold fill.
+- **Broken color:** replace inert flat fill with neighboring visible touches of varied pigment that mix optically. Those touches may be broad scumbles, dragged or rubbed joins, wet-into-wet smears, interrupted strokes, or selective dabs. No substantial region should collapse into one dead premixed fill, but neither should every region receive the same discrete mark. Build a golden reflection from yellow, ochre, coral, lilac, blue, and gray notes rather than one premixed gold fill; never make dots the universal unit.
 - **Fleeting atmosphere:** organize the image around one specific instant of natural light, weather, moisture, and air. Paint how light alters the subject and surrounding color rather than describing local-object detail first.
 - **Layered, selective impasto:** retain thin ground, scumble, broken middle paint, and partial revisions, then thicken only selected dabs and dashes at light-catching or structurally active passages. Do not coat the whole canvas in equal relief.
 - **Serial observation:** when making a series, hold the subject and viewpoint steady while varying morning, overcast, sunset, twilight, season, or weather. Rebuild the dominant value interval, edge survival, shadow and reflection shapes, color hierarchy, and paint activity for each observation; do not make a recolor or reuse a texture.
@@ -110,6 +112,7 @@ Choose one primary key and keep it coherent. Define it through four linked decis
 Preserve how much of the value scale the source actually uses. A misty bridge, snow field, backlit facade, or late water-lily surface may be organized inside a narrow interval; a sunset silhouette or shaded garden may depend on a deeper span. Do not normalize both into the same medium-contrast pastel painting.
 
 - In a compressed scene, separate neighboring forms through small temperature, chroma, opacity, and edge changes. Retain one to three decisive anchors rather than darkening every contour.
+- When values are close, test temperature separation first: a warm gray against a cooler gray may carry the form without widening the tonal span. Temperature does not replace value structure in every painting; it prevents compressed light from being inflated into artificial contrast.
 - In a broad-range scene, let a few low and high notes carry the span while the majority remains quieter. Avoid equal contrast from corner to corner.
 - Choose one dominant source-derived color family for the atmospheric field. Let complementary or clearer pigments enter as bounded counter-notes at light events, reflections, flowers, roofs, figures, or focal edges.
 - Do not make “broken color” mean equal quantities of every palette color. Optical variety can live inside a strongly blue, violet, green, ochre, rose, or neutral-dominant painting.
@@ -163,6 +166,7 @@ Make the painted construction visible without turning it into generic texture.
 - Use three stroke scales: broad strokes for atmospheric and value masses, medium loaded strokes for most forms, and a few small accents at the focal point.
 - Let broad and medium strokes dominate. Keep small detail marks to a minor share of the surface rather than tessellating the whole image.
 - Favor fewer overlapping marks with irregular spacing, direction, length, thickness, and paint loading.
+- Let visible touch include connected brush movement. Broad drags, rubbed color, wet-into-wet merges, softened scumbles, and partly buried strokes may occupy more area than isolated marks, especially in sky, fog, meadows, and distant foliage.
 - Allow broad scumbled passages, dragged dry-brush edges, softened joins, and occasional underpainting or canvas grain to show between strokes.
 - Load light-catching accents more thickly than shadow passages. Use impasto selectively on glints, flowers, foam, sunlit walls, or pale reflections.
 - Keep calm passages beside active passages. Do not give every square inch the same density or sharpness.
@@ -170,7 +174,7 @@ Make the painted construction visible without turning it into generic texture.
 - Avoid pixel-sized dabs, uniform pointillism, repeating leaf-shaped stamps, knitted texture, and evenly distributed palette-knife facets.
 - Reject short, structured, crystallized ridges that interlock into a dense cell pattern. Heavy relief is not a substitute for broken color: preserve side-by-side pigment differences, varied edge quality, and meaningful changes in paint thickness instead of embossing every mark equally.
 
-For water-lily and reflective-water scenes, begin with broad blue, violet, green, mauve, and cream masses; cross them with medium horizontal strokes; finish with only a few decisive flower, foam, or light dabs.
+For horizonless water-lily, reflection, or close-water scenes, begin with broad source-derived blue, violet, green, mauve, gray, and cream masses; cross them with medium state-specific surface strokes; finish with only a few decisive flowers, animals, debris anchors, foam, or light dabs. Keep any tiny subject subordinate to the water-and-light field.
 
 ## Mark Hierarchy, Not Dab Count
 
@@ -181,6 +185,7 @@ Broken color describes how neighboring pigments interact; it does not require co
 - Give sky, ground, architecture, water, foliage, and figures different predominant footprints. A night sky may use broad transparent veils and long soft scumbles; architecture may use restrained planar bars and broken edge blocks; sand may use low dragged skips plus irregular granular clusters; small figures may need only two or three decisive marks.
 - Vary scale inside each material. Interrupt broad sky veils with a few medium broken notes; interrupt granular ground with longer dragged strokes and quiet shadow fields.
 - Reject interlocking palette-knife tiles, repeated diagonal diamonds, same-sized rectangular facets, woven hatching, or any recognizable digital brush stamp that becomes the canvas's universal unit.
+- Run a discrete-mark test at ordinary display size: if dots, commas, leaf stamps, or short dashes announce themselves as an evenly distributed carpet before the large color field, merge and bury most of them beneath broader unequal brush passages.
 - Judge uniformity in grayscale as well as color. If the paint still looks like one embossed pattern after color is mentally removed, changing the palette has not solved the problem.
 - Run a ridge test: if most neighboring marks are bounded by similarly raised, hard-edged seams and the surface reads as crystalline relief before it reads as color, reduce the repeated impasto, reopen softer and thinner passages, and restore optical interaction between unequal marks.
 
@@ -305,7 +310,7 @@ Treat orientation as scene fact, not a compositional option.
 
 Use a material-specific stroke toolkit: the brushstroke should help become the depicted material instead of sitting on top of every object as one generic texture.
 
-- **Foliage, leaves, and tall grass:** favor quick upward flicks, short commas, hooks, and clustered directional touches. Vary their size, angle, loading, overlap, and spacing so vegetation feels wind-touched rather than stamped.
+- **Foliage, leaves, and tall grass:** establish broad dragged, rubbed, scumbled, or softly fused growth masses first. Cross them with a limited number of unequal sweeps, hooks, and upward gestures that follow growth or wind. Keep short commas and leaf-like touches sparse and locally clustered; never make them the underlying field or repeat them across the full plant.
 - **Water:** classify the physical state first. Favor flat broken horizontal dashes for calm rivers, ponds, and reflective intervals; use rolling oblique curves, diagonal slashes, hooks, and forceful directional sweeps for swelling or breaking sea. Let the wrist motion describe the water's movement instead of applying one universal water stroke.
 - **Stone, masonry, and rough cliffs:** reserve thicker pressed dabs, clumps, crusts, and selectively loaded impasto for solid, weathered, light-catching planes. Keep shadowed or distant stone thinner so the entire object does not become uniformly frosted.
 - **Cloud, steam, fog, and diffuse air:** use scumbling, soft rubbing, broad circular or swirling joins, and semi-opaque veils. Let edges dissolve while retaining the larger atmospheric mass.
@@ -343,6 +348,10 @@ Avoid a uniform milky overlay, equal blur on every depth plane, pure-white vapor
 - Reflect major objects as loose vertical bands of their dominant colors.
 - Interrupt those bands with horizontal ripples so they never read as mirrored vector shapes.
 - Add a few light glints without covering the entire surface in white.
+- In a horizonless close-water view, preserve the all-over downward field and let broad connected color bodies establish the surface before any ripple vocabulary. Use overlap, local scale changes, temperature pathways, and selective edge loss to create shallow spatial movement without inventing a horizon or three recession bands.
+- Translate dense photographed reflection loops, squiggles, sparkle paths, and wave-edge tracings selectively. Keep a few irregular broken chromatic contours that reveal flow; merge or bury the rest so they do not become a wire mesh, contour map, tiled ripple field, or inventory of camera-recorded highlights.
+- When a small duck, bird, buoy, leaf, or other anchor occupies an all-water field, preserve its exact count, placement, scale, facing direction, silhouette, and wake or contact clue. Render it as a concise chromatic cluster and let the surrounding light field remain the first read.
+- Distinguish compositionally meaningful floating objects from microdebris. Preserve decisive twigs, fragments, or foam anchors when their placement affects recognition or balance; absorb most incidental specks into broad paint chronology instead of translating them one by one.
 
 #### Perspective-scaled water rhythm
 
@@ -395,11 +404,11 @@ Avoid pure-white fill, cyan-only shadows, blue contour lines around every drift,
 
 ### Foliage and flowers
 
-- Begin with a few broad connected olive, yellow-green, emerald, blue-green, violet-green, or source-derived masses. Bury and overlap their edges so the plant reads as a moving volume before any leaf-like mark appears.
-- Use broad and medium hooks, short commas, upward flicks, sweeps, and uneven color patches to describe growth direction. Vary their scale and allow marks to merge; do not isolate each leaf.
+- Begin with a few broad connected olive, yellow-green, emerald, blue-green, violet-green, or source-derived masses applied through unequal drags, scumbles, rubbed joins, and soft wet-into-wet mergers. Bury and overlap their edges so the plant reads as a moving volume before any leaf-like mark appears.
+- Use broad and medium sweeps and a limited number of hooks or upward gestures to describe growth direction. Vary their scale, merge many of their joins, and retain larger quiet passages. Use short commas or leaf-like touches only as sparse accents, never as the plant's base texture.
 - For poplars, combine tall vertical trunks with irregular blue-green and yellow-green leaf clusters.
 - Treat blossom-heavy shrubs as several merged warm or pale color clouds crossed by foliage color, then add only a handful of sharper floral accents. Avoid pointillist confetti, thousands of separate dots, and equal petal detail across the plant.
-- Treat meadows and flower fields as three to six connected ground-color masses crossed by overlapping medium sweeps. Scatter only a sparse, uneven handful of floral notes; never let isolated dots become the field's structural unit.
+- Treat meadows and flower fields as three to six connected ground-color masses laid with low drags, soft diagonal sweeps, rubbed stains, and partially merged passages. Cross them with a few unequal medium gestures, then add only a sparse, uneven handful of floral notes. Never let isolated dots, repeated flower spikes, or same-sized dabs become the field's structural unit.
 - Treat broad or midground forests as several sweeping interlocked value-color masses with directional growth rhythms, not as a carpet of hundreds of same-sized tree or leaf marks. Use only a few selective uprights or comma clusters to imply the larger population.
 
 For close broad-leaf florals:
@@ -451,6 +460,13 @@ Avoid rendering cacti with the sky's broad scumbles, the ground's granular dabs,
 - Do not give foreground foliage, middle-ground architecture, and distant roofline the same edge sharpness or descriptive density. Atmosphere must visibly separate the planes.
 - For horizonless water-lily or reflection fields, replace foreground-middle-distance staging with overlap, scale variation, vertical color paths, and selective edge loss. Do not invent conventional recession that the source does not contain.
 
+## Composition and Motif Economy
+
+- In a style transfer, preserve the source composition exactly even when it is unlike a historical Monet arrangement.
+- In an original landscape, prefer a stable, economical design: a clear large-scale division, one or two governing masses, an asymmetrical anchor, and enough quiet area for the light condition to register. Use a clear horizon only when the requested scene naturally has one.
+- Let people remain absent or act as small staffage when the original brief is primarily about nature, weather, or a repeated motif. Never add, shrink, or remove people in a style transfer to imitate that convention.
+- Keep reflections subordinate to the water state. Translate reflected objects into broken vertical color echoes, then interrupt, gray, smear, or displace them with surface movement; never produce a literal mirror duplicate.
+
 ## Motif Recipes
 
 ### River town
@@ -499,6 +515,9 @@ When the first output fails, diagnose the exact failure and issue a targeted edi
 - **Too mechanical:** “Break the repeated pattern with uneven clusters and pauses, varied pressure and loading, imperfect overlaps, dry-brush interruptions, and a few restrained warm/cool surprise notes; keep every scene-level fact unchanged.”
 - **Crystallized water texture:** “Remove the dense network of short, structured, hard-edged impasto ridges. Rebuild the water with unequal broad and medium strokes, thinner scumbled intervals, soft or lost joins, broken side-by-side warm and cool notes, and selective thickness only at a few crests and glints. Preserve wave state and composition; do not replace the ridges with another repeated stamp.”
 - **Flat water stroke scale:** “Rebuild the water in continuous pictorial depth. Use broad, longer, more loaded and widely broken gestures in the foreground; unequal medium dashes through the middle distance; and thinner, shorter, closer, softer, lower-contrast slivers toward the far distance. Let width, loading, contrast, spacing, edge certainty, and detail diminish gradually rather than repeating one ripple stamp across the lake. Stack reflected color loosely in vertical paths beneath the surface marks, then interrupt it with the water-state rhythm.”
+- **Sky inherits water texture:** “Return to the original source or last approved edit and freeze the composition. Rebuild only the sky and water mark systems: use broad rubbed veils, long pale scumbles, soft merges, and quiet intervals in the sky; use one continuous water body plus sparse state- and depth-scaled surface gestures below. No short ripple, dash, hook, or facet vocabulary may migrate into the sky.”
+- **Horizonless water becomes a mesh or landscape:** “Return to the original source and freeze its downward crop, all-water extent, tiny anchor placement, and decisive debris. Remove every invented horizon, shoreline, sky strip, depth band, and extra subject. Rebuild the surface from broad connected source-colored water bodies, then retain only a few broken chromatic reflection contours and unequal state-led gestures; merge and bury the remaining photographed loops, sparkles, and microdebris. Keep the small duck, bird, buoy, leaf, or boat at its exact count, placement, scale, facing direction, silhouette, and contact clue; do not enlarge it into the primary subject.”
+- **Invented vessel text:** “Preserve the vessel silhouette, color blocks, cabin, smokestack, masts, windows, rails, passengers, placement, and facing direction, but remove all invented, distorted, or pseudo-readable lettering. Let identity survive through geometry and value-color anchors; do not replace the text with another name, logo, banner, or sign.”
 - **Muddy color:** “Separate warm light from blue-violet and green shadows using adjacent clean notes; reduce brown and black.”
 - **Dull or overly literal color:** “Preserve the source's value hierarchy, light direction, and recognizable color families, but tune local hues into neighboring warm and cool notes. Place a few clean light-catching accents beside quieter pearl, lavender-gray, olive, and blue-gray fields so luminosity comes from contrast rather than a global brightness increase.”
 - **Chalky pastel or sweet palette:** “Remove the canvas-wide opaque-white admixture. Keep pale cream, peach, lilac, blue, and green only where the source light calls for them, then restore clean pigment separation and source-appropriate deep cobalt, indigo, violet, blue-green, crimson, olive, or violet-brown anchors. Make selected light radiate through chroma, value, and temperature contrast; do not wash every material into baby blue, lime, and cotton-candy pink.”
@@ -512,8 +531,8 @@ When the first output fails, diagnose the exact failure and issue a targeted edi
 - **Too photographic:** “Discard the source's optical microtexture while preserving its factual skeleton. Reduce the scene to five to nine large color-value masses, merge repeated small details into irregular painted passages, remove most secondary edges and local contrast, and rebuild the image in visible paint rather than tracing pixels.”
 - **Too precise or cleaned up:** “Keep the factual silhouette and large masses, but collapse secondary sky, sand, ground, foliage, and distant architecture into visibly worked color fields. Restore coarse overlaps, buried marks, broken edges, approximate texture, and irregular paint loading; do not polish them into exact illustration.”
 - **Finely drafted architecture:** “Preserve the building's silhouette, roof pitch, placement, openings, and orientation, but stop describing it board by board. Merge siding and walls into broad broken color planes; reduce gutters, trim, frames, and mullions to a few interrupted anchors; let sunlight, humidity, reflected foliage color, and air eat through secondary edges. The building must read as a light-bearing mass before it reads as construction detail.”
-- **Pointillist foliage or blossoms:** “Erase the thousands of isolated leaf and flower dots without changing the plant silhouettes. Rebuild each tree or shrub from several broad connected color masses, cross them with overlapping medium comma, hook, flick, and sweep strokes, partially bury busy areas, and reserve only a handful of small blossom accents. Make collective mass and motion precede individual detail.”
-- **Confetti meadow or flower inventory:** “Keep the field's extent, slope, palette, figure placement, and major flower-color zones, but erase the inventory of equal isolated dots. Rebuild the meadow from three to six broad connected color masses, cross them with unequal overlapping medium sweeps, and reserve only sparse irregular floral accents with clusters and empty intervals. The field must read before any flower.”
+- **Pointillist foliage or blossoms:** “Erase the thousands of isolated leaf and flower dots without changing the plant silhouettes. Rebuild each tree or shrub from several broad connected color masses laid with unequal drags, rubbed joins, scumbles, and soft wet-into-wet mergers. Re-enter with only a limited number of medium sweeps, hooks, or growth gestures; partly bury busy areas and reserve a handful of small blossom accents. Do not use commas, flicks, or leaf stamps as the base texture.”
+- **Confetti meadow or flower inventory:** “Keep the field's extent, slope, palette, figure placement, and major flower-color zones, but erase the inventory of equal isolated dots. Rebuild the meadow from three to six broad connected color masses using low drags, rubbed stains, soft diagonal sweeps, and partially merged passages. Add only a few unequal medium gestures and sparse irregular floral accents with clusters and empty intervals. The field must read before any flower, even after all small marks are mentally removed.”
 - **Overdescribed close leaves:** “Preserve major leaf placement and overlap, but remove veins, serrations, glossy highlight chains, scratch marks, thin contour lines, and repeated internal modeling. Rebuild each important leaf from one broad light plane, one chromatic shadow plane, and at most one directional sweep.”
 - **Underdefined close leaves:** “Restore only the major leaf silhouettes through neighboring light-dark and warm-cool changes. Keep selective lost edges and broad paint; do not recover structure with veins, outlines, botanical microdetail, or smooth blur.”
 - **Smooth color transition:** “Break the seamless blend with irregular broad and medium neighboring pigment strokes, dragged joins, partial burial, dry interruptions, and visible underpaint. Keep color transitions connected but visibly painted; do not replace the gradient with mosaic cells, flat poster bands, or identical dabs.”
