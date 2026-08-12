@@ -4,6 +4,13 @@
 This is a diagnostic aid, not an authenticity classifier. Use a crop that contains
 mostly one dominant material (water, sky, meadow, snow, foliage, or ground) so
 contrast with other materials cannot hide a locally uniform texture.
+
+The central corpus band is reported as PASS, an ambiguous margin as REVIEW, and
+only a strong dot-grid-like outlier as REJECT. All-over handling makes density
+advisory because legitimate late ponds, dense gardens, and fog can be even in
+density while remaining nonperiodic, multiscale, and materially directed.
+Passing every metric does not certify the image; repeated relief and stamp shape
+still require direct visual inspection of each dominant material.
 """
 
 from __future__ import annotations
@@ -25,9 +32,14 @@ class Metrics:
     peakiness: float
     density_cv: float
     spectrum_slope: float
+    luminance_floor: float
+    luminance_ceiling: float
+    dark_saturation: float
 
 
-def load_luminance(path: Path, crop: tuple[int, int, int, int] | None) -> np.ndarray:
+def load_image(
+    path: Path, crop: tuple[int, int, int, int] | None
+) -> tuple[np.ndarray, np.ndarray]:
     with Image.open(path) as image:
         image = image.convert("RGB")
         if crop is not None:
@@ -39,7 +51,9 @@ def load_luminance(path: Path, crop: tuple[int, int, int, int] | None) -> np.nda
             image = image.crop(crop)
         image = image.resize((SIZE, SIZE), Image.Resampling.LANCZOS)
         rgb = np.asarray(image, dtype=np.float64) / 255.0
-    return 0.2126 * rgb[..., 0] + 0.7152 * rgb[..., 1] + 0.0722 * rgb[..., 2]
+        hsv = np.asarray(image.convert("HSV"), dtype=np.float64) / 255.0
+    gray = 0.2126 * rgb[..., 0] + 0.7152 * rgb[..., 1] + 0.0722 * rgb[..., 2]
+    return gray, hsv
 
 
 def box_mean(array: np.ndarray, size: int = 8) -> np.ndarray:
@@ -95,33 +109,68 @@ def density_modulation(gray: np.ndarray) -> float:
     return float(blocks.std() / (blocks.mean() + 1e-9))
 
 
-def measure(gray: np.ndarray) -> Metrics:
+def measure(gray: np.ndarray, hsv: np.ndarray) -> Metrics:
     profile = radial_spectrum(gray)
     band = np.arange(6, 100)
     slope = np.polyfit(np.log(band), np.log(profile[band] + 1e-12), 1)[0]
+    dark = hsv[..., 2] < np.percentile(hsv[..., 2], 25)
     return Metrics(
         coherence=structure_coherence(gray),
         peakiness=spectral_peakiness(profile),
         density_cv=density_modulation(gray),
         spectrum_slope=float(slope),
+        luminance_floor=float(np.percentile(gray, 0.5)),
+        luminance_ceiling=float(np.percentile(gray, 99.5)),
+        dark_saturation=float(hsv[..., 1][dark].mean()),
     )
 
 
-def print_report(label: str, metrics: Metrics) -> bool:
-    checks = {
-        "coherence >= 0.25": metrics.coherence >= 0.25,
-        "peakiness < 0.70": metrics.peakiness < 0.70,
-        "density_cv > 0.40": metrics.density_cv > 0.40,
-        "-2.60 <= slope <= -1.60": -2.60 <= metrics.spectrum_slope <= -1.60,
-    }
+def band_status(passes: bool, rejects: bool) -> str:
+    if passes:
+        return "PASS"
+    if rejects:
+        return "REJECT"
+    return "REVIEW"
+
+
+def print_report(label: str, metrics: Metrics, handling: str) -> bool:
+    checks = [
+        (
+            band_status(metrics.coherence >= 0.25, metrics.coherence < 0.15),
+            "coherence: pass >= 0.25; reject < 0.15",
+        ),
+        (
+            band_status(metrics.peakiness < 0.70, metrics.peakiness > 1.00),
+            "peakiness: pass < 0.70; reject > 1.00",
+        ),
+        (
+            "PASS"
+            if metrics.density_cv > 0.40
+            else "REVIEW"
+            if handling == "allover" or metrics.density_cv >= 0.30
+            else "REJECT",
+            "density_cv: pass > 0.40; reject < 0.30 unless all-over",
+        ),
+        (
+            band_status(
+                -2.60 <= metrics.spectrum_slope <= -1.60,
+                metrics.spectrum_slope > -1.20,
+            ),
+            "slope: pass -2.60..-1.60; reject > -1.20",
+        ),
+    ]
     print(label)
+    print(f"  handling      {handling}")
     print(f"  coherence     {metrics.coherence:7.3f}")
     print(f"  peakiness     {metrics.peakiness:7.3f}")
     print(f"  density_cv    {metrics.density_cv:7.3f}")
     print(f"  spectrum_slope{metrics.spectrum_slope:7.3f}")
-    for name, passed in checks.items():
-        print(f"  {'PASS' if passed else 'WARN'}  {name}")
-    return all(checks.values())
+    print(f"  luminance_p005{metrics.luminance_floor:7.3f}  context only")
+    print(f"  luminance_p995{metrics.luminance_ceiling:7.3f}  context only")
+    print(f"  dark_saturation{metrics.dark_saturation:6.3f}  context only")
+    for status, name in checks:
+        print(f"  {status:6s} {name}")
+    return all(status != "REJECT" for status, _ in checks)
 
 
 def parse_crop(value: str) -> tuple[int, int, int, int]:
@@ -143,23 +192,33 @@ def main() -> int:
         help="dominant-material crop in source pixels: x0,y0,x1,y1",
     )
     parser.add_argument(
+        "--handling",
+        choices=("conventional", "allover"),
+        default="conventional",
+        help="allover makes density advisory; spacing, scale, and flow still apply",
+    )
+    parser.add_argument(
         "--strict",
         action="store_true",
-        help="return a nonzero status when any diagnostic is outside the corpus envelope",
+        help="return nonzero only for a strong REJECT diagnostic, not REVIEW",
     )
     args = parser.parse_args()
 
-    passes = [print_report("whole image", measure(load_luminance(args.image, None)))]
+    gray, hsv = load_image(args.image, None)
+    passes = [print_report("whole image", measure(gray, hsv), args.handling)]
     if args.crop is not None:
+        gray, hsv = load_image(args.image, args.crop)
         passes.append(
             print_report(
                 f"material crop {args.crop}",
-                measure(load_luminance(args.image, args.crop)),
+                measure(gray, hsv),
+                args.handling,
             )
         )
     print(
-        "Visual gates still required: quiet/transition/active zones, two-scale, "
-        "desaturation, stamp-family, and object-material contact."
+        "Visual gates still required: nonperiodic spacing, mixed scale, material flow, "
+        "desaturation, stamp-family, and object-material contact. Conventional scenes "
+        "also require quiet/transition/active organization."
     )
     return 1 if args.strict and not all(passes) else 0
 

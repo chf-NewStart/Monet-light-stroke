@@ -8,7 +8,7 @@ Use approved images as visual calibration for reusable paint behavior. Preserve 
 - **Open sea, surf, or sunset water:** B001 or B008; choose by the needed water-state lesson.
 - **Cool daylight lake with a large foreground bird, populated ferry or excursion boat, and strong depth scaling:** B021.
 - **Horizonless close water with a small animal anchor, sparse debris, and shallow all-over space:** B022.
-- **Water that looks varied globally but repeats one embossed curl, ridge, or stamp inside the water crop:** use R023 as negative calibration; rebuild quiet, transitional, and active water passages plus physical contact around birds, rocks, or boats.
+- **Water that looks varied globally but repeats one embossed curl, ridge, or stamp inside the water crop:** use R023 as negative calibration; rebuild quiet, transitional, and active water passages plus physical contact around birds, rocks, or boats, unless the source genuinely calls for all-over handling—in which case keep density but replace periodic spacing and one-scale relief.
 - **Dusk sky component:** B002 only for sky passages.
 - **Rough low-light ground component:** B003 only for ground passages.
 - **Relational luminous color:** B004 as text-only calibration.
@@ -547,6 +547,8 @@ Use B022 to calibrate horizonless close-water composition, broad connected color
 
 ### Correction Rule
 
-Return to the original photograph or last factually faithful edit. Preserve crop, foliage framing, rock placement, bird count, pose, and source light. Rebuild water alone as a spatial-frequency composition: broad thin quiet bodies; unequal transitional currents that change direction, scale, and opacity; and sparse active glints or lapping events. In conventional depth, taper scale, contrast, loading, and edge certainty gradually; in shallow all-over water, use irregular islands, vertical color paths, pauses, and burial instead of depth bands. Make rocks and birds interrupt the field through wet seams, broken reflections, lapping, occlusion, or flow displacement. Run the water-only crop, desaturation, stamp-family, two-scale, and contact tests before accepting or freezing any passage.
+Return to the original photograph or last factually faithful edit. Preserve crop, foliage framing, rock placement, bird count, pose, and source light. Rebuild this conventionally staged water alone as a spatial-frequency composition: broad thin quiet bodies; unequal transitional currents that change direction, scale, and opacity; and sparse active glints or lapping events. Taper scale, contrast, loading, and edge certainty gradually with its readable depth. Make rocks and birds interrupt the field through wet seams, broken reflections, lapping, occlusion, or flow displacement. Run the water-only crop, desaturation, stamp-family, two-scale, and contact tests before accepting or freezing any passage.
 
 Do not fix R023 by changing palette, randomly jittering the same stamp, smoothing the entire lake, adding generic concentric rings, sharpening the birds, or relying on foliage-versus-water contrast.
+
+R023 rejects simultaneous sameness of spacing, scale, density, and relief in this particular conventionally staged water scene. It does not establish density modulation as a universal law: a source-supported late all-over pond may remain comparatively even in density if spacing is nonperiodic, scale is mixed, direction follows the water, and overlap, burial, color paths, edge, or loading continue to vary.

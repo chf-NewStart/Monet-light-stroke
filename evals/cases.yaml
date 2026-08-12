@@ -1,4 +1,4 @@
-version: 7
+version: 8
 purpose: >-
   Test whether changes improve painterly behavior without sacrificing source fidelity.
 
@@ -22,7 +22,7 @@ scoring:
     - broken_color_and_optical_mixing
     - varied_touch_and_discrete_mark_economy
     - information_weighted_paint_activity
-    - within_material_quiet_transition_active_zones
+    - within_material_nonperiodic_multiscale_directional_structure
     - layered_oil_construction
     - chromatic_shadows
     - coherent_light
@@ -44,7 +44,7 @@ global_failures:
   - underdefined_forms_without_value_temperature_boundaries
   - uniform_impasto_stipple_mosaic_or_palette_knife_facets
   - broken_color_misread_as_uniform_dots_commas_or_short_dabs
-  - paint_activity_distributed_uniformly_or_as_a_photographic_edge_map
+  - paint_activity_mechanically_uniform_on_multiple_axes_or_distributed_as_a_photographic_edge_map
   - dominant_material_uses_one_continuous_stamp_frequency_despite_varied_color_or_angle
   - whole_image_contrast_hides_a_locally_uniform_water_sky_field_snow_foliage_or_ground_crop
   - objects_appear_pasted_over_uninterrupted_water_ground_or_atmospheric_texture
@@ -68,8 +68,9 @@ cases:
     hard_gate: true
     crop_checks:
       - inspect_largest_dominant_material_separately_in_color_and_grayscale
-      - require_quiet_body_transitional_passages_and_sparse_active_events_at_normal_size
-      - require_broad_mass_and_activity_islands_to_survive_at_thumbnail_size
+      - require_quiet_body_transitional_passages_and_sparse_active_events_for_conventionally_staged_scenes
+      - permit_source_supported_allover_density_only_when_spacing_is_nonperiodic_scale_is_mixed_and_direction_follows_material_flow
+      - require_broad_mass_or_allover_flow_structure_to_survive_at_thumbnail_size
       - reject_one_recognizable_stamp_family_tiling_most_of_the_material
       - do_not_count_contrast_with_other_materials_as_within_material_modulation
     contact_checks:
@@ -88,6 +89,28 @@ cases:
       boats, figures, or architecture sit on an uninterrupted texture without
       wake, lapping, reflection, occlusion, cast color, wet contact, overlap, or
       flow displacement appropriate to the source.
+
+  - id: legitimate_allover_density_exception
+    source_status: private_local_corpus_fixture
+    corpus_examples:
+      - 01192_late_water_lilies
+      - 01242_water_lily_pond_corner
+      - 00821_dense_giverny_garden
+      - 01091_vernon_church_in_fog
+    hard_gate: true
+    checks:
+      - do_not_reject_only_because_density_is_even_or_three_activity_zones_are_not_obvious
+      - require_nonperiodic_spacing_without_a_spectral_lattice
+      - require_mixed_broad_medium_and_selective_small_scale_or_near_continuous_fields_with_interruptions
+      - require_material_directed_orientation_flow_not_isotropic_dotting_or_random_jitter
+      - require_variation_in_at_least_edge_loading_overlap_burial_color_path_or_relief_when_density_is_even
+      - preserve_requested_late_allover_shallow_or_atmospheric_structure_without_inventing_conventional_depth_bands
+    known_failure: >-
+      The evaluator falsely rejects legitimate Monet-like all-over handling when
+      it treats density modulation or a quiet-transition-active triplet as a
+      universal invariant. Evenly busy gardens, shallow late ponds, and smooth
+      fog remain acceptable only when they avoid periodic spacing, one-size
+      marks, isotropic dotting, and a repeated relief footprint.
 
   - id: paired_clean_painting_and_source_colored_collage
     source_status: consented_private_local_fixture

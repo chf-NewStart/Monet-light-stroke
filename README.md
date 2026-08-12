@@ -4,7 +4,7 @@ A reusable Codex skill for turning photographs and original scenes into luminous
 
 The skill grew from iterative visual critique rather than a single prompt. It encodes broken color, chromatic shadows, relational luminosity, atmospheric color exchange, selective impasto, material-specific brushwork, painting-first abstraction, spatial-frequency composition, object-material contact, and strict preservation of people, pose, architecture, props, crop, and orientation.
 
-Its anti-uniformity gate operates inside each dominant material, not only across the full image. Water, sky, meadow, snow, foliage, and ground must each contain perceptibly different quiet, transitional, and active passages. A color-rich image still fails when one dash, curl, ridge, or facet footprint tiles the dominant region, or when subjects sit on top of an uninterrupted texture without physical interaction.
+Its anti-uniformity gate operates inside each dominant material, not only across the full image. Most scenes need perceptibly different quiet, transitional, and active passages. A source-supported all-over pond, dense garden, or fog field may keep relatively even density, but never periodic spacing or a single mark scale; material-directed flow, edge, loading, overlap, and burial must still vary. A color-rich image fails when one dash, curl, ridge, or facet footprint tiles the dominant region, or when subjects sit on top of an uninterrupted texture without physical interaction.
 
 ## What consistency means
 
