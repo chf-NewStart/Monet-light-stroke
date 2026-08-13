@@ -19,6 +19,7 @@ Use approved images as visual calibration for reusable paint behavior. Preserve 
 - **Pale meadow that still reads as dots or short dabs:** use R019 as negative calibration; rebuild the base with drags, rubbed stains, scumbles, and mergers.
 - **Close floral subject against a deep painted field:** provisional B017.
 - **Silver-overcast autumn canopy with restrained architecture:** B018.
+- **Tropical garden path with filtered sunlight, tiny umbrella figures, and quiet secondary architecture:** B024.
 
 Use the smallest relevant benchmark set. Positive benchmarks contribute only their stated behavior; rejected benchmarks are negative calibration and must never be supplied as positive generation references.
 
@@ -552,3 +553,24 @@ Return to the original photograph or last factually faithful edit. Preserve crop
 Do not fix R023 by changing palette, randomly jittering the same stamp, smoothing the entire lake, adding generic concentric rings, sharpening the birds, or relying on foliage-versus-water contrast.
 
 R023 rejects simultaneous sameness of spacing, scale, density, and relief in this particular conventionally staged water scene. It does not establish density modulation as a universal law: a source-supported late all-over pond may remain comparatively even in density if spacing is nonperiodic, scale is mixed, direction follows the water, and overlap, burial, color paths, edge, or loading continue to vary.
+
+## B024 — Luminous Tropical Garden Path
+
+- **Status:** approved by the user on 2026-08-12
+- **Image:** [benchmark-024-luminous-tropical-garden-path.png](../assets/benchmarks/benchmark-024-luminous-tropical-garden-path.png)
+- **SHA-256:** `4079ed87f70c79f134bc5d5e4a26cf5c4a5c184d810f548d2802f80f202440b9`
+- **Dimensions:** 1086 × 1448
+- **Use for:** tropical or subtropical garden paths, filtered midday light carried by a curving ground plane, tiny umbrella figures embedded in atmosphere, dense palm masses with material-specific direction, and pale secondary architecture held below the light-and-garden first read.
+
+### Why It Works
+
+- The curving path is one broad light-bearing mass built from cream, dusty ochre, mauve, gray-violet, muted green, and reflected blue passages. A few broad chromatic shadow interruptions preserve the source geometry without inventorying paving texture.
+- The two people and pale mint umbrella remain faithful, complete, and readable through compact connected gestures. Their softened edges and shared path-and-foliage colors embed them in the humid air instead of isolating them as sharply protected subjects.
+- The dense vegetation reads first as several connected dark and luminous masses. The left fibrous curtain, upper arching canopy, middle interlocked growth, and cooler right fan foliage use distinct directional behavior, mixed scales, partial burial, and nonperiodic spacing rather than one transferable leaf stamp.
+- The staircase remains recognizable through its placement, main angle, landing, broken step rhythm, and pale rail silhouette, but foliage overlap and interrupted lavender-gray planes keep it subordinate to the path light.
+- Deep indigo, blue-green, dark olive, violet-brown, and teal ventilate the shade without flat black. Bounded yellow-green, cream, pale mint, lavender, and warm reflected notes make the filtered sunlight luminous without converting midday into golden hour.
+- The original portrait crop, left palm curtain, umbrella-figure placement, curving path, right staircase, and two lower-right rocks remain factually stable while photographic leaf, rail, and paving microdetail is omitted.
+
+### Transfer Rule
+
+Use B024 to calibrate path-led light hierarchy, atmospheric integration of tiny staffage, quiet secondary architecture, material-specific tropical foliage flow, chromatic deep shade, and selective filtered-light accents. The new source remains sole authority for crop, orientation, path geometry, people, props, architecture, plant species and placement, weather, palette, and light direction. Never copy B024's umbrella, figures, staircase, rocks, palm arrangement, portrait crop, exact color placement, or visible brush pattern into another scene.
